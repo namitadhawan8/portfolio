@@ -1,0 +1,96 @@
+import Image from "next/image";
+
+import { servicesIntro } from "@/lib/homeData";
+
+export function Experience() {
+  const areasOfInterest = [
+    "Health, Wellness, and Lifestyle products.",
+    "Sustainable living and ethical consumption technology.",
+    "The design of rituals and habit-forming products that make people's lives better.",
+  ];
+
+  return (
+    <section className="bg-white">
+      {/* Horizontal Divider */}
+      <div className="mx-auto max-w-6xl border-t border-zinc-300 px-4 sm:px-6"></div>
+      <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6">
+        {/* Heading */}
+        <div className="mb-16 space-y-10">
+          {/* Star icon */}
+          <div>
+            <Image
+              src={servicesIntro.badgeIcon}
+              alt=""
+              width={50}
+              height={50}
+              className="h-12 w-12"
+              style={{
+                filter: 'brightness(0) saturate(100%) invert(73%) sepia(64%) saturate(2878%) hue-rotate(280deg) brightness(100%) contrast(95%)'
+              }}
+            />
+          </div>
+          <h2 className="text-4xl font-black uppercase tracking-[0.35em] text-zinc-900 md:text-5xl">
+            Experience at a Glance
+          </h2>
+        </div>
+
+        {/* Two Column Layout */}
+        <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
+          {/* Left Column - Content */}
+          <div className="space-y-12">
+            {/* Paragraph 1 */}
+            <div className="space-y-4">
+              <p className="text-lg leading-relaxed text-zinc-700">
+                I bring 3+ years of experience spanning multiple disciplines: architecture, design writing, product management, and UX strategy. I am comfortable owning the full product lifecycle, from conducting user research and defining complex user flows to driving strategic product thinking and execution.
+              </p>
+            </div>
+
+            {/* Areas of Interest */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold text-zinc-900">
+                Areas of Interest
+              </h3>
+              <div className="grid gap-4">
+                {areasOfInterest.map((area, index) => (
+                  <div
+                    key={index}
+                    className="rounded-2xl border border-zinc-900/10 bg-white p-6 shadow-sm transition hover:shadow-md"
+                  >
+                    <p className="text-base leading-relaxed text-zinc-700">
+                      {area}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Open to Roles */}
+            <div className="space-y-4">
+              <h3 className="text-2xl font-bold text-zinc-900">
+                Open to Roles
+              </h3>
+              <p className="text-lg leading-relaxed text-zinc-700">
+                I am actively seeking roles as a Product Manager, Associate Product Manager (APM), Product Operations, or Founder's Associate.
+              </p>
+            </div>
+          </div>
+
+          {/* Right Column - Illustration */}
+          <div className="flex items-center justify-center lg:items-start">
+            <div className="relative h-full w-full max-w-md rounded-3xl border border-zinc-900/10 bg-zinc-50 p-8">
+              {/* Placeholder for illustration */}
+              <div className="flex h-full min-h-[400px] items-center justify-center">
+                <p className="text-center text-sm text-zinc-500">
+                  Illustration placeholder
+                  <br />
+                  (Add your illustration here)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+

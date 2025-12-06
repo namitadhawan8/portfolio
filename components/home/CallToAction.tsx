@@ -1,0 +1,249 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
+import { Marquee } from "@/components/ui/Marquee";
+import { callToAction, contactMarqueeItems, servicesIntro } from "@/lib/homeData";
+
+export function CallToAction() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    contactNumber: "",
+    message: "",
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus("idle");
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setSubmitStatus("success");
+        setFormData({ name: "", email: "", contactNumber: "", message: "" });
+      } else {
+        setSubmitStatus("error");
+      }
+    } catch (error) {
+      setSubmitStatus("error");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  return (
+    <section className="bg-white">
+      <div className="border-y border-zinc-900/10 bg-zinc-50 py-6">
+        <Marquee
+          items={contactMarqueeItems}
+          separator="·"
+          className="px-4 sm:px-6"
+          textClassName="text-xs font-semibold uppercase tracking-[0.4em] text-zinc-600"
+          speed="normal"
+        />
+      </div>
+
+      <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6">
+        {/* Header */}
+        <div className="mb-16 space-y-10">
+          <div className="relative">
+            {/* Circular icon in top-left */}
+            <div className="absolute -left-2 -top-2 h-3 w-3 rounded-full border-2 border-[#EE73DE]">
+              <div className="absolute left-1/2 top-1/2 h-1.5 w-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#EE73DE]"></div>
+            </div>
+            {/* Pink star icon */}
+            <div className="mb-4">
+              <Image
+                src={servicesIntro.badgeIcon}
+                alt=""
+                width={50}
+                height={50}
+                className="h-12 w-12"
+                style={{
+                  filter: 'brightness(0) saturate(100%) invert(73%) sepia(64%) saturate(2878%) hue-rotate(280deg) brightness(100%) contrast(95%)'
+                }}
+              />
+            </div>
+            <h2 className="text-4xl font-black uppercase tracking-[0.35em] text-zinc-900 md:text-5xl">
+              CONTACT
+            </h2>
+          </div>
+        </div>
+
+        {/* Two Column Layout */}
+        <div className="grid gap-16 lg:grid-cols-2">
+          {/* Left Column - Information */}
+          <div className="space-y-8">
+            <div className="flex items-start gap-4">
+              <div className="mt-2 h-3 w-3 rounded-full border-2 border-[#EE73DE]"></div>
+              <div className="flex-1 space-y-6">
+                <h3 className="text-2xl font-bold text-zinc-900">
+                  Get in Touch
+                </h3>
+                <p className="text-lg leading-relaxed text-zinc-700">
+                  {callToAction.message}
+                </p>
+                <div className="flex items-center gap-3">
+                  <svg
+                    className="h-5 w-5 text-[#EE73DE]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
+                  </svg>
+                  <a
+                    href={`mailto:${callToAction.email}`}
+                    className="text-lg font-medium text-[#EE73DE] hover:underline"
+                  >
+                    {callToAction.email}
+                  </a>
+                </div>
+                <div className="pt-4">
+                  <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-zinc-500">
+                    Social
+                  </p>
+                  <div className="flex flex-wrap gap-4">
+                    {callToAction.socialLinks.map((social) => (
+                      <Link
+                        key={social.name}
+                        href={social.href}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-700 transition hover:text-[#EE73DE]"
+                      >
+                        {social.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Column - Contact Form */}
+          <div>
+            <form onSubmit={handleSubmit} className="space-y-6">
+              <div className="grid gap-6 sm:grid-cols-2">
+                <div>
+                  <label htmlFor="name" className="mb-2 block text-sm font-medium text-zinc-900">
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="Your Name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    className="w-full rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-3 text-zinc-900 placeholder:text-zinc-400 focus:border-[#EE73DE] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="email" className="mb-2 block text-sm font-medium text-zinc-900">
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="your.email@example.com"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="w-full rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-3 text-zinc-900 placeholder:text-zinc-400 focus:border-[#EE73DE] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label htmlFor="contactNumber" className="mb-2 block text-sm font-medium text-zinc-900">
+                  Contact Number
+                </label>
+                <input
+                  type="tel"
+                  id="contactNumber"
+                  name="contactNumber"
+                  placeholder="Optional"
+                  value={formData.contactNumber}
+                  onChange={handleChange}
+                  className="w-full rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-3 text-zinc-900 placeholder:text-zinc-400 focus:border-[#EE73DE] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20"
+                />
+              </div>
+
+              <div>
+                <label htmlFor="message" className="mb-2 block text-sm font-medium text-zinc-900">
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  rows={6}
+                  placeholder="Say hello..."
+                  value={formData.message}
+                  onChange={handleChange}
+                  className="w-full resize-none rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-3 text-zinc-900 placeholder:text-zinc-400 focus:border-[#EE73DE] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20"
+                />
+              </div>
+
+              {submitStatus === "success" && (
+                <div className="rounded-lg bg-green-50 p-4 text-sm text-green-800">
+                  Thank you! Your message has been sent successfully.
+                </div>
+              )}
+
+              {submitStatus === "error" && (
+                <div className="rounded-lg bg-red-50 p-4 text-sm text-red-800">
+                  Something went wrong. Please try again or email me directly at{" "}
+                  <a href={`mailto:${callToAction.email}`} className="underline">
+                    {callToAction.email}
+                  </a>
+                </div>
+              )}
+
+              <div className="flex justify-end">
+                <button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="inline-flex items-center gap-2 rounded-full border border-[#EE73DE]/20 bg-white px-6 py-3 text-sm font-semibold uppercase tracking-wide text-zinc-900 transition hover:bg-[#EE73DE] hover:text-white hover:border-[#EE73DE] disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {isSubmitting ? "Sending..." : "Send"}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
+
