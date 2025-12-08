@@ -14,11 +14,11 @@ const baseClasses =
 
 const variantClasses: Record<ButtonVariant, string> = {
   primary:
-    "border-[#EE73DE] bg-[#EE73DE] text-white hover:bg-white hover:text-[#EE73DE] hover:shadow-md",
+    "border-[#EE73DE] bg-[#EE73DE] text-white hover:bg-white hover:text-[#EE73DE] hover:shadow-md dark:border-[#B76BFC] dark:bg-[#B76BFC] dark:hover:bg-zinc-950 dark:hover:text-[#B76BFC]",
   secondary:
-    "border-[#EE73DE]/20 bg-white text-zinc-900 hover:bg-[#EE73DE] hover:text-white hover:border-[#EE73DE]",
+    "border-[#EE73DE]/20 bg-white text-zinc-900 hover:bg-[#EE73DE] hover:text-white hover:border-[#EE73DE] dark:border-[#B76BFC]/20 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-[#B76BFC] dark:hover:text-white dark:hover:border-[#B76BFC]",
   ghost:
-    "border-transparent bg-transparent text-zinc-900 hover:bg-[#EE73DE]/5",
+    "border-transparent bg-transparent text-zinc-900 hover:bg-[#EE73DE]/5 dark:text-zinc-100 dark:hover:bg-[#B76BFC]/10",
 };
 
 export function ButtonLink({

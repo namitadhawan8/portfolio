@@ -5,11 +5,11 @@ import { clientLogos } from "@/lib/homeData";
 
 export function Clients() {
   return (
-    <section className="border-y border-zinc-900/10 bg-white">
+    <section className="border-y border-zinc-900/10 dark:border-zinc-700/50 bg-white dark:bg-zinc-950">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="mb-10 flex items-center gap-4">
-          <span className="h-px w-12 bg-zinc-900/60" />
-          <span className="text-xs font-semibold uppercase tracking-[0.4em] text-zinc-500">
+          <span className="h-px w-12 bg-zinc-900/60 dark:bg-zinc-100/60" />
+          <span className="text-xs font-semibold uppercase tracking-[0.4em] text-zinc-500 dark:text-zinc-400">
             My Clients
           </span>
         </div>

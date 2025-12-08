@@ -10,9 +10,9 @@ export function Experience() {
   ];
 
   return (
-    <section className="bg-white">
+    <section className="bg-white dark:bg-zinc-950">
       {/* Horizontal Divider */}
-      <div className="mx-auto max-w-6xl border-t border-zinc-300 px-4 sm:px-6"></div>
+      <div className="mx-auto max-w-6xl border-t border-zinc-300 dark:border-zinc-700 px-4 sm:px-6"></div>
       <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6">
         {/* Heading */}
         <div className="mb-16 space-y-10">
@@ -29,7 +29,7 @@ export function Experience() {
               }}
             />
           </div>
-          <h2 className="text-4xl font-black uppercase tracking-[0.35em] text-zinc-900 md:text-5xl">
+          <h2 className="text-4xl font-black uppercase tracking-[0.35em] text-zinc-900 dark:text-zinc-100 md:text-5xl">
             Experience at a Glance
           </h2>
         </div>
@@ -40,23 +40,23 @@ export function Experience() {
           <div className="space-y-12">
             {/* Paragraph 1 */}
             <div className="space-y-4">
-              <p className="text-lg leading-relaxed text-zinc-700">
-                I bring 3+ years of experience spanning multiple disciplines: architecture, design writing, product management, and UX strategy. I am comfortable owning the full product lifecycle, from conducting user research and defining complex user flows to driving strategic product thinking and execution.
+              <p className="text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
+                I bring 3.5+ years of experience spanning multiple disciplines: architecture, design writing, product management, and UI/UX design. I am comfortable owning the full product lifecycle, from conducting user research and defining complex user flows to driving strategic product thinking and execution.
               </p>
             </div>
 
             {/* Areas of Interest */}
             <div className="space-y-6">
-              <h3 className="text-2xl font-bold text-zinc-900">
+              <h3 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
                 Areas of Interest
               </h3>
               <div className="grid gap-4">
                 {areasOfInterest.map((area, index) => (
                   <div
                     key={index}
-                    className="rounded-2xl border border-zinc-900/10 bg-white p-6 shadow-sm transition hover:shadow-md"
+                    className="rounded-2xl border border-zinc-900/10 dark:border-zinc-700/50 bg-white dark:bg-zinc-900 p-6 shadow-sm transition hover:shadow-md"
                   >
-                    <p className="text-base leading-relaxed text-zinc-700">
+                    <p className="text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
                       {area}
                     </p>
                   </div>
@@ -66,10 +66,10 @@ export function Experience() {
 
             {/* Open to Roles */}
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold text-zinc-900">
+              <h3 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
                 Open to Roles
               </h3>
-              <p className="text-lg leading-relaxed text-zinc-700">
+              <p className="text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
                 I am actively seeking roles as a Product Manager, Associate Product Manager (APM), Product Operations, or Founder's Associate.
               </p>
             </div>
@@ -77,7 +77,7 @@ export function Experience() {
 
           {/* Right Column - Illustration */}
           <div className="flex items-center justify-center lg:items-start">
-            <div className="relative h-full w-full max-w-md rounded-3xl border border-zinc-900/10 bg-zinc-50 p-8">
+            <div className="relative h-full w-full max-w-md rounded-3xl border border-zinc-900/10 dark:border-zinc-700/50 bg-zinc-50 dark:bg-zinc-900 p-8">
               {/* Placeholder for illustration */}
               <div className="flex h-full min-h-[400px] items-center justify-center">
                 <p className="text-center text-sm text-zinc-500">

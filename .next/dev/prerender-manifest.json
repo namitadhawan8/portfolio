@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "03b3e43ae8961d3b9589f98bdd04777d",
-    "previewModeSigningKey": "3cab140e3af519386054939c17bd07bd2441972aee03ba2c5994d4e5c5b682a3",
-    "previewModeEncryptionKey": "432aa58b4915573b41227e1848d24ed7011f351bb9a29659c5bfbdb806363422"
-  }
-}
+{"version":4,"routes":{"/design/habit-forming-wellness-app":{},"/design/analytics-dashboard-ui-refresh":{},"/management/product-launch-strategy":{},"/management/roadmap-prioritization":{},"/management/stakeholder-alignment":{}},"dynamicRoutes":{"/design/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/design/[slug]","routeRegex":"^\\/design\\/([^/]+?)(?:\\/)?$","allowHeader":[]},"/management/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/management/[slug]","routeRegex":"^\\/management\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"d457d343030c14f09edd3d7dfed1718e","previewModeSigningKey":"756b0ccb885f203a5db14bf84be3f988188fd34d9ed7d1c69cb2eea5efa79b2a","previewModeEncryptionKey":"1ef57c456e2a49b27726519a8c85b5bbe7809351840099b6940c2ebf65d8f446"}}

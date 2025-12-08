@@ -10,7 +10,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-white text-zinc-900">
+    <div className="relative min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <Header />
       <main>
         <Hero />

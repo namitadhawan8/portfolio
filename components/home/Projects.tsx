@@ -5,13 +5,13 @@ import { projects } from "@/lib/homeData";
 
 export function Projects() {
   return (
-    <section className="bg-white">
+    <section className="bg-white dark:bg-zinc-950">
       <div className="mx-auto max-w-6xl px-4 pb-24 pt-20 sm:px-6">
         <div className="grid gap-12 md:grid-cols-2">
           {projects.map((project) => (
             <article key={project.title} className="space-y-4">
               <Link href={project.href} className="group block">
-                <div className="relative overflow-hidden rounded-3xl border border-zinc-900/10 bg-zinc-50">
+                <div className="relative overflow-hidden rounded-3xl border border-zinc-900/10 dark:border-zinc-700/50 bg-zinc-50 dark:bg-zinc-800">
                   <Image
                     src={project.image}
                     alt={project.title}
@@ -27,10 +27,10 @@ export function Projects() {
                 </div>
               </Link>
               <div className="space-y-2">
-                <h3 className="text-xl font-semibold uppercase tracking-[0.4em] text-zinc-900">
+                <h3 className="text-xl font-semibold uppercase tracking-[0.4em] text-zinc-900 dark:text-zinc-100">
                   {project.title}
                 </h3>
-                <p className="text-xs font-semibold uppercase tracking-[0.4em] text-zinc-500">
+                <p className="text-xs font-semibold uppercase tracking-[0.4em] text-zinc-500 dark:text-zinc-400">
                   {project.category}
                 </p>
               </div>

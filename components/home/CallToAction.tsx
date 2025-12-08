@@ -51,13 +51,13 @@ export function CallToAction() {
   };
 
   return (
-    <section className="bg-white">
-      <div className="border-y border-zinc-900/10 bg-zinc-50 py-6">
+    <section className="bg-white dark:bg-zinc-950">
+      <div className="border-y border-zinc-900/10 dark:border-zinc-700/50 bg-zinc-50 dark:bg-zinc-900 py-6">
         <Marquee
           items={contactMarqueeItems}
           separator="·"
           className="px-4 sm:px-6"
-          textClassName="text-xs font-semibold uppercase tracking-[0.4em] text-zinc-600"
+          textClassName="text-xs font-semibold uppercase tracking-[0.4em] text-zinc-600 dark:text-zinc-400"
           speed="normal"
         />
       </div>
@@ -67,8 +67,8 @@ export function CallToAction() {
         <div className="mb-16 space-y-10">
           <div className="relative">
             {/* Circular icon in top-left */}
-            <div className="absolute -left-2 -top-2 h-3 w-3 rounded-full border-2 border-[#EE73DE]">
-              <div className="absolute left-1/2 top-1/2 h-1.5 w-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#EE73DE]"></div>
+            <div className="absolute -left-2 -top-2 h-3 w-3 rounded-full border-2 border-[#EE73DE] dark:border-[#B76BFC]">
+              <div className="absolute left-1/2 top-1/2 h-1.5 w-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#EE73DE] dark:bg-[#B76BFC]"></div>
             </div>
             {/* Pink star icon */}
             <div className="mb-4">
@@ -83,7 +83,7 @@ export function CallToAction() {
                 }}
               />
             </div>
-            <h2 className="text-4xl font-black uppercase tracking-[0.35em] text-zinc-900 md:text-5xl">
+            <h2 className="text-4xl font-black uppercase tracking-[0.35em] text-zinc-900 dark:text-zinc-100 md:text-5xl">
               CONTACT
             </h2>
           </div>
@@ -94,17 +94,17 @@ export function CallToAction() {
           {/* Left Column - Information */}
           <div className="space-y-8">
             <div className="flex items-start gap-4">
-              <div className="mt-2 h-3 w-3 rounded-full border-2 border-[#EE73DE]"></div>
+              <div className="mt-2 h-3 w-3 rounded-full border-2 border-[#EE73DE] dark:border-[#B76BFC]"></div>
               <div className="flex-1 space-y-6">
-                <h3 className="text-2xl font-bold text-zinc-900">
+                <h3 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
                   Get in Touch
                 </h3>
-                <p className="text-lg leading-relaxed text-zinc-700">
+                <p className="text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
                   {callToAction.message}
                 </p>
                 <div className="flex items-center gap-3">
                   <svg
-                    className="h-5 w-5 text-[#EE73DE]"
+                    className="h-5 w-5 text-[#EE73DE] dark:text-[#B76BFC]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -118,13 +118,13 @@ export function CallToAction() {
                   </svg>
                   <a
                     href={`mailto:${callToAction.email}`}
-                    className="text-lg font-medium text-[#EE73DE] hover:underline"
+                    className="text-lg font-medium text-[#EE73DE] dark:text-[#B76BFC] hover:underline"
                   >
                     {callToAction.email}
                   </a>
                 </div>
                 <div className="pt-4">
-                  <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-zinc-500">
+                  <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-zinc-500 dark:text-zinc-400">
                     Social
                   </p>
                   <div className="flex flex-wrap gap-4">
@@ -134,7 +134,7 @@ export function CallToAction() {
                         href={social.href}
                         target="_blank"
                         rel="noreferrer"
-                        className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-700 transition hover:text-[#EE73DE]"
+                        className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-700 dark:text-zinc-300 transition hover:text-[#EE73DE] dark:hover:text-[#B76BFC]"
                       >
                         {social.name}
                       </Link>
@@ -150,7 +150,7 @@ export function CallToAction() {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid gap-6 sm:grid-cols-2">
                 <div>
-                  <label htmlFor="name" className="mb-2 block text-sm font-medium text-zinc-900">
+                  <label htmlFor="name" className="mb-2 block text-sm font-medium text-zinc-900 dark:text-zinc-100">
                     Name
                   </label>
                   <input
@@ -161,12 +161,12 @@ export function CallToAction() {
                     placeholder="Your Name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-3 text-zinc-900 placeholder:text-zinc-400 focus:border-[#EE73DE] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20"
+                    className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#EE73DE] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20 dark:focus:ring-[#B76BFC]/20"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="mb-2 block text-sm font-medium text-zinc-900">
+                  <label htmlFor="email" className="mb-2 block text-sm font-medium text-zinc-900 dark:text-zinc-100">
                     Email
                   </label>
                   <input
@@ -177,13 +177,13 @@ export function CallToAction() {
                     placeholder="your.email@example.com"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-3 text-zinc-900 placeholder:text-zinc-400 focus:border-[#EE73DE] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20"
+                    className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#EE73DE] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20 dark:focus:ring-[#B76BFC]/20"
                   />
                 </div>
               </div>
 
               <div>
-                <label htmlFor="contactNumber" className="mb-2 block text-sm font-medium text-zinc-900">
+                <label htmlFor="contactNumber" className="mb-2 block text-sm font-medium text-zinc-900 dark:text-zinc-100">
                   Contact Number
                 </label>
                 <input
@@ -193,12 +193,12 @@ export function CallToAction() {
                   placeholder="Optional"
                   value={formData.contactNumber}
                   onChange={handleChange}
-                  className="w-full rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-3 text-zinc-900 placeholder:text-zinc-400 focus:border-[#EE73DE] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20"
+                  className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#EE73DE] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20 dark:focus:ring-[#B76BFC]/20"
                 />
               </div>
 
               <div>
-                <label htmlFor="message" className="mb-2 block text-sm font-medium text-zinc-900">
+                <label htmlFor="message" className="mb-2 block text-sm font-medium text-zinc-900 dark:text-zinc-100">
                   Message
                 </label>
                 <textarea
@@ -209,7 +209,7 @@ export function CallToAction() {
                   placeholder="Say hello..."
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full resize-none rounded-lg border border-zinc-300 bg-zinc-50 px-4 py-3 text-zinc-900 placeholder:text-zinc-400 focus:border-[#EE73DE] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20"
+                  className="w-full resize-none rounded-lg border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#EE73DE] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20 dark:focus:ring-[#B76BFC]/20"
                 />
               </div>
 
@@ -232,7 +232,7 @@ export function CallToAction() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="inline-flex items-center gap-2 rounded-full border border-[#EE73DE]/20 bg-white px-6 py-3 text-sm font-semibold uppercase tracking-wide text-zinc-900 transition hover:bg-[#EE73DE] hover:text-white hover:border-[#EE73DE] disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="inline-flex items-center gap-2 rounded-full border border-[#EE73DE]/20 dark:border-[#B76BFC]/20 bg-white dark:bg-zinc-900 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-zinc-900 dark:text-zinc-100 transition hover:bg-[#EE73DE] dark:hover:bg-[#B76BFC] hover:text-white hover:border-[#EE73DE] dark:hover:border-[#B76BFC] disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {isSubmitting ? "Sending..." : "Send"}
                 </button>

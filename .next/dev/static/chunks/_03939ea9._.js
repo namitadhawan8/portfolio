@@ -28,9 +28,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$
 ;
 const baseClasses = "inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-semibold uppercase tracking-wide transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black";
 const variantClasses = {
-    primary: "border-black bg-black text-white hover:bg-white hover:text-black hover:shadow-md",
-    secondary: "border-zinc-900/20 bg-white text-zinc-900 hover:bg-zinc-900 hover:text-white",
-    ghost: "border-transparent bg-transparent text-zinc-900 hover:bg-zinc-900/5"
+    primary: "border-[#EE73DE] bg-[#EE73DE] text-white hover:bg-white hover:text-[#EE73DE] hover:shadow-md",
+    secondary: "border-[#EE73DE]/20 bg-white text-zinc-900 hover:bg-[#EE73DE] hover:text-white hover:border-[#EE73DE]",
+    ghost: "border-transparent bg-transparent text-zinc-900 hover:bg-[#EE73DE]/5"
 };
 function ButtonLink({ variant = "primary", className, ...props }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -115,7 +115,7 @@ const navigationLinks = [
         href: "/prototypes-experiments"
     },
     {
-        label: "ABOUT ME",
+        label: "ABOUT",
         href: "/about-me"
     }
 ];
@@ -141,7 +141,7 @@ const mobileNavigationLinks = [
         href: "/prototypes-experiments"
     },
     {
-        label: "ABOUT ME",
+        label: "ABOUT",
         href: "/about-me"
     },
     {
@@ -157,9 +157,9 @@ const heroContent = {
     heroImageAlt: "Hero project preview"
 };
 const heroMarqueeItems = [
-    "Branding",
-    "Logo Design",
-    "Social Media"
+    "Design",
+    "Writing",
+    "Management"
 ];
 const stats = [
     {
@@ -188,19 +188,22 @@ const clientLogos = [
 ];
 const services = [
     {
-        title: "Brand Design",
-        description: "Holistic brand systems that communicate who you are across every touchpoint.",
-        icon: "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/6397917e82ecdaad70fa0470_icon-star.svg"
+        title: "Design (UX, Branding, and Graphics)",
+        description: "I bridge user needs and visual quality to build impactful product experiences. My design process covers the full lifecycle: user research, journey mapping, creating wireframes and prototypes (Figma), and setting up scalable design systems. I also handle branding, visual strategy, and graphics to ensure a consistent, market-ready look across all user touchpoints.",
+        icon: "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/6397917e82ecdaad70fa0470_icon-star.svg",
+        href: "/design"
     },
     {
-        title: "Logo Design",
-        description: "Distinctive mark design rooted in strategy, crafted for immediate recognition.",
-        icon: "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/6397917e82ecdaad70fa0470_icon-star.svg"
+        title: "Writing (Communication and Content)",
+        description: "I simplify complex product visions, strategies, and requirements into clear, persuasive content. This includes critical technical documentation (PRDs, functional specifications), communication for leadership (stakeholder presentations), and polished, user-focused content (in-app copy, guides, and tutorials) that drives adoption and engagement.",
+        icon: "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/6397917e82ecdaad70fa0470_icon-star.svg",
+        href: "/writing-research"
     },
     {
-        title: "Social Media",
-        description: "Campaign art direction and content kits that keep your channels on-brand.",
-        icon: "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/6397917e82ecdaad70fa0470_icon-star.svg"
+        title: "Management (Strategy and Execution)",
+        description: "I manage the entire product lifecycle, from market strategy to execution. This involves creating and prioritizing dynamic roadmaps, using Agile methods, and defining clear success metrics (KPIs). My focus is on delivering business value, running successful launch cycles, and driving consensus across engineering, marketing, and sales teams.",
+        icon: "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/6397917e82ecdaad70fa0470_icon-star.svg",
+        href: "/management"
     }
 ];
 const servicesIntro = {
@@ -230,12 +233,32 @@ const projects = [
 ];
 const callToAction = {
     eyebrow: "Let's create",
-    title: [
-        "Let's create",
-        "Your new Brand"
-    ],
+    message: "Thank you for visiting and scrolling through my portfolio. If you want to talk about any of my projects, or just chat, I'd love to hear from you! Let's catch up!",
     buttonLabel: "Get in touch",
-    buttonHref: "/contact"
+    buttonHref: "/contact",
+    email: "namitadhawan555@gmail.com",
+    socialLinks: [
+        {
+            name: "LinkedIn",
+            href: "https://linkedin.com",
+            icon: "LinkedIn"
+        },
+        {
+            name: "Behance",
+            href: "https://behance.net",
+            icon: "Behance"
+        },
+        {
+            name: "Dribbble",
+            href: "https://dribbble.com",
+            icon: "Dribbble"
+        },
+        {
+            name: "Medium",
+            href: "https://medium.com",
+            icon: "Medium"
+        }
+    ]
 };
 const contactMarqueeItems = [
     "Let's work together"
@@ -245,45 +268,28 @@ const footerGroups = [
         title: "Pages",
         links: [
             {
-                label: "Home",
+                label: "HOME",
                 href: "/"
             },
             {
-                label: "Work",
-                href: "/work"
+                label: "DESIGN",
+                href: "/design"
             },
             {
-                label: "Work Single",
-                href: "https://solveig-template.webflow.io/projects/vision-branding",
-                isExternal: true
+                label: "MANAGEMENT",
+                href: "/management"
             },
             {
-                label: "More Templates",
-                href: "https://templates.gola.io/",
-                isExternal: true
-            }
-        ]
-    },
-    {
-        title: "Utility Pages",
-        links: [
-            {
-                label: "404 Error Page",
-                href: "https://solveig-template.webflow.io/404",
-                isExternal: true
+                label: "WRITING",
+                href: "/writing-research"
             },
             {
-                label: "Password Protected",
-                href: "https://solveig-template.webflow.io/401",
-                isExternal: true
+                label: "EXPERIMENTS",
+                href: "/prototypes-experiments"
             },
             {
-                label: "Styleguide",
-                href: "/template-info/styleguide"
-            },
-            {
-                label: "Licensing",
-                href: "/template-info/licensing"
+                label: "ABOUT",
+                href: "/about-me"
             }
         ]
     }
@@ -346,12 +352,12 @@ function Header() {
             href: item.href,
             target: isExternal ? "_blank" : undefined,
             rel: isExternal ? "noreferrer" : undefined,
-            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("relative text-sm font-medium uppercase tracking-[0.3em] text-zinc-800 transition hover:text-black", isActive && "text-black font-semibold"),
+            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("relative text-sm font-medium uppercase tracking-[0.3em] text-zinc-800 transition hover:text-[#EE73DE]", isActive && "text-[#EE73DE] font-semibold"),
             onClick: closeMenu,
             children: item.label
         }, item.label, false, {
             fileName: "[project]/components/layout/Header.tsx",
-            lineNumber: 27,
+            lineNumber: 28,
             columnNumber: 7
         }, this);
     };
@@ -359,50 +365,50 @@ function Header() {
         className: "sticky top-0 z-40 border-b border-zinc-900/10 bg-white/80 backdrop-blur",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4 sm:px-6",
+                className: "mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-4 sm:px-6",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/",
-                        className: "flex items-center gap-2",
+                        className: "flex items-center",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             src: "/logo-placeholder.svg",
                             alt: "Namita Dhawan logo",
-                            width: 120,
-                            height: 24,
+                            width: 60,
+                            height: 60,
                             priority: true,
-                            className: "h-6 w-auto"
+                            className: "h-12 w-12 object-contain"
                         }, void 0, false, {
                             fileName: "[project]/components/layout/Header.tsx",
-                            lineNumber: 47,
+                            lineNumber: 48,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/layout/Header.tsx",
-                        lineNumber: 46,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                        className: "hidden items-center gap-10 md:flex",
+                        className: "hidden items-center gap-8 md:flex md:flex-1 md:justify-center",
                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$homeData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["navigationLinks"].map((item)=>renderNavLink(item))
                     }, void 0, false, {
                         fileName: "[project]/components/layout/Header.tsx",
-                        lineNumber: 57,
+                        lineNumber: 58,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "hidden items-center gap-3 md:flex",
+                        className: "hidden items-center md:flex",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ButtonLink"], {
                             href: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$homeData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secondaryCta"].href,
                             variant: "secondary",
                             children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$homeData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secondaryCta"].label
                         }, void 0, false, {
                             fileName: "[project]/components/layout/Header.tsx",
-                            lineNumber: 62,
+                            lineNumber: 63,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/layout/Header.tsx",
-                        lineNumber: 61,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -418,38 +424,38 @@ function Header() {
                                     className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("h-0.5 w-full bg-zinc-900 transition-transform", isOpen && "translate-y-[7px] rotate-45")
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Header.tsx",
-                                    lineNumber: 78,
+                                    lineNumber: 79,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("h-0.5 w-full bg-zinc-900 transition-opacity", isOpen && "opacity-0")
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Header.tsx",
-                                    lineNumber: 84,
+                                    lineNumber: 85,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("h-0.5 w-full bg-zinc-900 transition-transform", isOpen && "-translate-y-[7px] -rotate-45")
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Header.tsx",
-                                    lineNumber: 90,
+                                    lineNumber: 91,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/layout/Header.tsx",
-                            lineNumber: 77,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/layout/Header.tsx",
-                        lineNumber: 70,
+                        lineNumber: 71,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/layout/Header.tsx",
-                lineNumber: 45,
+                lineNumber: 46,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -473,7 +479,7 @@ function Header() {
                                         children: item.label
                                     }, item.label, false, {
                                         fileName: "[project]/components/layout/Header.tsx",
-                                        lineNumber: 116,
+                                        lineNumber: 117,
                                         columnNumber: 21
                                     }, this);
                                 }
@@ -481,39 +487,39 @@ function Header() {
                                     href: item.href,
                                     target: isExternal ? "_blank" : undefined,
                                     rel: isExternal ? "noreferrer" : undefined,
-                                    className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("text-base font-semibold uppercase tracking-[0.35em] text-zinc-900", isActive && "text-black font-bold"),
+                                    className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("text-base font-semibold uppercase tracking-[0.35em] text-zinc-900 transition hover:text-[#EE73DE]", isActive && "text-[#EE73DE] font-bold"),
                                     onClick: closeMenu,
                                     children: item.label
                                 }, item.label, false, {
                                     fileName: "[project]/components/layout/Header.tsx",
-                                    lineNumber: 130,
+                                    lineNumber: 131,
                                     columnNumber: 19
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/components/layout/Header.tsx",
-                            lineNumber: 110,
+                            lineNumber: 111,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/layout/Header.tsx",
-                        lineNumber: 109,
+                        lineNumber: 110,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/layout/Header.tsx",
-                    lineNumber: 108,
+                    lineNumber: 109,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/layout/Header.tsx",
-                lineNumber: 100,
+                lineNumber: 101,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/layout/Header.tsx",
-        lineNumber: 44,
+        lineNumber: 45,
         columnNumber: 5
     }, this);
 }
