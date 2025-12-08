@@ -1,3 +1,27 @@
-module.exports=[89578,a=>{a.v({className:"geist_a71539c9-module__T19VSG__className",variable:"geist_a71539c9-module__T19VSG__variable"})},35214,a=>{a.v({className:"geist_mono_8d43a2aa-module__8Li5zG__className",variable:"geist_mono_8d43a2aa-module__8Li5zG__variable"})},84702,a=>{"use strict";let b=(0,a.i(11857).registerClientReference)(function(){throw Error("Attempted to call CustomCursor() from the server but CustomCursor is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/ui/CustomCursor.tsx <module evaluation>","CustomCursor");a.s(["CustomCursor",0,b])},87180,a=>{"use strict";let b=(0,a.i(11857).registerClientReference)(function(){throw Error("Attempted to call CustomCursor() from the server but CustomCursor is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/ui/CustomCursor.tsx","CustomCursor");a.s(["CustomCursor",0,b])},50356,a=>{"use strict";a.i(84702);var b=a.i(87180);a.n(b)},33290,a=>{"use strict";var b=a.i(7997),c=a.i(89578);let d={className:c.default.className,style:{fontFamily:"'Geist', 'Geist Fallback'",fontStyle:"normal"}};null!=c.default.variable&&(d.variable=c.default.variable);var e=a.i(35214);let f={className:e.default.className,style:{fontFamily:"'Geist Mono', 'Geist Mono Fallback'",fontStyle:"normal"}};null!=e.default.variable&&(f.variable=e.default.variable);var g=a.i(50356);function h({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsxs)("body",{className:`${d.variable} ${f.variable} bg-white text-zinc-900 antialiased`,children:[(0,b.jsx)(g.CustomCursor,{}),a]})})}a.s(["default",()=>h,"metadata",0,{title:"Namita DHAWAN — Product Manager and Designer Portfolio",description:"Product manager and designer portfolio for Namita DHAWAN showcasing selected work, services, and project collaborations."}],33290)}];
+module.exports=[89578,a=>{a.v({className:"geist_a71539c9-module__T19VSG__className",variable:"geist_a71539c9-module__T19VSG__variable"})},35214,a=>{a.v({className:"geist_mono_8d43a2aa-module__8Li5zG__className",variable:"geist_mono_8d43a2aa-module__8Li5zG__variable"})},84702,a=>{"use strict";let b=(0,a.i(11857).registerClientReference)(function(){throw Error("Attempted to call CustomCursor() from the server but CustomCursor is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/ui/CustomCursor.tsx <module evaluation>","CustomCursor");a.s(["CustomCursor",0,b])},87180,a=>{"use strict";let b=(0,a.i(11857).registerClientReference)(function(){throw Error("Attempted to call CustomCursor() from the server but CustomCursor is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/ui/CustomCursor.tsx","CustomCursor");a.s(["CustomCursor",0,b])},50356,a=>{"use strict";a.i(84702);var b=a.i(87180);a.n(b)},33290,a=>{"use strict";var b=a.i(7997),c=a.i(89578);let d={className:c.default.className,style:{fontFamily:"'Geist', 'Geist Fallback'",fontStyle:"normal"}};null!=c.default.variable&&(d.variable=c.default.variable);var e=a.i(35214);let f={className:e.default.className,style:{fontFamily:"'Geist Mono', 'Geist Mono Fallback'",fontStyle:"normal"}};null!=e.default.variable&&(f.variable=e.default.variable);var g=a.i(50356);function h({children:a}){return(0,b.jsxs)("html",{lang:"en",suppressHydrationWarning:!0,children:[(0,b.jsx)("head",{children:(0,b.jsx)("script",{dangerouslySetInnerHTML:{__html:`
+              (function() {
+                try {
+                  const savedTheme = localStorage.getItem('theme');
+                  const root = document.documentElement;
+                  
+                  // Always remove dark first, then add if needed
+                  root.classList.remove('dark');
+                  
+                  if (savedTheme === 'dark') {
+                    root.classList.add('dark');
+                    root.setAttribute('data-theme', 'dark');
+                  } else {
+                    root.classList.remove('dark');
+                    root.setAttribute('data-theme', 'light');
+                    if (!savedTheme) {
+                      localStorage.setItem('theme', 'light');
+                    }
+                  }
+                } catch (e) {
+                  document.documentElement.classList.remove('dark');
+                  document.documentElement.setAttribute('data-theme', 'light');
+                }
+              })();
+            `}})}),(0,b.jsxs)("body",{className:`${d.variable} ${f.variable} bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100 antialiased`,children:[(0,b.jsx)(g.CustomCursor,{}),a]})]})}a.s(["default",()=>h,"metadata",0,{title:"Namita DHAWAN — Product Manager and Designer Portfolio",description:"Product manager and designer portfolio for Namita DHAWAN showcasing selected work, services, and project collaborations."}],33290)}];
 
 //# sourceMappingURL=%5Broot-of-the-server%5D__ed2479e7._.js.map
