@@ -119,57 +119,87 @@ function RootLayout({ children }) {
         suppressHydrationWarning: true,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("head", {
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
-                    dangerouslySetInnerHTML: {
-                        __html: `
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                        name: "color-scheme",
+                        content: "light"
+                    }, void 0, false, {
+                        fileName: "[project]/app/layout.tsx",
+                        lineNumber: 30,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                        dangerouslySetInnerHTML: {
+                            __html: `
               (function() {
                 try {
-                  const savedTheme = localStorage.getItem('theme');
                   const root = document.documentElement;
+                  const body = document.body;
                   
-                  // Always remove dark first, then add if needed
+                  // FORCE remove dark class immediately
                   root.classList.remove('dark');
                   
-                  if (savedTheme === 'dark') {
-                    root.classList.add('dark');
-                    root.setAttribute('data-theme', 'dark');
-                  } else {
+                  // Check saved theme
+                  let savedTheme = localStorage.getItem('theme');
+                  
+                  // DEFAULT TO LIGHT - only use dark if explicitly saved as 'dark'
+                  if (savedTheme !== 'dark') {
+                    savedTheme = 'light';
                     root.classList.remove('dark');
-                    root.setAttribute('data-theme', 'light');
-                    if (!savedTheme) {
-                      localStorage.setItem('theme', 'light');
-                    }
+                    localStorage.setItem('theme', 'light');
+                    root.style.colorScheme = 'light';
+                    root.style.setProperty('--background', '#ffffff', 'important');
+                    root.style.setProperty('--foreground', '#111111', 'important');
+                    root.style.setProperty('--primary', '#EE73DE', 'important');
+                    
+                    // Tailwind classes handle colors automatically
+                  } else {
+                    // Only apply dark if explicitly saved
+                    root.classList.add('dark');
+                    root.style.colorScheme = 'dark';
+                    root.style.setProperty('--background', '#0a0a0a', 'important');
+                    root.style.setProperty('--foreground', '#ededed', 'important');
+                    root.style.setProperty('--primary', '#B76BFC', 'important');
+                    
+                    // Remove pink override style
+                    const oldStyle = document.getElementById('force-pink-colors');
+                    if (oldStyle) oldStyle.remove();
                   }
+                  
+                  root.setAttribute('data-theme', savedTheme);
                 } catch (e) {
                   document.documentElement.classList.remove('dark');
                   document.documentElement.setAttribute('data-theme', 'light');
+                  document.documentElement.style.colorScheme = 'light';
                 }
               })();
             `
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/app/layout.tsx",
-                    lineNumber: 30,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/app/layout.tsx",
+                        lineNumber: 31,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/app/layout.tsx",
                 lineNumber: 29,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
                 className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_a71539c9$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_mono_8d43a2aa$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100 antialiased`,
+                suppressHydrationWarning: true,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$CustomCursor$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CustomCursor"], {}, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 63,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, this),
                     children
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 60,
+                lineNumber: 80,
                 columnNumber: 7
             }, this)
         ]

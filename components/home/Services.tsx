@@ -16,10 +16,7 @@ export function Services() {
               alt=""
               width={50}
               height={50}
-              className="h-12 w-12"
-              style={{
-                filter: 'brightness(0) saturate(100%) invert(73%) sepia(64%) saturate(2878%) hue-rotate(280deg) brightness(100%) contrast(95%)'
-              }}
+              className="h-12 w-12 star-icon-pink dark:star-icon-purple"
             />
             <div className="space-y-2">
               {servicesIntro.title.map((line) => (
@@ -31,7 +28,7 @@ export function Services() {
                 </h2>
               ))}
             </div>
-            <div className="flex items-center gap-4 rounded-3xl border border-[#EE73DE]/20 dark:border-[#B76BFC]/20 bg-white dark:bg-zinc-900 p-5 shadow-sm">
+            <div className="flex items-center gap-4 rounded-3xl border border-[#EE73DE]/5 dark:border-[#B76BFC]/20 bg-zinc-50 dark:bg-zinc-900 p-5 shadow-sm">
               <Image
                 src={servicesIntro.person.avatar}
                 alt={servicesIntro.person.name}
@@ -55,7 +52,7 @@ export function Services() {
               {services.map((service, index) => (
                 <div
                   key={service.title}
-                  className="sticky flex flex-col gap-8 rounded-3xl border border-[#EE73DE]/30 dark:border-[#B76BFC]/30 bg-white dark:bg-zinc-900 p-12 shadow-lg transition-all hover:shadow-xl hover:border-[#EE73DE]/60 dark:hover:border-[#B76BFC]/60"
+                  className="sticky flex flex-col gap-8 rounded-3xl border border-[#EE73DE]/5 dark:border-[#B76BFC]/30 bg-zinc-50 dark:bg-zinc-900 p-12 shadow-lg transition-all hover:shadow-xl hover:border-[#EE73DE]/10 dark:hover:border-[#B76BFC]/60"
                   style={{
                     top: `${80 + index * 40}px`,
                     zIndex: index + 1,
@@ -67,10 +64,7 @@ export function Services() {
                       alt=""
                       width={50}
                       height={50}
-                      className="h-12 w-12"
-                      style={{
-                        filter: 'brightness(0) saturate(100%) invert(73%) sepia(64%) saturate(2878%) hue-rotate(280deg) brightness(100%) contrast(95%)'
-                      }}
+                      className="h-12 w-12 star-icon-pink dark:star-icon-purple"
                     />
                     <h3 className="text-xl font-semibold uppercase tracking-[0.35em] text-zinc-900 dark:text-zinc-100">
                       {service.title}

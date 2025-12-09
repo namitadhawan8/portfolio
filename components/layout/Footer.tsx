@@ -11,7 +11,7 @@ import {
 
 export function Footer() {
   return (
-    <footer className="border-t border-[#EE73DE] bg-zinc-50 text-zinc-900 dark:border-[#B76BFC] dark:bg-zinc-950 dark:text-zinc-100">
+    <footer className="border-t border-[#EE73DE]/30 dark:border-[#B76BFC] bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="grid gap-12 md:grid-cols-[1fr,2fr]">
           <div className="space-y-4">
@@ -20,10 +20,7 @@ export function Footer() {
               alt=""
               width={40}
               height={40}
-              className="h-10 w-10"
-              style={{
-                filter: 'brightness(0) saturate(100%) invert(73%) sepia(64%) saturate(2878%) hue-rotate(280deg) brightness(100%) contrast(95%)'
-              }}
+              className="h-10 w-10 star-icon-pink dark:star-icon-purple"
             />
             <Link href="/" aria-label="Navigate home" className="inline-flex">
                   <span className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
@@ -48,7 +45,7 @@ export function Footer() {
                         href={link.href}
                         target={isExternal ? "_blank" : undefined}
                         rel={isExternal ? "noreferrer" : undefined}
-                        className="flex items-center text-sm font-medium uppercase tracking-[0.3em] text-zinc-700 transition hover:text-[#EE73DE] dark:text-zinc-300 dark:hover:text-[#B76BFC]"
+                        className="flex items-center text-sm font-medium uppercase tracking-[0.3em] text-zinc-900 transition hover:text-[#EE73DE] dark:text-zinc-300 dark:hover:text-[#B76BFC]"
                       >
                         {link.label}
                       </Link>

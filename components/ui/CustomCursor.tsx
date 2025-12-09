@@ -49,10 +49,11 @@ export function CustomCursor() {
   return (
     <>
       <div
-        className="pointer-events-none fixed left-0 top-0 z-[9999]"
+        className="custom-cursor pointer-events-none fixed left-0 top-0 z-[9999]"
         style={{
           transform: `translate(${cursorPosition.x}px, ${cursorPosition.y}px)`,
         }}
+        data-primary-accent
       >
         <div className="relative -translate-x-1/2 -translate-y-1/2">
           {/* Outer circle outline */}

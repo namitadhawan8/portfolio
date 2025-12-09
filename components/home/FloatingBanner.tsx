@@ -19,8 +19,9 @@ export function FloatingBanner() {
   return (
     <Link
       href="/contact"
-      className="fixed bottom-6 right-6 z-40 hidden h-40 w-40 items-center justify-center rounded-full bg-[#EE73DE] dark:bg-[#B76BFC] shadow-lg transition hover:shadow-xl sm:flex"
+      className="floating-banner fixed bottom-6 right-6 z-40 hidden h-40 w-40 items-center justify-center rounded-full bg-[#EE73DE] dark:bg-[#B76BFC] shadow-lg transition hover:shadow-xl sm:flex"
       aria-label="Hire Me. Connect"
+      data-primary-accent
     >
       <svg
         className="h-full w-full"

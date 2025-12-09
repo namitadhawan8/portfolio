@@ -37,9 +37,11 @@ export function AboutSection({ section, index }: AboutSectionProps) {
             <h2 className="text-3xl font-black uppercase tracking-[0.3em] text-zinc-900 dark:text-zinc-100 md:text-4xl">
               {section.title}
             </h2>
-            <p className="text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
-              {section.content}
-            </p>
+            <div className="space-y-4 text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
+              {section.content.split("\n\n").map((paragraph, idx) => (
+                <p key={idx}>{paragraph}</p>
+              ))}
+            </div>
             {section.quote && (
               <blockquote className="border-l-4 border-[#EE73DE] dark:border-[#B76BFC] pl-6 text-lg italic leading-relaxed text-zinc-700 dark:text-zinc-300">
                 {section.quote}

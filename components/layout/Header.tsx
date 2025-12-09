@@ -31,7 +31,7 @@ export function Header() {
         target={isExternal ? "_blank" : undefined}
         rel={isExternal ? "noreferrer" : undefined}
         className={cn(
-          "relative text-sm font-medium uppercase tracking-[0.3em] text-zinc-800 transition hover:text-[#EE73DE] dark:text-zinc-200 dark:hover:text-[#B76BFC]",
+          "relative rounded-full px-4 py-2 text-sm font-medium uppercase tracking-[0.3em] bg-white text-zinc-900 transition hover:text-[#EE73DE] dark:bg-transparent dark:text-zinc-200 dark:hover:text-[#B76BFC]",
           isActive && "text-[#EE73DE] dark:text-[#B76BFC] font-semibold"
         )}
         onClick={closeMenu}
@@ -42,7 +42,7 @@ export function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-40 border-b border-zinc-900/10 bg-white/80 backdrop-blur dark:border-zinc-700/50 dark:bg-zinc-950/80">
+    <header className="sticky top-0 z-40 border-b border-zinc-900/10 bg-white dark:border-zinc-700/50 dark:bg-zinc-950/80">
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
         <Link href="/" className="flex items-center">
           <Image
@@ -110,6 +110,12 @@ export function Header() {
         <div className="border-t border-zinc-900/10 bg-white dark:border-zinc-700/50 dark:bg-zinc-950">
           <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
             <div className="flex flex-col gap-4">
+              <div className="flex items-center justify-between pb-2">
+                <span className="text-xs font-semibold uppercase tracking-[0.4em] text-zinc-500 dark:text-zinc-400">
+                  Theme
+                </span>
+                <ThemeToggle />
+              </div>
               {mobileNavigationLinks.map((item) => {
                 const isExternal = item.isExternal ?? false;
                 const isActive = pathname === item.href || (item.href === "/" && pathname === "/");
@@ -135,7 +141,7 @@ export function Header() {
                     target={isExternal ? "_blank" : undefined}
                     rel={isExternal ? "noreferrer" : undefined}
                     className={cn(
-                      "text-base font-semibold uppercase tracking-[0.35em] text-zinc-900 transition hover:text-[#EE73DE] dark:text-zinc-100 dark:hover:text-[#B76BFC]",
+                      "rounded-full px-4 py-2 text-base font-semibold uppercase tracking-[0.35em] bg-white text-zinc-900 transition hover:text-[#EE73DE] dark:bg-transparent dark:text-zinc-100 dark:hover:text-[#B76BFC]",
                       isActive && "text-[#EE73DE] dark:text-[#B76BFC] font-bold"
                     )}
                     onClick={closeMenu}

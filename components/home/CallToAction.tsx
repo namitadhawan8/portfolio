@@ -70,17 +70,14 @@ export function CallToAction() {
             <div className="absolute -left-2 -top-2 h-3 w-3 rounded-full border-2 border-[#EE73DE] dark:border-[#B76BFC]">
               <div className="absolute left-1/2 top-1/2 h-1.5 w-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#EE73DE] dark:bg-[#B76BFC]"></div>
             </div>
-            {/* Pink star icon */}
+            {/* Star icon - pink in light, purple in dark */}
             <div className="mb-4">
               <Image
                 src={servicesIntro.badgeIcon}
                 alt=""
                 width={50}
                 height={50}
-                className="h-12 w-12"
-                style={{
-                  filter: 'brightness(0) saturate(100%) invert(73%) sepia(64%) saturate(2878%) hue-rotate(280deg) brightness(100%) contrast(95%)'
-                }}
+                className="h-12 w-12 star-icon-pink dark:star-icon-purple"
               />
             </div>
             <h2 className="text-4xl font-black uppercase tracking-[0.35em] text-zinc-900 dark:text-zinc-100 md:text-5xl">
@@ -161,7 +158,7 @@ export function CallToAction() {
                     placeholder="Your Name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#EE73DE] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20 dark:focus:ring-[#B76BFC]/20"
+                    className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#EE73DE] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20 dark:focus:ring-[#B76BFC]/20"
                   />
                 </div>
 
@@ -177,7 +174,7 @@ export function CallToAction() {
                     placeholder="your.email@example.com"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#EE73DE] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20 dark:focus:ring-[#B76BFC]/20"
+                    className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#EE73DE] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20 dark:focus:ring-[#B76BFC]/20"
                   />
                 </div>
               </div>
@@ -209,7 +206,7 @@ export function CallToAction() {
                   placeholder="Say hello..."
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full resize-none rounded-lg border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#EE73DE] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20 dark:focus:ring-[#B76BFC]/20"
+                  className="w-full resize-none rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#EE73DE] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20 dark:focus:ring-[#B76BFC]/20"
                 />
               </div>
 

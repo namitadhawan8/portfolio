@@ -16,17 +16,14 @@ export function Experience() {
       <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6">
         {/* Heading */}
         <div className="mb-16 space-y-10">
-          {/* Star icon */}
+          {/* Star icon - pink in light, purple in dark */}
           <div>
             <Image
               src={servicesIntro.badgeIcon}
               alt=""
               width={50}
               height={50}
-              className="h-12 w-12"
-              style={{
-                filter: 'brightness(0) saturate(100%) invert(73%) sepia(64%) saturate(2878%) hue-rotate(280deg) brightness(100%) contrast(95%)'
-              }}
+              className="h-12 w-12 star-icon-pink dark:star-icon-purple"
             />
           </div>
           <h2 className="text-4xl font-black uppercase tracking-[0.35em] text-zinc-900 dark:text-zinc-100 md:text-5xl">

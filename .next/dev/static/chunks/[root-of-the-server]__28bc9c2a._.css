@@ -131,28 +131,6 @@
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
       --tw-outline-style: solid;
-      --tw-blur: initial;
-      --tw-brightness: initial;
-      --tw-contrast: initial;
-      --tw-grayscale: initial;
-      --tw-hue-rotate: initial;
-      --tw-invert: initial;
-      --tw-opacity: initial;
-      --tw-saturate: initial;
-      --tw-sepia: initial;
-      --tw-drop-shadow: initial;
-      --tw-drop-shadow-color: initial;
-      --tw-drop-shadow-alpha: 100%;
-      --tw-drop-shadow-size: initial;
-      --tw-backdrop-blur: initial;
-      --tw-backdrop-brightness: initial;
-      --tw-backdrop-contrast: initial;
-      --tw-backdrop-grayscale: initial;
-      --tw-backdrop-hue-rotate: initial;
-      --tw-backdrop-invert: initial;
-      --tw-backdrop-opacity: initial;
-      --tw-backdrop-saturate: initial;
-      --tw-backdrop-sepia: initial;
       --tw-duration: initial;
       --tw-scale-x: 1;
       --tw-scale-y: 1;
@@ -493,6 +471,19 @@
 
   html {
     scroll-behavior: smooth;
+    --lightningcss-light: initial;
+    --lightningcss-dark: ;
+    color-scheme: light;
+    color: #111;
+    background-color: #fff;
+  }
+
+  html.dark {
+    --lightningcss-light: ;
+    --lightningcss-dark: initial;
+    color-scheme: dark;
+    color: #ededed;
+    background-color: #0a0a0a;
   }
 
   body {
@@ -500,10 +491,85 @@
     color: var(--foreground);
     font-family: var(--font-sans), Arial, sans-serif;
     cursor: none;
+    transition: background-color .2s, color .2s;
+  }
+
+  html:not(.dark) body {
+    color: #111 !important;
+    background-color: #fff !important;
+  }
+
+  html:not(.dark) .bg-white {
+    background-color: #fff !important;
+  }
+
+  html:not(.dark) .text-zinc-900 {
+    color: #111 !important;
+  }
+
+  html:not(.dark) .bg-zinc-50 {
+    background-color: #fafafa !important;
+  }
+
+  html:not(.dark) .text-zinc-700 {
+    color: #3f3f46 !important;
+  }
+
+  html:not(.dark) .text-zinc-500 {
+    color: #71717a !important;
+  }
+
+  html:not(.dark) header {
+    background-color: #fff !important;
+    border-bottom-color: #0000001a !important;
+  }
+
+  html:not(.dark) {
+    --primary: #ee73de !important;
+  }
+
+  html.dark {
+    --primary: #b76bfc !important;
+  }
+
+  :root {
+    --color-primary: #ee73de;
+  }
+
+  .dark {
+    --color-primary: #b76bfc;
+  }
+
+  .star-icon-pink {
+    filter: brightness(0) saturate() invert(73%) sepia(64%) saturate(2878%) hue-rotate(280deg) brightness() contrast(95%);
+  }
+
+  html.dark .star-icon-pink, html.dark .star-icon-purple, html.dark .star-icon-pink {
+    filter: brightness(0) saturate() invert(50%) sepia(95%) saturate(2878%) hue-rotate(250deg) brightness() contrast(95%) !important;
+  }
+
+  html:not(.dark) .force-pink-theme:not([class*="bg-zinc-50"]):not([class*="rounded-3xl"]) {
+    color: #ee73de !important;
+    background-color: #ee73de !important;
+    border-color: #ee73de !important;
+  }
+
+  html:not(.dark) [class*="bg-zinc-50"] {
+    background-color: #fafafa !important;
+  }
+
+  html.dark .force-purple-theme {
+    color: #b76bfc !important;
+    background-color: #b76bfc !important;
+    border-color: #b76bfc !important;
   }
 
   * {
     cursor: none !important;
+  }
+
+  button, a, [role="button"], input, textarea, select {
+    cursor: pointer !important;
   }
 }
 
@@ -576,6 +642,10 @@
 
   .z-40 {
     z-index: 40;
+  }
+
+  .z-50 {
+    z-index: 50;
   }
 
   .z-\[9999\] {
@@ -884,6 +954,10 @@
     transform: var(--tw-rotate-x, ) var(--tw-rotate-y, ) var(--tw-rotate-z, ) var(--tw-skew-x, ) var(--tw-skew-y, );
   }
 
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
   .resize-none {
     resize: none;
   }
@@ -1058,6 +1132,11 @@
     border-color: #ee73de;
   }
 
+  .border-\[\#EE73DE\]\/5 {
+    border-color: #ee73de0d;
+    border-color: lab(66.3219% 58.1487 -32.7924 / .05);
+  }
+
   .border-\[\#EE73DE\]\/20 {
     border-color: #ee73de33;
     border-color: lab(66.3219% 58.1487 -32.7924 / .2);
@@ -1130,16 +1209,6 @@
     background-color: var(--color-white);
   }
 
-  .bg-white\/80 {
-    background-color: #fffc;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-white\/80 {
-      background-color: color-mix(in oklab, var(--color-white) 80%, transparent);
-    }
-  }
-
   .bg-white\/90 {
     background-color: #ffffffe6;
   }
@@ -1156,6 +1225,10 @@
 
   .bg-zinc-100 {
     background-color: var(--color-zinc-100);
+  }
+
+  .bg-zinc-200 {
+    background-color: var(--color-zinc-200);
   }
 
   .bg-zinc-900 {
@@ -1319,6 +1392,10 @@
 
   .pr-10 {
     padding-right: calc(var(--spacing) * 10);
+  }
+
+  .pb-2 {
+    padding-bottom: calc(var(--spacing) * 2);
   }
 
   .pb-6 {
@@ -1491,10 +1568,6 @@
     color: var(--color-zinc-700);
   }
 
-  .text-zinc-800 {
-    color: var(--color-zinc-800);
-  }
-
   .text-zinc-900 {
     color: var(--color-zinc-900);
   }
@@ -1542,16 +1615,6 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
-  }
-
-  .filter {
-    filter: var(--tw-blur, ) var(--tw-brightness, ) var(--tw-contrast, ) var(--tw-grayscale, ) var(--tw-hue-rotate, ) var(--tw-invert, ) var(--tw-saturate, ) var(--tw-sepia, ) var(--tw-drop-shadow, );
-  }
-
-  .backdrop-blur {
-    --tw-backdrop-blur: blur(8px);
-    -webkit-backdrop-filter: var(--tw-backdrop-blur, ) var(--tw-backdrop-brightness, ) var(--tw-backdrop-contrast, ) var(--tw-backdrop-grayscale, ) var(--tw-backdrop-hue-rotate, ) var(--tw-backdrop-invert, ) var(--tw-backdrop-opacity, ) var(--tw-backdrop-saturate, ) var(--tw-backdrop-sepia, );
-    backdrop-filter: var(--tw-backdrop-blur, ) var(--tw-backdrop-brightness, ) var(--tw-backdrop-contrast, ) var(--tw-backdrop-grayscale, ) var(--tw-backdrop-hue-rotate, ) var(--tw-backdrop-invert, ) var(--tw-backdrop-opacity, ) var(--tw-backdrop-saturate, ) var(--tw-backdrop-sepia, );
   }
 
   .transition {
@@ -1687,16 +1750,16 @@
   }
 
   @media (hover: hover) {
-    .hover\:border-\[\#EE73DE\]\/40:hover {
-      border-color: #ee73de66;
-      border-color: lab(66.3219% 58.1487 -32.7924 / .4);
+    .hover\:border-\[\#EE73DE\]\/10:hover {
+      border-color: #ee73de1a;
+      border-color: lab(66.3219% 58.1487 -32.7924 / .1);
     }
   }
 
   @media (hover: hover) {
-    .hover\:border-\[\#EE73DE\]\/60:hover {
-      border-color: #ee73de99;
-      border-color: lab(66.3219% 58.1487 -32.7924 / .6);
+    .hover\:border-\[\#EE73DE\]\/40:hover {
+      border-color: #ee73de66;
+      border-color: lab(66.3219% 58.1487 -32.7924 / .4);
     }
   }
 
@@ -2159,6 +2222,12 @@
   @media (prefers-color-scheme: dark) {
     .dark\:bg-\[\#B76BFC\] {
       background-color: #b76bfc;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark\:bg-transparent {
+      background-color: #0000;
     }
   }
 
@@ -2658,117 +2727,6 @@
   syntax: "*";
   inherits: false;
   initial-value: solid;
-}
-
-@property --tw-blur {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-brightness {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-contrast {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-grayscale {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-hue-rotate {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-invert {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-opacity {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-saturate {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-sepia {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-drop-shadow {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-drop-shadow-color {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-drop-shadow-alpha {
-  syntax: "<percentage>";
-  inherits: false;
-  initial-value: 100%;
-}
-
-@property --tw-drop-shadow-size {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-blur {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-brightness {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-contrast {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-grayscale {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-hue-rotate {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-invert {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-opacity {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-saturate {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-sepia {
-  syntax: "*";
-  inherits: false
 }
 
 @property --tw-duration {
