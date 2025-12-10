@@ -28,7 +28,7 @@ export function Services() {
                 </h2>
               ))}
             </div>
-            <div className="flex items-center gap-4 rounded-3xl border border-[#EE73DE]/5 dark:border-[#B76BFC]/20 bg-zinc-50 dark:bg-zinc-900 p-5 shadow-sm">
+            <div className="flex items-center gap-4 rounded-3xl border border-[#B76BFC]/5 dark:border-[#B76BFC]/20 bg-zinc-50 dark:bg-zinc-900 p-5 shadow-sm">
               <Image
                 src={servicesIntro.person.avatar}
                 alt={servicesIntro.person.name}
@@ -52,7 +52,7 @@ export function Services() {
               {services.map((service, index) => (
                 <div
                   key={service.title}
-                  className="sticky flex flex-col gap-8 rounded-3xl border border-[#EE73DE]/5 dark:border-[#B76BFC]/30 bg-zinc-50 dark:bg-zinc-900 p-12 shadow-lg transition-all hover:shadow-xl hover:border-[#EE73DE]/10 dark:hover:border-[#B76BFC]/60"
+                  className="sticky flex flex-col gap-8 rounded-3xl border border-[#B76BFC]/5 dark:border-[#B76BFC]/30 bg-zinc-50 dark:bg-zinc-900 p-12 shadow-lg transition-all hover:shadow-xl hover:border-[#B76BFC]/10 dark:hover:border-[#B76BFC]/60"
                   style={{
                     top: `${80 + index * 40}px`,
                     zIndex: index + 1,
@@ -70,12 +70,12 @@ export function Services() {
                       {service.title}
                     </h3>
                   </div>
-                  <p className="text-base leading-relaxed text-zinc-600 dark:text-zinc-300">
+                  <p className="text-base leading-relaxed text-zinc-900 dark:text-zinc-300">
                     {service.description}
                   </p>
                   <Link
                     href={service.href}
-                    className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-700 dark:text-zinc-300 transition hover:text-[#EE73DE] dark:hover:text-[#B76BFC]"
+                    className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-700 dark:text-zinc-300 transition-colors hover:text-[#B76BFC] dark:hover:text-[#B76BFC]"
                   >
                     View Work
                   </Link>

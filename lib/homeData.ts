@@ -76,10 +76,9 @@ export const heroMarqueeItems = [
 ] as const;
 
 export const stats: Stat[] = [
-  { label: "Clients", value: "200+" },
-  { label: "Projects", value: "300+" },
-  { label: "Follower", value: "90K" },
-  { label: "Happy Clients", value: "100%" },
+  { label: "Projects Shipped", value: "4+" },
+  { label: "Features Launched", value: "25+" },
+  { label: "Avg. Conversion Increase", value: "50%" },
 ];
 
 export const clientLogos: string[] = [

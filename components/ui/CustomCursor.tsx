@@ -3,13 +3,24 @@
 import { useEffect, useRef, useState } from "react";
 
 export function CustomCursor() {
-  const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
+  const [innerPosition, setInnerPosition] = useState({ x: 0, y: 0 });
+  const [outerPosition, setOuterPosition] = useState({ x: 0, y: 0 });
   const [isVisible, setIsVisible] = useState(false);
   const mousePositionRef = useRef({ x: 0, y: 0 });
   const animationFrameRef = useRef<number | undefined>(undefined);
+  const velocityRef = useRef({ x: 0, y: 0 });
 
   useEffect(() => {
     const updateMousePosition = (e: MouseEvent) => {
+      const prevX = mousePositionRef.current.x;
+      const prevY = mousePositionRef.current.y;
+      
+      // Calculate velocity for playful effects
+      velocityRef.current = {
+        x: e.clientX - prevX,
+        y: e.clientY - prevY,
+      };
+      
       mousePositionRef.current = { x: e.clientX, y: e.clientY };
       setIsVisible(true);
     };
@@ -19,15 +30,26 @@ export function CustomCursor() {
     };
 
     const animateCursor = () => {
-      setCursorPosition((prev) => {
+      // Inner circle: moves faster and leads (60% interpolation - more responsive)
+      setInnerPosition((prev) => {
         const dx = mousePositionRef.current.x - prev.x;
         const dy = mousePositionRef.current.y - prev.y;
-        // Lag effect: move 20% of the distance each frame for playful delay
         return {
-          x: prev.x + dx * 0.2,
-          y: prev.y + dy * 0.2,
+          x: prev.x + dx * 0.6,
+          y: prev.y + dy * 0.6,
         };
       });
+
+      // Outer circle: follows slower (15% interpolation - more lag)
+      setOuterPosition((prev) => {
+        const dx = mousePositionRef.current.x - prev.x;
+        const dy = mousePositionRef.current.y - prev.y;
+        return {
+          x: prev.x + dx * 0.15,
+          y: prev.y + dy * 0.15,
+        };
+      });
+
       animationFrameRef.current = requestAnimationFrame(animateCursor);
     };
 
@@ -46,20 +68,45 @@ export function CustomCursor() {
 
   if (!isVisible) return null;
 
+  // Calculate scale based on velocity for playful bounce effect
+  const speed = Math.sqrt(velocityRef.current.x ** 2 + velocityRef.current.y ** 2);
+  const scale = Math.min(1 + speed * 0.01, 1.3);
+
   return (
     <>
+      {/* Outer circle - follows slower */}
       <div
-        className="custom-cursor pointer-events-none fixed left-0 top-0 z-[9999]"
+        className="custom-cursor pointer-events-none fixed left-0 top-0 z-[9999] transition-transform duration-75 ease-out"
         style={{
-          transform: `translate(${cursorPosition.x}px, ${cursorPosition.y}px)`,
+          transform: `translate(${outerPosition.x}px, ${outerPosition.y}px)`,
         }}
         data-primary-accent
       >
         <div className="relative -translate-x-1/2 -translate-y-1/2">
-          {/* Outer circle outline */}
-          <div className="h-8 w-8 rounded-full border-2 border-[#EE73DE] dark:border-[#B76BFC]"></div>
-          {/* Inner solid circle */}
-          <div className="absolute left-1/2 top-1/2 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#EE73DE] dark:bg-[#B76BFC]"></div>
+          <div 
+            className="h-8 w-8 rounded-full border-2 border-[#B76BFC] dark:border-[#B76BFC] transition-transform duration-75 ease-out"
+            style={{
+              transform: `scale(${1 + (scale - 1) * 0.3})`,
+            }}
+          ></div>
+        </div>
+      </div>
+      
+      {/* Inner circle - leads and moves faster */}
+      <div
+        className="custom-cursor pointer-events-none fixed left-0 top-0 z-[9999] transition-transform duration-50 ease-out"
+        style={{
+          transform: `translate(${innerPosition.x}px, ${innerPosition.y}px)`,
+        }}
+        data-primary-accent
+      >
+        <div className="relative -translate-x-1/2 -translate-y-1/2">
+          <div 
+            className="absolute left-1/2 top-1/2 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#B76BFC] dark:bg-[#B76BFC] transition-transform duration-50 ease-out"
+            style={{
+              transform: `translate(-50%, -50%) scale(${scale})`,
+            }}
+          ></div>
         </div>
       </div>
     </>

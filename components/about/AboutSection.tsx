@@ -43,7 +43,7 @@ export function AboutSection({ section, index }: AboutSectionProps) {
               ))}
             </div>
             {section.quote && (
-              <blockquote className="border-l-4 border-[#EE73DE] dark:border-[#B76BFC] pl-6 text-lg italic leading-relaxed text-zinc-700 dark:text-zinc-300">
+              <blockquote className="border-l-4 border-[#B76BFC] dark:border-[#B76BFC] pl-6 text-lg italic leading-relaxed text-zinc-700 dark:text-zinc-300">
                 {section.quote}
               </blockquote>
             )}

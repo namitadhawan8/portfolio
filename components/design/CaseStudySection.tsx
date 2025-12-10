@@ -41,7 +41,7 @@ export function CaseStudySection({ caseStudy, index }: CaseStudySectionProps) {
         </p>
         <Link
           href={`/design/${caseStudy.slug}`}
-          className="group inline-flex w-fit items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-900 dark:text-zinc-100 transition hover:text-[#EE73DE] dark:hover:text-[#B76BFC]"
+          className="group inline-flex w-fit items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-900 dark:text-zinc-100 transition-colors hover:text-[#B76BFC] dark:hover:text-[#B76BFC]"
         >
           View Project
           <span className="transition-transform group-hover:translate-x-1">

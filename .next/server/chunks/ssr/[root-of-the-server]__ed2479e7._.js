@@ -18,7 +18,7 @@ module.exports=[89578,a=>{a.v({className:"geist_a71539c9-module__T19VSG__classNa
                     root.style.colorScheme = 'light';
                     root.style.setProperty('--background', '#ffffff', 'important');
                     root.style.setProperty('--foreground', '#111111', 'important');
-                    root.style.setProperty('--primary', '#EE73DE', 'important');
+                    root.style.setProperty('--primary', '#B76BFC', 'important');
                     
                     // Tailwind classes handle colors automatically
                   } else {

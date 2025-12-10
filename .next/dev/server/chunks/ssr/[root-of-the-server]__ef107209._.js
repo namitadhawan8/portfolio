@@ -163,20 +163,16 @@ const heroMarqueeItems = [
 ];
 const stats = [
     {
-        label: "Clients",
-        value: "200+"
+        label: "Projects Shipped",
+        value: "4+"
     },
     {
-        label: "Projects",
-        value: "300+"
+        label: "Features Launched",
+        value: "25+"
     },
     {
-        label: "Follower",
-        value: "90K"
-    },
-    {
-        label: "Happy Clients",
-        value: "100%"
+        label: "Avg. Conversion Increase",
+        value: "50%"
     }
 ];
 const clientLogos = [
@@ -900,7 +896,7 @@ function Stats() {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "mx-auto max-w-6xl px-4 py-20 sm:px-6",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "grid gap-12 sm:grid-cols-2 lg:grid-cols-4",
+                className: "grid gap-12 sm:grid-cols-2 lg:grid-cols-3",
                 children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$homeData$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["stats"].map((stat)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "space-y-4",
                         children: [
@@ -965,9 +961,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$
 ;
 const baseClasses = "inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-semibold uppercase tracking-wide transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black";
 const variantClasses = {
-    primary: "border-[#EE73DE] bg-[#EE73DE] text-white hover:bg-white hover:text-[#EE73DE] hover:shadow-md dark:border-[#B76BFC] dark:bg-[#B76BFC] dark:hover:bg-zinc-950 dark:hover:text-[#B76BFC]",
-    secondary: "border-zinc-300 bg-zinc-200 text-zinc-900 hover:bg-[#EE73DE] hover:text-white hover:border-[#EE73DE] dark:border-[#B76BFC]/20 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-[#B76BFC] dark:hover:text-white dark:hover:border-[#B76BFC]",
-    ghost: "border-transparent bg-transparent text-zinc-900 hover:bg-[#EE73DE]/5 dark:text-zinc-100 dark:hover:bg-[#B76BFC]/10"
+    primary: "border-[#B76BFC] bg-[#B76BFC] text-white hover:bg-white hover:text-[#B76BFC] hover:shadow-md dark:border-[#B76BFC] dark:bg-[#B76BFC] dark:hover:bg-zinc-950 dark:hover:text-[#B76BFC]",
+    secondary: "border-zinc-300 bg-white text-zinc-900 hover:bg-[#B76BFC] hover:text-white hover:border-[#B76BFC] dark:border-[#B76BFC]/20 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-[#B76BFC] dark:hover:text-white dark:hover:border-[#B76BFC]",
+    ghost: "border-transparent bg-transparent text-zinc-900 hover:bg-[#B76BFC]/5 dark:text-zinc-100 dark:hover:bg-[#B76BFC]/10"
 };
 function ButtonLink({ variant = "primary", className, ...props }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -999,7 +995,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$homeData$2e$ts__$5b$a
 ;
 function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "border-t border-[#EE73DE]/30 dark:border-[#B76BFC] bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100",
+        className: "border-t border-[#B76BFC]/30 dark:border-[#B76BFC] bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "mx-auto max-w-6xl px-4 py-16 sm:px-6",
             children: [
@@ -1065,7 +1061,7 @@ function Footer() {
                                                         href: link.href,
                                                         target: isExternal ? "_blank" : undefined,
                                                         rel: isExternal ? "noreferrer" : undefined,
-                                                        className: "flex items-center text-sm font-medium uppercase tracking-[0.3em] text-zinc-900 transition hover:text-[#EE73DE] dark:text-zinc-300 dark:hover:text-[#B76BFC]",
+                                                        className: "flex items-center text-sm font-medium uppercase tracking-[0.3em] text-zinc-900 transition-colors hover:text-[#B76BFC] dark:text-zinc-300 dark:hover:text-[#B76BFC]",
                                                         children: link.label
                                                     }, link.label, false, {
                                                         fileName: "[project]/components/layout/Footer.tsx",
@@ -1110,7 +1106,7 @@ function Footer() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                             href: `mailto:${__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$homeData$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["callToAction"].email}`,
-                                                            className: "text-sm font-medium uppercase tracking-[0.3em] text-zinc-700 transition hover:text-[#EE73DE] dark:text-zinc-300 dark:hover:text-[#B76BFC]",
+                                                            className: "text-sm font-medium uppercase tracking-[0.3em] text-zinc-700 transition-colors hover:text-[#B76BFC] dark:text-zinc-300 dark:hover:text-[#B76BFC]",
                                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$homeData$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["callToAction"].email
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/layout/Footer.tsx",
@@ -1139,7 +1135,7 @@ function Footer() {
                                                                     href: social.href,
                                                                     target: "_blank",
                                                                     rel: "noreferrer",
-                                                                    className: "text-sm font-medium uppercase tracking-[0.3em] text-zinc-700 transition hover:text-[#EE73DE] dark:text-zinc-300 dark:hover:text-[#B76BFC]",
+                                                                    className: "text-sm font-medium uppercase tracking-[0.3em] text-zinc-700 transition-colors hover:text-[#B76BFC] dark:text-zinc-300 dark:hover:text-[#B76BFC]",
                                                                     children: social.name
                                                                 }, social.name, false, {
                                                                     fileName: "[project]/components/layout/Footer.tsx",

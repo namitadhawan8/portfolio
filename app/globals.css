@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #111111;
-  --primary: #EE73DE;
+  --primary: #B76BFC;
 }
 
 .dark {
@@ -56,6 +56,14 @@
     color: #111111 !important;
   }
 
+  /* Ensure hover states work for text buttons - override with higher specificity */
+  html:not(.dark) header nav a:hover,
+  html:not(.dark) footer nav a:hover,
+  html:not(.dark) footer a[href^="mailto:"]:hover,
+  html:not(.dark) a[class*="transition-colors"]:hover:not([class*="bg-"]):not([class*="border-"]) {
+    color: #B76BFC !important;
+  }
+
   html:not(.dark) .bg-zinc-50 {
     background-color: #fafafa !important;
   }
@@ -68,6 +76,15 @@
     color: #71717a !important;
   }
 
+  /* Ensure hover states work for all text buttons - override with higher specificity */
+  html:not(.dark) header a[class*="transition-colors"]:hover,
+  html:not(.dark) footer a[class*="transition-colors"]:hover,
+  html:not(.dark) section a[class*="transition-colors"]:hover,
+  html:not(.dark) a.text-zinc-900:hover,
+  html:not(.dark) a.text-zinc-700:hover {
+    color: #B76BFC !important;
+  }
+
   /* Force header to be white in light mode */
   html:not(.dark) header {
     background-color: #ffffff !important;
@@ -78,7 +95,7 @@
 
   /* Ensure primary color variable is pink in light mode */
   html:not(.dark) {
-    --primary: #EE73DE !important;
+    --primary: #B76BFC !important;
   }
 
   html.dark {
@@ -87,16 +104,16 @@
 
   /* Use CSS custom properties for primary color that changes with theme */
   :root {
-    --color-primary: #EE73DE;
+    --color-primary: #B76BFC;
   }
 
   .dark {
     --color-primary: #B76BFC;
   }
 
-  /* Star icon filters - pink in light mode, purple in dark mode */
+  /* Star icon filters - purple in all modes */
   .star-icon-pink {
-    filter: brightness(0) saturate(100%) invert(73%) sepia(64%) saturate(2878%) hue-rotate(280deg) brightness(100%) contrast(95%);
+    filter: brightness(0) saturate(100%) invert(50%) sepia(95%) saturate(2878%) hue-rotate(250deg) brightness(100%) contrast(95%);
   }
 
   html.dark .star-icon-pink {
@@ -106,17 +123,12 @@
   html.dark .star-icon-purple {
     filter: brightness(0) saturate(100%) invert(50%) sepia(95%) saturate(2878%) hue-rotate(250deg) brightness(100%) contrast(95%) !important;
   }
-  
-  /* Override in dark mode - remove pink filter, apply purple */
-  html.dark .star-icon-pink {
-    filter: brightness(0) saturate(100%) invert(50%) sepia(95%) saturate(2878%) hue-rotate(250deg) brightness(100%) contrast(95%) !important;
-  }
 
   /* CRITICAL: Force pink in light mode - but NOT on cards */
   html:not(.dark) .force-pink-theme:not([class*="bg-zinc-50"]):not([class*="rounded-3xl"]) {
-    background-color: #EE73DE !important;
-    border-color: #EE73DE !important;
-    color: #EE73DE !important;
+    background-color: #B76BFC !important;
+    border-color: #B76BFC !important;
+    color: #B76BFC !important;
   }
   
   /* Also ensure cards stay light grey */

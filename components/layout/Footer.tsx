@@ -11,7 +11,7 @@ import {
 
 export function Footer() {
   return (
-    <footer className="border-t border-[#EE73DE]/30 dark:border-[#B76BFC] bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
+    <footer className="border-t border-[#B76BFC]/30 dark:border-[#B76BFC] bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="grid gap-12 md:grid-cols-[1fr,2fr]">
           <div className="space-y-4">
@@ -45,7 +45,7 @@ export function Footer() {
                         href={link.href}
                         target={isExternal ? "_blank" : undefined}
                         rel={isExternal ? "noreferrer" : undefined}
-                        className="flex items-center text-sm font-medium uppercase tracking-[0.3em] text-zinc-900 transition hover:text-[#EE73DE] dark:text-zinc-300 dark:hover:text-[#B76BFC]"
+                        className="flex items-center text-sm font-medium uppercase tracking-[0.3em] text-zinc-900 transition-colors hover:text-[#B76BFC] dark:text-zinc-300 dark:hover:text-[#B76BFC]"
                       >
                         {link.label}
                       </Link>
@@ -67,7 +67,7 @@ export function Footer() {
                   </p>
                   <a
                     href={`mailto:${callToAction.email}`}
-                    className="text-sm font-medium uppercase tracking-[0.3em] text-zinc-700 transition hover:text-[#EE73DE] dark:text-zinc-300 dark:hover:text-[#B76BFC]"
+                    className="text-sm font-medium uppercase tracking-[0.3em] text-zinc-700 transition-colors hover:text-[#B76BFC] dark:text-zinc-300 dark:hover:text-[#B76BFC]"
                   >
                     {callToAction.email}
                   </a>
@@ -83,7 +83,7 @@ export function Footer() {
                         href={social.href}
                         target="_blank"
                         rel="noreferrer"
-                        className="text-sm font-medium uppercase tracking-[0.3em] text-zinc-700 transition hover:text-[#EE73DE] dark:text-zinc-300 dark:hover:text-[#B76BFC]"
+                        className="text-sm font-medium uppercase tracking-[0.3em] text-zinc-700 transition-colors hover:text-[#B76BFC] dark:text-zinc-300 dark:hover:text-[#B76BFC]"
                       >
                         {social.name}
                       </Link>

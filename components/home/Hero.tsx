@@ -37,7 +37,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="w-full border-y border-[#EE73DE]/20 dark:border-[#B76BFC]/20 bg-[#EE73DE] dark:bg-[#B76BFC] py-2">
+      <div className="w-full border-y border-[#B76BFC]/20 dark:border-[#B76BFC]/20 bg-[#B76BFC] dark:bg-[#B76BFC] py-2">
         <div className="w-full overflow-hidden">
           <Marquee
             items={heroMarqueeItems}

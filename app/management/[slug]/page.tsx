@@ -134,7 +134,7 @@ function ManagementCaseDetail({ managementCase }: ManagementCaseDetailProps) {
               <h2 className="text-3xl font-black text-zinc-900 dark:text-zinc-100">
                 Problem Statement
               </h2>
-              <blockquote className="border-l-4 border-[#EE73DE] dark:border-[#B76BFC] pl-6 text-lg italic leading-relaxed text-zinc-700 dark:text-zinc-300">
+              <blockquote className="border-l-4 border-[#B76BFC] dark:border-[#B76BFC] pl-6 text-lg italic leading-relaxed text-zinc-700 dark:text-zinc-300">
                 {managementCase.problemStatement}
               </blockquote>
             </div>
@@ -186,7 +186,7 @@ function ManagementCaseDetail({ managementCase }: ManagementCaseDetailProps) {
                     key={idx}
                     className="flex gap-3 text-lg leading-relaxed text-zinc-700 dark:text-zinc-300"
                   >
-                    <span className="mt-2 h-2 w-2 rounded-full bg-[#EE73DE] dark:bg-[#B76BFC]" />
+                    <span className="mt-2 h-2 w-2 rounded-full bg-[#B76BFC] dark:bg-[#B76BFC]" />
                     <span>{outcome}</span>
                   </li>
                 ))}
@@ -204,7 +204,7 @@ function ManagementCaseDetail({ managementCase }: ManagementCaseDetailProps) {
                     key={idx}
                     className="flex gap-3 text-lg leading-relaxed text-zinc-700 dark:text-zinc-300"
                   >
-                    <span className="mt-2 h-2 w-2 rounded-full bg-[#EE73DE] dark:bg-[#B76BFC]" />
+                    <span className="mt-2 h-2 w-2 rounded-full bg-[#B76BFC] dark:bg-[#B76BFC]" />
                     <span>{takeaway}</span>
                   </li>
                 ))}
@@ -220,7 +220,7 @@ function ManagementCaseDetail({ managementCase }: ManagementCaseDetailProps) {
           <div className="flex items-center justify-between">
             <Link
               href="/management"
-              className="group inline-flex items-center gap-2 text-base font-semibold uppercase tracking-[0.2em] text-zinc-700 dark:text-zinc-300 transition hover:text-[#EE73DE] dark:hover:text-[#B76BFC]"
+              className="group inline-flex items-center gap-2 text-base font-semibold uppercase tracking-[0.2em] text-zinc-700 dark:text-zinc-300 transition-colors hover:text-[#B76BFC] dark:hover:text-[#B76BFC]"
             >
               <span className="transition-transform group-hover:-translate-x-1">
                 ←

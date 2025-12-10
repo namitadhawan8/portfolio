@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "ef670fdcceda9931d9e31aa2488bc399",
-    "previewModeSigningKey": "acf82950fcec030a7b6cd7bce35eecd4745c2fa4a1af55344bede9a4873211bd",
-    "previewModeEncryptionKey": "4b6dbebced8785d9fef9dc14d80af75b3f2cd85a9db055c352ce038d3201cc7e"
-  }
-}
+{"version":4,"routes":{"/design/habit-forming-wellness-app":{},"/design/analytics-dashboard-ui-refresh":{}},"dynamicRoutes":{"/design/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/design/[slug]","routeRegex":"^\\/design\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"71b5c81e94404180b60ee94fb0b71051","previewModeSigningKey":"206e9ec313d01d0d62b23d9570a41290d066277ff0cb83be9328a0ad4d0f4764","previewModeEncryptionKey":"6b56545014bba7e9492eea5695660d778b1d2b4978052c001c3a5bdbb25ec0c3"}}

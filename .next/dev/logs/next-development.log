@@ -1,9 +1,105 @@
-[00:00:00.851] Server  LOG      ✓ Ready in 611ms
-[00:00:03.059] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:03.422] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:03.422] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:02:53.400] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:02:53.400] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:02:53.400] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:02:53.400] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:02:53.400] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:05.141] Server  LOG      ✓ Ready in 3.4s
+[00:00:08.228] Server  LOG      ○ Compiling / ...
+[00:00:13.455] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.456] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.824] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:13.824] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:14.217] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:14.217] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:01:22.709] Server  LOG      ✓ Compiled in 319ms
+[00:03:44.336] Browser LOG     🔄 TOGGLE CLICKED!
+[00:03:44.336] Browser LOG     Current state - Has dark class: false
+[00:03:44.337] Browser LOG     Switching to: dark
+[00:03:44.337] Browser LOG     ✅ After toggle - Has dark class: true
+[00:03:44.337] Browser LOG     ✅ localStorage theme: dark
+[00:03:44.337] Browser LOG     ✅ data-theme attribute: dark
+[00:03:47.905] Browser LOG     🔄 TOGGLE CLICKED!
+[00:03:47.905] Browser LOG     Current state - Has dark class: true
+[00:03:47.905] Browser LOG     Switching to: light
+[00:03:47.905] Browser LOG     ✅ After toggle - Has dark class: false
+[00:03:47.905] Browser LOG     ✅ localStorage theme: light
+[00:03:47.905] Browser LOG     ✅ data-theme attribute: light
+[00:05:55.507] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:58.241] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:58.442] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:05:58.442] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:07.615] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:06:07.615] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:07.615] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:07.615] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:07.615] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:10.085] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:10.085] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:10.085] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:10.085] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:52.507] Server  LOG      ✓ Compiled in 323ms
+[00:09:18.400] Server  LOG      ✓ Compiled in 149ms
+[00:09:20.968] Server  LOG      ✓ Compiled in 136ms
+[00:09:28.732] Server  LOG      ✓ Compiled in 138ms
+[00:09:31.509] Server  LOG      ✓ Compiled in 137ms
+[00:09:38.667] Server  LOG      ✓ Compiled in 155ms
+[00:13:55.627] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:13:55.627] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:13:55.627] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:13:55.627] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:14:00.238] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:00.410] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:14:00.410] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:14:02.670] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:14:02.670] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:14:02.670] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:14:02.670] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:14:02.670] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:14:36.377] Server  LOG      ✓ Compiled in 97ms
+[00:14:46.735] Server  LOG      ✓ Compiled in 93ms
+[00:14:46.841] Browser ERROR   ./app/globals.css:2153:1
+Parsing CSS source code failed
+  2151 |   }
+  2152 | }
+> 2153 |
+       | ^
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:14:47.212] Browser ERROR   ./app/globals.css:2153:1
+Parsing CSS source code failed
+  2151 |   }
+  2152 | }
+> 2153 |
+       | ^
+
+Unexpected end of input
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:15:19.827] Server  LOG      ✓ Compiled in 295ms
+[00:15:50.133] Server  LOG      ✓ Compiled in 326ms
+[00:16:06.097] Server  LOG      ✓ Compiled in 297ms
+[00:33:36.256] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:33:36.256] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:33:36.256] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:33:36.256] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:33:52.381] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:33:52.381] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:33:52.381] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:33:52.381] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:33:58.202] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:58.441] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:33:58.442] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:36:18.474] Server  LOG      ✓ Compiled in 217ms
+[00:36:59.997] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:36:59.997] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:36:59.997] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:36:59.997] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:36:59.997] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[03:06:18.315] Server  LOG      ○ Compiling /design/[slug] ...
+[03:06:29.342] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[03:06:29.342] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[03:06:29.342] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[03:06:29.342] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light

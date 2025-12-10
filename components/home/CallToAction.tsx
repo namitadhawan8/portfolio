@@ -67,8 +67,8 @@ export function CallToAction() {
         <div className="mb-16 space-y-10">
           <div className="relative">
             {/* Circular icon in top-left */}
-            <div className="absolute -left-2 -top-2 h-3 w-3 rounded-full border-2 border-[#EE73DE] dark:border-[#B76BFC]">
-              <div className="absolute left-1/2 top-1/2 h-1.5 w-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#EE73DE] dark:bg-[#B76BFC]"></div>
+            <div className="absolute -left-2 -top-2 h-3 w-3 rounded-full border-2 border-[#B76BFC] dark:border-[#B76BFC]">
+              <div className="absolute left-1/2 top-1/2 h-1.5 w-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#B76BFC] dark:bg-[#B76BFC]"></div>
             </div>
             {/* Star icon - pink in light, purple in dark */}
             <div className="mb-4">
@@ -91,7 +91,7 @@ export function CallToAction() {
           {/* Left Column - Information */}
           <div className="space-y-8">
             <div className="flex items-start gap-4">
-              <div className="mt-2 h-3 w-3 rounded-full border-2 border-[#EE73DE] dark:border-[#B76BFC]"></div>
+              <div className="mt-2 h-3 w-3 rounded-full border-2 border-[#B76BFC] dark:border-[#B76BFC]"></div>
               <div className="flex-1 space-y-6">
                 <h3 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
                   Get in Touch
@@ -101,7 +101,7 @@ export function CallToAction() {
                 </p>
                 <div className="flex items-center gap-3">
                   <svg
-                    className="h-5 w-5 text-[#EE73DE] dark:text-[#B76BFC]"
+                    className="h-5 w-5 text-[#B76BFC] dark:text-[#B76BFC]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -115,7 +115,7 @@ export function CallToAction() {
                   </svg>
                   <a
                     href={`mailto:${callToAction.email}`}
-                    className="text-lg font-medium text-[#EE73DE] dark:text-[#B76BFC] hover:underline"
+                    className="text-lg font-medium text-[#B76BFC] dark:text-[#B76BFC] hover:underline"
                   >
                     {callToAction.email}
                   </a>
@@ -131,7 +131,7 @@ export function CallToAction() {
                         href={social.href}
                         target="_blank"
                         rel="noreferrer"
-                        className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-700 dark:text-zinc-300 transition hover:text-[#EE73DE] dark:hover:text-[#B76BFC]"
+                        className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-700 dark:text-zinc-300 transition-colors hover:text-[#B76BFC] dark:hover:text-[#B76BFC]"
                       >
                         {social.name}
                       </Link>
@@ -158,7 +158,7 @@ export function CallToAction() {
                     placeholder="Your Name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#EE73DE] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20 dark:focus:ring-[#B76BFC]/20"
+                    className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#B76BFC] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#B76BFC]/20 dark:focus:ring-[#B76BFC]/20"
                   />
                 </div>
 
@@ -174,7 +174,7 @@ export function CallToAction() {
                     placeholder="your.email@example.com"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#EE73DE] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20 dark:focus:ring-[#B76BFC]/20"
+                    className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#B76BFC] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#B76BFC]/20 dark:focus:ring-[#B76BFC]/20"
                   />
                 </div>
               </div>
@@ -190,7 +190,7 @@ export function CallToAction() {
                   placeholder="Optional"
                   value={formData.contactNumber}
                   onChange={handleChange}
-                  className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#EE73DE] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20 dark:focus:ring-[#B76BFC]/20"
+                  className="w-full rounded-lg border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#B76BFC] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#B76BFC]/20 dark:focus:ring-[#B76BFC]/20"
                 />
               </div>
 
@@ -206,7 +206,7 @@ export function CallToAction() {
                   placeholder="Say hello..."
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full resize-none rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#EE73DE] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#EE73DE]/20 dark:focus:ring-[#B76BFC]/20"
+                  className="w-full resize-none rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-4 py-3 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-500 focus:border-[#B76BFC] dark:focus:border-[#B76BFC] focus:bg-white dark:focus:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-[#B76BFC]/20 dark:focus:ring-[#B76BFC]/20"
                 />
               </div>
 
@@ -229,7 +229,7 @@ export function CallToAction() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="inline-flex items-center gap-2 rounded-full border border-[#EE73DE]/20 dark:border-[#B76BFC]/20 bg-white dark:bg-zinc-900 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-zinc-900 dark:text-zinc-100 transition hover:bg-[#EE73DE] dark:hover:bg-[#B76BFC] hover:text-white hover:border-[#EE73DE] dark:hover:border-[#B76BFC] disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="inline-flex items-center gap-2 rounded-full border border-[#B76BFC]/20 dark:border-[#B76BFC]/20 bg-white dark:bg-zinc-900 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-zinc-900 dark:text-zinc-100 transition hover:bg-[#B76BFC] dark:hover:bg-[#B76BFC] hover:text-white hover:border-[#B76BFC] dark:hover:border-[#B76BFC] disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {isSubmitting ? "Sending..." : "Send"}
                 </button>

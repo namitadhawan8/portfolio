@@ -31,7 +31,7 @@ export function MoreWorkCarousel() {
           <button
             type="button"
             onClick={() => handleScroll("left")}
-            className="hidden h-11 w-11 shrink-0 items-center justify-center rounded-full border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 text-lg font-semibold transition hover:border-[#EE73DE] dark:hover:border-[#B76BFC] hover:text-[#EE73DE] dark:hover:text-[#B76BFC] sm:flex"
+            className="hidden h-11 w-11 shrink-0 items-center justify-center rounded-full border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 text-lg font-semibold transition hover:border-[#B76BFC] dark:hover:border-[#B76BFC] hover:text-[#B76BFC] dark:hover:text-[#B76BFC] sm:flex"
             aria-label="Scroll left"
           >
             ←
@@ -49,7 +49,7 @@ export function MoreWorkCarousel() {
                   href={item.behanceUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="group relative flex w-[340px] shrink-0 flex-col rounded-3xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 p-5 transition-all hover:-translate-y-1 hover:border-[#EE73DE]/40 dark:hover:border-[#B76BFC]/40 hover:shadow-[0_16px_40px_rgba(0,0,0,0.08)] sm:w-[360px]"
+                  className="group relative flex w-[340px] shrink-0 flex-col rounded-3xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 p-5 transition-all hover:-translate-y-1 hover:border-[#B76BFC]/40 dark:hover:border-[#B76BFC]/40 hover:shadow-[0_16px_40px_rgba(0,0,0,0.08)] sm:w-[360px]"
                 >
                   <div className="relative h-48 overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-800 sm:h-56">
                     <Image
@@ -61,7 +61,7 @@ export function MoreWorkCarousel() {
                     />
                     <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/25 to-transparent opacity-0 transition duration-300 group-hover:opacity-100" />
                     <div className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100">
-                      <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 dark:bg-zinc-900/90 text-[11px] font-semibold uppercase tracking-[0.25em] text-[#EE73DE] dark:text-[#B76BFC] shadow">
+                      <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 dark:bg-zinc-900/90 text-[11px] font-semibold uppercase tracking-[0.25em] text-[#B76BFC] dark:text-[#B76BFC] shadow">
                         ↗
                       </span>
                     </div>
@@ -81,7 +81,7 @@ export function MoreWorkCarousel() {
                       <h3 className="text-lg font-semibold uppercase tracking-[0.25em] text-zinc-900 dark:text-zinc-100">
                         {item.title}
                       </h3>
-                      <span className="text-sm font-semibold text-[#EE73DE] dark:text-[#B76BFC]">
+                      <span className="text-sm font-semibold text-[#B76BFC] dark:text-[#B76BFC]">
                         ↗
                       </span>
                     </div>
@@ -95,7 +95,7 @@ export function MoreWorkCarousel() {
           <button
             type="button"
             onClick={() => handleScroll("right")}
-            className="hidden h-11 w-11 shrink-0 items-center justify-center rounded-full border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 text-lg font-semibold transition hover:border-[#EE73DE] dark:hover:border-[#B76BFC] hover:text-[#EE73DE] dark:hover:text-[#B76BFC] sm:flex"
+            className="hidden h-11 w-11 shrink-0 items-center justify-center rounded-full border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 text-lg font-semibold transition hover:border-[#B76BFC] dark:hover:border-[#B76BFC] hover:text-[#B76BFC] dark:hover:text-[#B76BFC] sm:flex"
             aria-label="Scroll right"
           >
             →
@@ -106,7 +106,7 @@ export function MoreWorkCarousel() {
             <button
               type="button"
               onClick={() => handleScroll("left")}
-              className="flex h-11 w-11 items-center justify-center rounded-full border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 text-lg font-semibold transition hover:border-[#EE73DE] dark:hover:border-[#B76BFC] hover:text-[#EE73DE] dark:hover:text-[#B76BFC]"
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 text-lg font-semibold transition hover:border-[#B76BFC] dark:hover:border-[#B76BFC] hover:text-[#B76BFC] dark:hover:text-[#B76BFC]"
               aria-label="Scroll left"
             >
               ←
@@ -114,7 +114,7 @@ export function MoreWorkCarousel() {
             <button
               type="button"
               onClick={() => handleScroll("right")}
-              className="flex h-11 w-11 items-center justify-center rounded-full border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 text-lg font-semibold transition hover:border-[#EE73DE] dark:hover:border-[#B76BFC] hover:text-[#EE73DE] dark:hover:text-[#B76BFC]"
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 text-lg font-semibold transition hover:border-[#B76BFC] dark:hover:border-[#B76BFC] hover:text-[#B76BFC] dark:hover:text-[#B76BFC]"
               aria-label="Scroll right"
             >
               →

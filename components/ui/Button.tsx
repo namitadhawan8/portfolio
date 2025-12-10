@@ -14,11 +14,11 @@ const baseClasses =
 
 const variantClasses: Record<ButtonVariant, string> = {
   primary:
-    "border-[#EE73DE] bg-[#EE73DE] text-white hover:bg-white hover:text-[#EE73DE] hover:shadow-md dark:border-[#B76BFC] dark:bg-[#B76BFC] dark:hover:bg-zinc-950 dark:hover:text-[#B76BFC]",
+    "border-[#B76BFC] bg-[#B76BFC] text-white hover:bg-white hover:text-[#B76BFC] hover:shadow-md dark:border-[#B76BFC] dark:bg-[#B76BFC] dark:hover:bg-zinc-950 dark:hover:text-[#B76BFC]",
   secondary:
-    "border-zinc-300 bg-zinc-200 text-zinc-900 hover:bg-[#EE73DE] hover:text-white hover:border-[#EE73DE] dark:border-[#B76BFC]/20 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-[#B76BFC] dark:hover:text-white dark:hover:border-[#B76BFC]",
+    "border-zinc-300 bg-white text-zinc-900 hover:bg-[#B76BFC] hover:text-white hover:border-[#B76BFC] dark:border-[#B76BFC]/20 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-[#B76BFC] dark:hover:text-white dark:hover:border-[#B76BFC]",
   ghost:
-    "border-transparent bg-transparent text-zinc-900 hover:bg-[#EE73DE]/5 dark:text-zinc-100 dark:hover:bg-[#B76BFC]/10",
+    "border-transparent bg-transparent text-zinc-900 hover:bg-[#B76BFC]/5 dark:text-zinc-100 dark:hover:bg-[#B76BFC]/10",
 };
 
 export function ButtonLink({

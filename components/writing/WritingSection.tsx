@@ -54,7 +54,7 @@ export function WritingSection({ section }: WritingSectionProps) {
                       {article.platform}
                     </span>
                   )}
-                  <span className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-[#EE73DE] dark:text-[#B76BFC] transition group-hover:gap-3">
+                  <span className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-[#B76BFC] dark:text-[#B76BFC] transition group-hover:gap-3">
                     Check Article
                     <span className="transition-transform group-hover:translate-x-1">
                       →
