@@ -49,7 +49,7 @@ export function MoreWorkCarousel() {
                   href={item.behanceUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="group relative flex w-[340px] shrink-0 flex-col rounded-3xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 p-5 transition-all hover:-translate-y-1 hover:border-[#B76BFC]/40 dark:hover:border-[#B76BFC]/40 hover:shadow-[0_16px_40px_rgba(0,0,0,0.08)] sm:w-[360px]"
+                  className="group more-work-card relative flex w-[340px] shrink-0 flex-col rounded-3xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 p-5 transition-all hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(0,0,0,0.08)] sm:w-[360px]"
                 >
                   <div className="relative h-48 overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-800 sm:h-56">
                     <Image
@@ -61,7 +61,7 @@ export function MoreWorkCarousel() {
                     />
                     <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/25 to-transparent opacity-0 transition duration-300 group-hover:opacity-100" />
                     <div className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100">
-                      <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white/90 dark:bg-zinc-900/90 text-[11px] font-semibold uppercase tracking-[0.25em] text-[#B76BFC] dark:text-[#B76BFC] shadow">
+                      <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#B76BFC] text-[11px] font-semibold uppercase tracking-[0.25em] text-white shadow">
                         ↗
                       </span>
                     </div>
@@ -71,7 +71,7 @@ export function MoreWorkCarousel() {
                       {item.tags.map((tag) => (
                         <span
                           key={tag}
-                          className="rounded-full border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.25em] text-zinc-700 dark:text-zinc-300"
+                          className="rounded-full border border-zinc-300 dark:border-zinc-600 bg-zinc-50 dark:bg-zinc-800 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.25em] text-zinc-700 dark:text-zinc-300"
                         >
                           {tag}
                         </span>

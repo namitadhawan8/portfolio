@@ -25,6 +25,10 @@ export function CustomCursor() {
       setIsVisible(true);
     };
 
+    const handleMouseEnter = () => {
+      setIsVisible(true);
+    };
+
     const handleMouseLeave = () => {
       setIsVisible(false);
     };
@@ -53,12 +57,17 @@ export function CustomCursor() {
       animationFrameRef.current = requestAnimationFrame(animateCursor);
     };
 
+    // Initialize cursor as visible by default
+    setIsVisible(true);
+
     window.addEventListener("mousemove", updateMousePosition);
+    document.addEventListener("mouseenter", handleMouseEnter);
     document.addEventListener("mouseleave", handleMouseLeave);
     animationFrameRef.current = requestAnimationFrame(animateCursor);
 
     return () => {
       window.removeEventListener("mousemove", updateMousePosition);
+      document.removeEventListener("mouseenter", handleMouseEnter);
       document.removeEventListener("mouseleave", handleMouseLeave);
       if (animationFrameRef.current) {
         cancelAnimationFrame(animationFrameRef.current);

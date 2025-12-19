@@ -1,105 +1,246 @@
-[00:00:05.141] Server  LOG      ✓ Ready in 3.4s
-[00:00:08.228] Server  LOG      ○ Compiling / ...
-[00:00:13.455] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:13.456] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:13.824] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:13.824] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:14.217] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:14.217] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:01:22.709] Server  LOG      ✓ Compiled in 319ms
-[00:03:44.336] Browser LOG     🔄 TOGGLE CLICKED!
-[00:03:44.336] Browser LOG     Current state - Has dark class: false
-[00:03:44.337] Browser LOG     Switching to: dark
-[00:03:44.337] Browser LOG     ✅ After toggle - Has dark class: true
-[00:03:44.337] Browser LOG     ✅ localStorage theme: dark
-[00:03:44.337] Browser LOG     ✅ data-theme attribute: dark
-[00:03:47.905] Browser LOG     🔄 TOGGLE CLICKED!
-[00:03:47.905] Browser LOG     Current state - Has dark class: true
-[00:03:47.905] Browser LOG     Switching to: light
-[00:03:47.905] Browser LOG     ✅ After toggle - Has dark class: false
-[00:03:47.905] Browser LOG     ✅ localStorage theme: light
-[00:03:47.905] Browser LOG     ✅ data-theme attribute: light
-[00:05:55.507] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:58.241] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:58.442] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:05:58.442] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:06:07.615] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:06:07.615] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:06:07.615] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:06:07.615] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:06:07.615] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:06:10.085] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:06:10.085] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:06:10.085] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:06:10.085] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:06:52.507] Server  LOG      ✓ Compiled in 323ms
-[00:09:18.400] Server  LOG      ✓ Compiled in 149ms
-[00:09:20.968] Server  LOG      ✓ Compiled in 136ms
-[00:09:28.732] Server  LOG      ✓ Compiled in 138ms
-[00:09:31.509] Server  LOG      ✓ Compiled in 137ms
-[00:09:38.667] Server  LOG      ✓ Compiled in 155ms
-[00:13:55.627] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:13:55.627] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:13:55.627] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:13:55.627] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:14:00.238] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:00.410] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:14:00.410] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:14:02.670] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:14:02.670] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:14:02.670] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:14:02.670] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:14:02.670] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:14:36.377] Server  LOG      ✓ Compiled in 97ms
-[00:14:46.735] Server  LOG      ✓ Compiled in 93ms
-[00:14:46.841] Browser ERROR   ./app/globals.css:2153:1
-Parsing CSS source code failed
-  2151 |   }
-  2152 | }
-> 2153 |
-       | ^
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./app/globals.css [Client Component Browser]
-    ./app/layout.tsx [Server Component]
-[00:14:47.212] Browser ERROR   ./app/globals.css:2153:1
-Parsing CSS source code failed
-  2151 |   }
-  2152 | }
-> 2153 |
-       | ^
-
-Unexpected end of input
-
-Import trace:
-  Client Component Browser:
-    ./app/globals.css [Client Component Browser]
-    ./app/layout.tsx [Server Component]
-[00:15:19.827] Server  LOG      ✓ Compiled in 295ms
-[00:15:50.133] Server  LOG      ✓ Compiled in 326ms
-[00:16:06.097] Server  LOG      ✓ Compiled in 297ms
-[00:33:36.256] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:33:36.256] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:33:36.256] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:33:36.256] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:33:52.381] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:33:52.381] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:33:52.381] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:33:52.381] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:33:58.202] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:33:58.441] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:33:58.442] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:36:18.474] Server  LOG      ✓ Compiled in 217ms
-[00:36:59.997] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:36:59.997] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:36:59.997] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:36:59.997] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:36:59.997] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:06:18.315] Server  LOG      ○ Compiling /design/[slug] ...
-[03:06:29.342] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:06:29.342] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:06:29.342] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:06:29.342] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:05.137] Server  LOG      ✓ Ready in 4.5s
+[00:00:23.526] Server  LOG      ○ Compiling / ...
+[00:00:29.232] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:29.594] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:29.594] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:30.044] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/image_b28a28.png" "received" null
+[00:00:35.703] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/image_b28a28.png" "received" null
+[00:00:36.003] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:36.317] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:36.318] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:44.438] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/image_b28a28.png" "received" null
+[00:00:47.723] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:49.099] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:49.099] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:15:00.307] Server  LOG      ✓ Compiled in 2.9s
+[00:15:09.364] Server  LOG      ✓ Compiled in 584ms
+[00:15:11.935] Server  LOG      ✓ Compiled in 535ms
+[00:15:14.855] Server  LOG      ✓ Compiled in 295ms
+[00:15:19.191] Server  LOG      ✓ Compiled in 553ms
+[00:15:25.464] Server  LOG      ✓ Compiled in 220ms
+[00:17:17.125] Server  LOG      ✓ Compiled in 2.9s
+[00:19:43.427] Server  LOG      ✓ Compiled in 195ms
+[00:20:52.807] Server  LOG      ✓ Compiled in 117ms
+[00:24:31.079] Server  LOG      ✓ Compiled in 2.5s
+[00:33:17.548] Server  LOG      ✓ Compiled in 452ms
+[00:34:43.858] Server  LOG      ✓ Compiled in 195ms
+[00:38:25.067] Server  LOG      ✓ Compiled in 292ms
+[00:38:32.350] Server  LOG      ✓ Compiled in 239ms
+[00:38:37.127] Server  LOG      ✓ Compiled in 214ms
+[00:41:25.950] Server  LOG      ✓ Compiled in 176ms
+[00:44:11.000] Server  LOG      ○ Compiling /design ...
+[00:44:33.431] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:39.323] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:39.552] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:44:39.552] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:44:41.042] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:44:41.042] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:44:41.042] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:44:41.042] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:44:41.042] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:44:49.058] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:44:49.058] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:44:49.058] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:44:49.058] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:44:51.607] Server  LOG      ✓ Compiled in 256ms
+[00:44:52.360] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:44:52.360] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:44:52.360] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:44:52.360] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:45:04.741] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:45:04.742] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:45:04.742] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:45:04.742] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:45:04.880] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/image_b28a28.png" "received" null
+[00:46:06.672] Server  LOG      ✓ Compiled in 1797ms
+[00:51:45.289] Server  LOG      ✓ Compiled in 239ms
+[00:51:49.914] Server  LOG      ✓ Compiled in 167ms
+[00:52:41.143] Server  LOG      ✓ Compiled in 2.3s
+[00:53:56.483] Server  LOG      ✓ Compiled in 179ms
+[00:54:09.365] Server  LOG      ✓ Compiled in 180ms
+[00:55:30.056] Server  LOG      ✓ Compiled in 242ms
+[00:56:53.906] Server  LOG      ✓ Compiled in 439ms
+[00:59:09.544] Server  LOG      ✓ Compiled in 45ms
+[00:59:14.391] Server  LOG      ✓ Compiled in 140ms
+[01:01:04.242] Server  LOG      ✓ Compiled in 77ms
+[01:01:34.326] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:01:34.326] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:01:34.326] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:01:34.326] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:01:37.434] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:01:37.434] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:01:37.434] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:01:37.434] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:01:37.434] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:01:50.546] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:01:50.740] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:01:50.740] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:13:00.577] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:00.770] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:13:00.770] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:13:48.627] Server  LOG      ✓ Compiled in 227ms
+[01:13:52.437] Server  LOG      ✓ Compiled in 85ms
+[01:14:59.561] Server  LOG      ✓ Compiled in 267ms
+[01:15:02.426] Server  LOG      ✓ Compiled in 61ms
+[01:15:24.981] Server  LOG      ✓ Compiled in 156ms
+[01:15:28.246] Server  LOG      ✓ Compiled in 59ms
+[01:18:14.044] Server  LOG      ✓ Compiled in 83ms
+[01:18:18.512] Server  LOG      ✓ Compiled in 92ms
+[01:19:22.440] Server  LOG      ✓ Compiled in 62ms
+[01:19:27.716] Server  LOG      ✓ Compiled in 74ms
+[01:20:24.266] Server  LOG      ✓ Compiled in 131ms
+[01:20:26.980] Server  LOG      ✓ Compiled in 142ms
+[01:22:14.023] Server  LOG      ✓ Compiled in 148ms
+[01:22:16.387] Server  LOG      ✓ Compiled in 154ms
+[01:23:02.794] Server  LOG      ✓ Compiled in 141ms
+[01:23:06.378] Server  LOG      ✓ Compiled in 154ms
+[01:26:20.198] Server  LOG      ✓ Compiled in 66ms
+[01:26:21.455] Server  LOG      ✓ Compiled in 62ms
+[01:26:40.762] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:26:40.762] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:26:40.762] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:26:40.762] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:26:47.697] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:26:47.697] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:26:47.698] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:26:47.698] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:26:51.424] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:26:51.424] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:26:51.424] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:26:51.424] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:34:22.357] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:34:22.357] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:34:22.357] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:34:22.357] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:34:28.816] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:34:28.816] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:34:28.816] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:34:28.816] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:34:28.816] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:35:49.583] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:35:49.583] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:35:49.583] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:35:49.583] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[01:36:38.549] Server  LOG      ✓ Compiled in 354ms
+[01:38:08.298] Server  LOG      ✓ Compiled in 85ms
+[02:02:31.093] Server  LOG      ✓ Compiled in 399ms
+[02:03:10.398] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:03:10.398] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:03:10.398] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:03:10.398] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:03:24.923] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:03:24.924] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:03:24.924] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:03:24.924] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:07:01.899] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:07:01.899] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:07:01.899] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:07:01.899] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:08:26.492] Browser LOG     🔄 TOGGLE CLICKED!
+[02:08:26.492] Browser LOG     Current state - Has dark class: false
+[02:08:26.492] Browser LOG     Switching to: dark
+[02:08:26.492] Browser LOG     ✅ After toggle - Has dark class: true
+[02:08:26.492] Browser LOG     ✅ localStorage theme: dark
+[02:08:26.492] Browser LOG     ✅ data-theme attribute: dark
+[02:08:27.835] Browser LOG     🔄 TOGGLE CLICKED!
+[02:08:27.835] Browser LOG     Current state - Has dark class: true
+[02:08:27.835] Browser LOG     Switching to: light
+[02:08:27.835] Browser LOG     ✅ After toggle - Has dark class: false
+[02:08:27.835] Browser LOG     ✅ localStorage theme: light
+[02:08:27.835] Browser LOG     ✅ data-theme attribute: light
+[02:08:30.003] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:08:30.003] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:08:30.003] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:08:30.003] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:08:32.625] Browser LOG     🔄 TOGGLE CLICKED!
+[02:08:32.626] Browser LOG     Current state - Has dark class: false
+[02:08:32.626] Browser LOG     Switching to: dark
+[02:08:32.626] Browser LOG     ✅ After toggle - Has dark class: true
+[02:08:32.626] Browser LOG     ✅ localStorage theme: dark
+[02:08:32.626] Browser LOG     ✅ data-theme attribute: dark
+[02:08:34.220] Browser LOG     🔄 TOGGLE CLICKED!
+[02:08:34.221] Browser LOG     Current state - Has dark class: true
+[02:08:34.221] Browser LOG     Switching to: light
+[02:08:34.221] Browser LOG     ✅ After toggle - Has dark class: false
+[02:08:34.221] Browser LOG     ✅ localStorage theme: light
+[02:08:34.221] Browser LOG     ✅ data-theme attribute: light
+[02:08:36.872] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:08:36.872] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:08:36.872] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:08:36.872] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:14:39.682] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:14:39.682] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:14:39.682] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:14:39.682] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:15:08.109] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:15:08.109] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:15:08.109] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:15:08.109] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:15:40.471] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:15:40.471] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:15:40.471] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:15:40.471] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:16:53.997] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:16:53.997] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:16:53.997] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:16:53.997] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:17:38.013] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:17:38.013] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:17:38.013] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:17:38.013] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:21:05.840] Server  LOG      ✓ Compiled in 472ms
+[02:26:02.252] Server  LOG      ✓ Compiled in 326ms
+[02:37:17.845] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:37:17.845] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:40:28.139] Server  LOG      ✓ Compiled in 336ms
+[02:40:28.159] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:40:28.159] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:40:28.159] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:40:28.159] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:40:28.678] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:40:28.678] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:40:28.678] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:40:28.678] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:41:59.015] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:41:59.015] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:41:59.015] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:41:59.015] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:41:59.015] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:41:59.015] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:41:59.016] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:42:22.375] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:42:22.375] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:42:22.375] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:42:22.375] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:42:22.375] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:42:22.375] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:43:25.079] Server  LOG      ✓ Compiled in 248ms
+[02:43:35.063] Server  LOG      ✓ Compiled in 208ms
+[02:43:50.258] Server  LOG      ✓ Compiled in 374ms
+[02:45:06.642] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:45:06.642] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:45:06.642] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:45:06.642] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:45:06.642] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:45:06.642] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:45:16.635] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:45:16.635] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:45:16.635] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:45:16.635] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:45:16.635] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:45:16.635] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:47:46.409] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:47:46.409] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:47:46.409] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:47:46.409] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:47:46.409] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:47:46.409] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:48:41.565] Server  LOG      ✓ Compiled in 280ms
+[02:48:50.744] Server  LOG      ✓ Compiled in 187ms
+[02:49:50.986] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:49:50.986] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:49:50.986] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:49:50.986] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:49:50.986] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:49:50.986] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[02:51:10.687] Server  LOG      ✓ Compiled in 1198ms

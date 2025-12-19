@@ -1,3 +1,6 @@
+"use client";
+
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,20 +13,52 @@ import {
 } from "@/lib/homeData";
 
 export function Footer() {
+  const [isDark, setIsDark] = useState(false);
+
+  useEffect(() => {
+    const checkTheme = () => {
+      const root = document.documentElement;
+      setIsDark(root.classList.contains("dark"));
+    };
+
+    // Check initial theme
+    checkTheme();
+
+    // Watch for theme changes
+    const observer = new MutationObserver(checkTheme);
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["class"],
+    });
+
+    return () => observer.disconnect();
+  }, []);
   return (
     <footer className="border-t border-[#B76BFC]/30 dark:border-[#B76BFC] bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="grid gap-12 md:grid-cols-[1fr,2fr]">
-          <div className="space-y-4">
-            <Image
-              src={servicesIntro.badgeIcon}
-              alt=""
-              width={40}
-              height={40}
-              className="h-10 w-10 star-icon-pink dark:star-icon-purple"
-            />
+          <div className="flex items-center gap-4">
             <Link href="/" aria-label="Navigate home" className="inline-flex">
-                  <span className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
+              {isDark ? (
+                <Image
+                  src="/nd logo dark.png"
+                  alt="Namita Dhawan logo"
+                  width={60}
+                  height={60}
+                  className="h-12 w-12 object-contain"
+                />
+              ) : (
+                <Image
+                  src="/nd logo light.png"
+                  alt="Namita Dhawan logo"
+                  width={60}
+                  height={60}
+                  className="h-12 w-12 object-contain"
+                />
+              )}
+            </Link>
+            <Link href="/" aria-label="Navigate home" className="inline-flex">
+              <span className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
                 NAMITA DHAWAN
               </span>
             </Link>

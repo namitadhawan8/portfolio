@@ -5,7 +5,7 @@ import { clientLogos } from "@/lib/homeData";
 
 export function Clients() {
   return (
-    <section className="border-y border-zinc-900/10 dark:border-zinc-700/50 bg-white dark:bg-zinc-950">
+    <section className="border-y border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-950">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="mb-10 flex items-center gap-4">
           <span className="h-px w-12 bg-zinc-900/60 dark:bg-zinc-100/60" />

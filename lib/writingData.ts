@@ -18,35 +18,35 @@ export const writingSections: WritingSection[] = [
     description: "Medium articles on product management and design",
     articles: [
       {
-        id: "smart-animate",
-        title: "If you can smart animate, you can animate!",
+        id: "product-manager-no-tech",
+        title: "How to Become a Product Manager Without a Technical Background",
         previewImage:
-          "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/63986c1a9e600d2d0b0ce5e9_home-hero.webp",
-        articleUrl: "https://medium.com",
+          "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*RUAmPR6AFPO_0IdEf-R3kg.png",
+        articleUrl: "https://medium.com/@namitadhawan555/how-to-become-a-product-manager-without-a-technical-background-2c0787e8ce3c",
         platform: "Medium",
       },
       {
-        id: "design-system-component",
-        title: "Behind the scenes of designing a design system component",
+        id: "component-driven-design",
+        title: "Beyond the Style Guide: How Component-Driven Design Accelerates Product Velocity",
         previewImage:
-          "https://cdn.prod.website-files.com/63983873166762516081f05b/639839d5f858cffb5130a384_project-04.webp",
-        articleUrl: "https://medium.com",
+          "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*QYzY5L7TaJmFJUkbuMKcZw.png",
+        articleUrl: "https://medium.com/@namitadhawan555/beyond-the-style-guide-how-component-driven-design-accelerates-product-velocity-5aef632810a5",
         platform: "Medium",
       },
       {
-        id: "ux-intern-learnings",
-        title: "Learnings as a UX Design Intern at MakeMyTrip",
+        id: "no-code-mvp",
+        title: "Don't Build, Validate: Why the No-Code MVP is the Solo PM's Fastest Tool",
         previewImage:
-          "https://cdn.prod.website-files.com/63983873166762516081f05b/63989aa3e742b829271b28a0_project-02.webp",
-        articleUrl: "https://medium.com",
+          "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*UFmJSSjNp7juF0ra9ZtbYw.png",
+        articleUrl: "https://medium.com/@namitadhawan555/dont-build-validate-why-the-no-code-mvp-is-the-solo-pm-s-fastest-tool-2ebf869801b4",
         platform: "Medium",
       },
       {
-        id: "notionfolio",
-        title: "Hey, I'm Rama Krushna",
+        id: "context-aware-ia",
+        title: "Designing for Need: How Context-Aware Information Architecture Solves User Churn",
         previewImage:
-          "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/63986c1a9e600d2d0b0ce5e9_home-hero.webp",
-        articleUrl: "https://medium.com",
+          "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*LJdjicyS9skUkQZy",
+        articleUrl: "https://medium.com/@namitadhawan555/designing-for-need-how-context-aware-information-architecture-solves-user-churn-e3e7385b7fc9",
         platform: "Medium",
       },
     ],
@@ -67,7 +67,7 @@ export const writingSections: WritingSection[] = [
         id: "renaissance-vs-gothic",
         title: "The Difference Between Renaissance vs Gothic Architecture",
         previewImage:
-          "https://volzero.com/img/news/88010_banner.jpg",
+          "https://volzero.com/img/news/87984_banner.jpg",
         articleUrl: "https://volzero.com/news/view/the-difference-between-renaissance-vs-gothic-architecture",
         platform: "Volume Zero",
       },
@@ -83,7 +83,7 @@ export const writingSections: WritingSection[] = [
         id: "architecture-kerala",
         title: "Architecture in Kerala: Vivid Legacy of God's Own Country",
         previewImage:
-          "https://volzero.com/img/news/88010_banner.jpg",
+          "https://volzero.com/img/news/88056_banner.jpg",
         articleUrl: "https://volzero.com/news/view/architecture-in-kerala-vivid-legacy-of-gods-own-country",
         platform: "Volume Zero",
       },

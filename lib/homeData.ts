@@ -64,9 +64,11 @@ export const mobileNavigationLinks: NavLink[] = [
 export const heroContent = {
   headline: "NAMITA DHAWAN",
   subheading: "PRODUCT MANAGER AND DESIGNER",
-  heroImage:
-    "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/63986c1a9e600d2d0b0ce5e9_home-hero.webp",
-  heroImageAlt: "Hero project preview",
+  heroImage: "/Hero image.png",
+  heroImageAlt: "Namita Dhawan portrait",
+  backgroundImage: "/Hero image.png",
+  portraitImage: "/Hero image.png",
+  portraitImageAlt: "Namita Dhawan portrait",
 };
 
 export const heroMarqueeItems = [
@@ -76,7 +78,7 @@ export const heroMarqueeItems = [
 ] as const;
 
 export const stats: Stat[] = [
-  { label: "Projects Shipped", value: "4+" },
+  { label: "Projects Shipped", value: "5+" },
   { label: "Features Launched", value: "25+" },
   { label: "Avg. Conversion Increase", value: "50%" },
 ];
@@ -95,7 +97,7 @@ export const services: Service[] = [
     description:
       "I bridge user needs and visual quality to build impactful product experiences. My design process covers the full lifecycle: user research, journey mapping, creating wireframes and prototypes (Figma), and setting up scalable design systems. I also handle branding, visual strategy, and graphics to ensure a consistent, market-ready look across all user touchpoints.",
     icon:
-      "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/6397917e82ecdaad70fa0470_icon-star.svg",
+      "/star-purple.svg",
     href: "/design",
   },
   {
@@ -103,7 +105,7 @@ export const services: Service[] = [
     description:
       "I simplify complex product visions, strategies, and requirements into clear, persuasive content. This includes critical technical documentation (PRDs, functional specifications), communication for leadership (stakeholder presentations), and polished, user-focused content (in-app copy, guides, and tutorials) that drives adoption and engagement.",
     icon:
-      "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/6397917e82ecdaad70fa0470_icon-star.svg",
+      "/star-purple.svg",
     href: "/writing-research",
   },
   {
@@ -111,37 +113,34 @@ export const services: Service[] = [
     description:
       "I manage the entire product lifecycle, from market strategy to execution. This involves creating and prioritizing dynamic roadmaps, using Agile methods, and defining clear success metrics (KPIs). My focus is on delivering business value, running successful launch cycles, and driving consensus across engineering, marketing, and sales teams.",
     icon:
-      "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/6397917e82ecdaad70fa0470_icon-star.svg",
+      "/star-purple.svg",
     href: "/management",
   },
 ];
 
 export const servicesIntro = {
-  badgeIcon:
-    "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/6397917e82ecdaad70fa0470_icon-star.svg",
+  badgeIcon: "/star-purple.svg",
   title: ["SKILLS"],
   person: {
     name: "Namita DHAWAN",
     role: "Product manager and designer",
-    avatar:
-      "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/63985d3b24911adc7e5e1db4_fynn-thumbnail.webp",
+    avatar: "/namita image.png",
   },
+  figmaPrototypeLink: "https://www.figma.com/proto/XBAkiy6UN5MY7KmiQOd5rl/Event---Co-Website?page-id=0%3A1&node-id=2-33&p=f&viewport=551%2C594%2C0.72&t=L8zzYZAdlXJlzNu5-1&scaling=contain&content-scaling=fixed",
 };
 
 export const projects: Project[] = [
   {
-    title: "Vision Branding",
-    category: "Logo Design",
-    image:
-      "https://cdn.prod.website-files.com/63983873166762516081f05b/63989aa3e742b829271b28a0_project-02.webp",
-    href: "/projects/vision-branding",
+    title: "Product Ideation: Haven Mental Health App MVP",
+    category: "Product Management",
+    image: "/case study 2.png",
+    href: "/management/stillzone-mvp",
   },
   {
-    title: "Brand Studio",
-    category: "Branding",
-    image:
-      "https://cdn.prod.website-files.com/63983873166762516081f05b/639839d5f858cffb5130a384_project-04.webp",
-    href: "/projects/brand-studio",
+    title: "Product Repositioning: FutureFocus's Pivot to Hypergrowth",
+    category: "Product Management",
+    image: "/case study 1.png",
+    href: "/management/product-launch-strategy",
   },
 ];
 

@@ -41,166 +41,228 @@ export type MoreWorkItem = {
 
 export const designCaseStudies: CaseStudy[] = [
   {
-    id: "ux-wellness",
-    slug: "habit-forming-wellness-app",
-    title: "Habit-forming wellness app",
-    subtitle: "Reducing drop-off from onboarding to week 4 retention",
+    id: "ux-event-booking",
+    slug: "event-booking-app-definition-design",
+    title: "Event Booking App Definition & Design",
+    subtitle: "Structuring Social & Wellness Events",
     type: "UX CASE STUDY",
     year: "2024",
-    heroImage:
-      "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/63986c1a9e600d2d0b0ce5e9_home-hero.webp",
-    previewImages: [
-      "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/63986c1a9e600d2d0b0ce5e9_home-hero.webp",
-      "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/63986c1a9e600d2d0b0ce5e9_home-hero.webp",
-      "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/63986c1a9e600d2d0b0ce5e9_home-hero.webp",
-    ],
+    heroImage: "/UX main banner.png",
+    previewImages: [],
     summary:
-      "I led the UX workstream to reduce churn in the first 30 days. We reframed onboarding around quick wins, simplified the daily ritual, and built lightweight accountability loops.",
+      "This case study focuses on the initial design and definition (greenfield project) of a mobile Event Booking App. The goal was to launch a new product that shifts the focus from purely transactional booking to building community and encouraging repeat engagement (building your 'Tribe').",
     meta: {
-      role: "Product Manager + UX Lead",
-      duration: "10 weeks",
-      focus: "Activation, journey mapping, prototype testing",
+      role: "UX Designer, Product Strategist, Researcher, Information Architect, Prototyper",
+      duration: "18 weeks",
+      focus: "Defining the initial product strategy, enhancing user discoverability, and driving event engagement through structural changes",
     },
     background:
-      "In this case study, I have described my process of building a habit-forming wellness app that reduces user drop-off during the critical first 30 days. The app focuses on creating sustainable wellness habits through guided onboarding and daily rituals.",
+      "This case study focuses on the initial design and definition (greenfield project) of a mobile Event Booking App. The goal was to launch a new product that shifts the focus from purely transactional booking to building community and encouraging repeat engagement (building your 'Tribe'). My process was rooted in deep user understanding, moving from initial market definition to validation of the core experience.",
     problemStatement:
-      "43% of new users dropped during onboarding and only 18% reached week 4. The challenge was to build a system that reduces churn in the first 30 days by reframing onboarding around quick wins and simplifying the daily ritual.",
+      "The opportunity was rooted in solving a market need: existing event platforms were generally transactional and lacked features for social connection or repeat usage in the Wellness & Lifestyle space. No dominant platform effectively catered to users seeking to join or form consistent social groups ('Tribes') around shared wellness, lifestyle, or professional interests. Existing solutions were designed for single-event sales, lacking the sticky features needed to drive high Daily Active Users (DAU) and long-term retention.",
     targetUsers:
-      "The target users are individuals seeking to build sustainable wellness habits. They range from beginners new to wellness apps to experienced users looking for a more engaging experience. The app caters to people with varying levels of commitment and time availability.",
+      "The target users are individuals seeking to join or form consistent social groups ('Tribes') around shared wellness, lifestyle, or professional interests. They range from people looking for one-time events to those seeking to build long-term community connections through repeat engagement.",
     takeaways: [
-      "Motion, when implemented in the smallest of places in the right manner, adds to the personality of the brand and its products",
-      "User research and journey mapping are crucial for understanding drop-off points",
-      "Quick wins and clear value messaging are essential for early user retention",
+      "Deep user understanding through competitive analysis and qualitative research is essential for defining new products",
+      "Information Architecture based on user mental models serves as the backbone for scalable MVP design",
+      "Integrated community features from day one are critical drivers for habit-forming usage and retention",
     ],
-    tags: ["User research", "Journey mapping", "Activation", "Figma"],
+    tags: ["Product strategy", "User research", "Information architecture", "Prototyping", "Usability testing"],
     sections: [
       {
-        title: "Problem framing",
+        title: "The Challenge & Opportunity",
         description:
-          "43% of new users dropped during onboarding and only 18% reached week 4. Interviews showed unclear value messaging and no obvious first win.",
+          "The opportunity was rooted in solving a market need: existing event platforms were generally transactional and lacked features for social connection or repeat usage in the Wellness & Lifestyle space.",
         bullets: [
-          "Long sign-up with fragmented permissions requests",
-          "No day-one ritual or guidance for what “good” looks like",
-          "Progress and streaks hidden deep in the experience",
+          "Market Gap: No dominant platform effectively catered to users seeking to join or form consistent social groups ('Tribes') around shared wellness, lifestyle, or professional interests",
+          "Low Retention Potential: Existing solutions were designed for single-event sales, lacking the sticky features needed to drive high Daily Active Users (DAU) and long-term retention",
+          "The Goal: Define and design a new Minimum Viable Product (MVP) that facilitates easy event discovery and integrates social features from day one, fostering a strong sense of community",
         ],
       },
       {
-        title: "Approach",
+        title: "Strategic UX Process Highlights",
         description:
-          "Mapped the end-to-end journey, built a north-star flow, and prototyped two activation hypotheses that we A/B tested with 18 participants.",
+          "My process was rooted in deep user understanding, moving from initial market definition to validation of the core experience through comprehensive research and design methods.",
         bullets: [
-          "Condensed onboarding from 9 to 5 steps with inline rationale",
-          "Introduced a 5-minute starter routine with audio guidance",
-          "Added a lightweight weekly check-in to reset goals",
+          "Discovery & Definition: Competitive Analysis, Qualitative Research, Persona & Empathy Mapping - Defined two key target user segments and their specific emotional pain points/motivations for joining new communities",
+          "Information Architecture: Card Sorting & User Flow Mapping - Developed a new, scalable Information Architecture that prioritized event categories based on user mental models, serving as the backbone for the MVP",
+          "Design & Prototyping: Sketch Wireframes, Digital Wireframes (50+ screens) - Focused on high-fidelity designs that addressed the identified user needs, ensuring a consistent and clear visual hierarchy for the new product",
+          "Validation & Iteration: Usability Testing & Feedback - Conducted testing on digital prototypes to identify and eliminate points of confusion in the newly designed booking and community formation flows",
         ],
       },
       {
-        title: "Solution highlights",
+        title: "Key Design Solutions",
         description:
-          "A guided timeline with progress cues, contextual tips, and friendly nudges. The design keeps friction low while making the next step explicit.",
+          "The final solution focused on delivering a connected, intuitive event journey for the new app with integrated community-building features.",
         bullets: [
-          "Sticky “today” module surfaces the single next action",
-          "Progress bar + micro-streaks for early motivation",
-          "Contextual education cards instead of modal overload",
-        ],
-      },
-      {
-        title: "Validation",
-        description:
-          "Two rounds of unmoderated tests (Maze) plus 1:1 interviews showed the new flow was faster and easier to follow.",
-        bullets: [
-          "+22% onboarding completion (control vs variant)",
-          "+18% weekly active day streaks after week 2",
-          "SUS 86 (4.6/5) with clearer value comprehension",
+          "Refined Event Discovery: Implemented a new search and filtering paradigm based on Card Sorting results, allowing users to find events not just by date/location, but by interest category and social connection level (e.g., 'Join a Tribe')",
+          "Integrated Community Features: Designed dedicated screens for users to see who else is attending, allowing them to form connections before the event even begins—a critical driver for habit-forming usage",
+          "Simplified Booking Flow: Designed the end-to-end transaction path with minimal steps, incorporating clear progress indicators and confirmation feedback for increased user trust",
         ],
       },
     ],
     outcomes: [
-      "Shipped the revised activation flow and guidance content in 2 sprints.",
-      "Established a reusable template for habit loops and weekly check-ins.",
-      "Documented decision log and handoff for engineering and CS.",
+      "Anticipated Conversion: Projected 15%+ event selection completion rate for the MVP, achieved through simplified IA and clear navigation tested against user mental models",
+      "Engagement: Expected rise in Daily Active Users (DAU) and repeat event bookings due to integrated community-building features ('Build Your Tribe' functionality) designed to drive retention",
+      "Usability: Improved task success rate in key flows (e.g., finding and saving an event) based on successful Usability Testing results on the final design",
     ],
     behanceUrl: "https://www.behance.net",
   },
   {
     id: "ui-analytics",
-    slug: "analytics-dashboard-ui-refresh",
-    title: "Analytics dashboard UI refresh",
-    subtitle: "Design system foundations and accessibility-first UI",
+    slug: "event-co-visual-design",
+    title: "Visual Design Case Study: Event & Co",
+    subtitle: "Designing for Community & Energy",
     type: "UI CASE STUDY",
-    year: "2023",
-    heroImage:
-      "https://cdn.prod.website-files.com/63983873166762516081f05b/639839d5f858cffb5130a384_project-04.webp",
+    year: "2024",
+    heroImage: "/ui case study main banner.png",
     previewImages: [
-      "https://cdn.prod.website-files.com/63983873166762516081f05b/639839d5f858cffb5130a384_project-04.webp",
-      "https://cdn.prod.website-files.com/63983873166762516081f05b/639839d5f858cffb5130a384_project-04.webp",
-      "https://cdn.prod.website-files.com/63983873166762516081f05b/639839d5f858cffb5130a384_project-04.webp",
+      "/01 Typography & Colour.png",
+      "/02 main screens.png",
+      "/03 Tab bar screens.png",
+      "/04 main app flow.png",
+      "/05 find company 7 groups flow.png",
     ],
     summary:
-      "A fast-moving UI refresh for a B2B analytics tool. I rebuilt the visual system to improve clarity, hierarchy, and color accessibility while speeding up delivery with reusable components.",
+      "Established a modern, energetic, and accessible visual system for Event & Co, translating community-first UX strategy into a cohesive UI with clear hierarchy and mobile-first consistency.",
     meta: {
-      role: "Product Designer",
-      duration: "6 weeks",
-      focus: "Design system, UI polish, accessibility",
+      role: "Visual Designer",
+      duration: "8 weeks",
+      focus: "Design system, visual language, UI polish",
     },
     background:
-      "This case study documents the UI refresh process for a B2B analytics dashboard. The existing UI mixed multiple color palettes and inconsistent typography, making it difficult for users to scan and understand data insights.",
+      "This case study focuses on the visual and interface design of the Event & Co mobile app—turning the community and engagement strategy into an energetic, modern, and highly usable UI.",
     problemStatement:
-      "Building a comprehensive UI refresh and design system for the analytics dashboard that improves clarity, hierarchy, and accessibility while maintaining consistency across all components.",
+      "Create a UI that feels trustworthy for booking while visually expressing community, energy, and shared experience—minimizing friction in discovery and sign-up.",
     targetUsers:
-      "The primary users are business analysts, product managers, and executives who need to quickly understand data insights and make informed decisions. They require clear visual hierarchy and accessible design to efficiently parse complex information.",
+      "Young professionals and lifestyle enthusiasts seeking social connection and community events.",
     takeaways: [
-      "Design systems help in implementing consistent UI across products at scale",
-      "Accessibility should be considered from the start, not as an afterthought",
-      "Componentization significantly reduces development time and ensures consistency",
+      "A vibrant yet minimalist system helps CTAs stand out without sacrificing clarity",
+      "Consistent typography and rounded components reinforce a friendly, modern feel",
+      "Edge cases (cancellations, bookings, premium plans) need equal visual care to maintain trust",
     ],
-    tags: ["Design system", "UI polish", "Accessibility", "Component library"],
+    tags: ["Visual design", "Design system", "UI polish", "Mobile-first", "Accessibility"],
     sections: [
       {
-        title: "Audit + constraints",
+        title: "The Design Mandate",
         description:
-          "Existing UI mixed five color palettes and inconsistent typography. We set constraints for spacing, type scale, and semantic color tokens compliant with WCAG AA.",
+          "Translate the community-first UX strategy into a UI that feels welcoming, dynamic, and easy to navigate while keeping booking flows clear and trustworthy.",
         bullets: [
-          "Inventoried 60+ screens and mapped duplicate patterns",
-          "Defined 4-point spacing grid and 1.25x type scale",
-          "Color tokens for states (neutral, info, success, warning, error)",
+          "Balance functional clarity for bookings with energy that signals community",
+          "Use IA from UX phase to keep booking and filtering obvious and low-friction",
+          "Emotional goal: welcoming and dynamic; functional goal: clarity in booking paths",
         ],
       },
       {
-        title: "Componentization",
+        title: "Design System: Colors, Type, Branding",
         description:
-          "Built a lean library (inputs, filters, tables, charts wrappers) with clear states and documentation to speed up engineering.",
+          "Built a minimalist yet vibrant visual system: energetic primary color, generous white space, and approachable rounded components.",
         bullets: [
-          "Table kit with sortable headers, inline filters, empty states",
-          "Filter drawer with keyboard support and focus rings",
-          "Card templates for summaries vs deep-dive modules",
+          "Color Palette: vibrant primary (lime) with clean whites for contrast and optimism",
+          "Typography: Be Vietnam Semi Bold/Pro for clear hierarchy and modern geometry",
+          "Visual Language: rounded corners, subtle shadows to cue interactivity and warmth",
         ],
       },
       {
-        title: "Visual storytelling",
+        title: "Key UI Flows & Interaction Design",
         description:
-          "Introduced clearer hierarchy for primary KPIs, trend deltas, and segmentation chips so teams could scan insights faster.",
+          "High-fidelity screens make complex flows simple and delightful across onboarding, navigation, and social features.",
         bullets: [
-          "Contrasting headline row for key KPIs with inline trend chips",
-          "Muted canvas, high-contrast data ink for charts",
-          "Tag system for segments and filters for quick parsing",
+          "Onboarding: large type, minimal imagery to land value fast before sign-up",
+          "Navigation: tab bar keeps Feed, Discover Groups, Profile always reachable",
+          "Community: avatars and group cards foreground the 'Tribe' concept; messaging feels central",
         ],
       },
       {
-        title: "Impact",
+        title: "Edge Cases & Polish",
         description:
-          "Paired with engineering to ship the refreshed UI and establish review gates for accessibility.",
+          "Transactional and monetization screens are styled for clarity and reassurance.",
         bullets: [
-          "-28% time-to-build for new dashboards (using the kit)",
-          "Contrast ratios ≥ 4.5 for text and 3.0 for UI icons",
-          "Positive NPS comments around readability and focus",
+          "Bookings & cancellations: clear states and concise language reduce stress",
+          "Premium plans: contrasted layouts to explain value and differentiate tiers",
+          "50+ screens with consistent components for launch-ready polish",
         ],
       },
     ],
     outcomes: [
-      "Design system starter built in Figma with documentation and tokens.",
-      "UI library adopted by 3 product pods; reduced bespoke styling.",
-      "Accessibility checklist now part of design QA and handoff.",
+      "Cohesive visual identity that reinforces community and energy while keeping booking flows clear",
+      "Accessible, mobile-first UI kit (colors, type, components) ready for implementation",
+      "High-fidelity screens across onboarding, navigation, community, and monetization paths",
+    ],
+    behanceUrl: "https://www.behance.net",
+  },
+  {
+    id: "ui-eventco-web",
+    slug: "event-co-marketing-website",
+    title: "Visual Design Case Study: Event & Co Marketing Website",
+    subtitle: "Designing for Conversion & Trust",
+    type: "UI CASE STUDY",
+    year: "2024",
+    heroImage: "/Website banner thumbnail.png",
+    previewImages: [
+      "/website 01.png",
+      "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/63986c1a9e600d2d0b0ce5e9_home-hero.webp",
+      "/website 03.png",
+      "/website 01.png", // Placeholder for prototype section
+    ],
+    summary:
+      "Designed the Event & Co marketing website as a persuasive storefront that clearly sells the community-first value proposition and drives high-quality app downloads.",
+    meta: {
+      role: "Visual Designer, Web IA, Content Strategist",
+      duration: "8 weeks",
+      focus: "Marketing site visual system, content hierarchy, conversion design",
+    },
+    background:
+      "This case study details the visual design and structural strategy for the Event & Co marketing website to communicate the app’s community value and convert visitors to downloads.",
+    problemStatement:
+      "Build a persuasive, trustworthy marketing site that balances energetic brand expression with clear, structured messaging to drive app downloads.",
+    targetUsers:
+      "Prospective users evaluating event platforms who need to understand differentiation and feel confident before downloading.",
+    takeaways: [
+      "Marketing pages must sell the value before the download ask",
+      "Brand cohesion between web and app boosts trust and clarity",
+      "Content hierarchy and social proof reduce friction and doubt",
+    ],
+    tags: ["Marketing site", "Visual design", "Conversion", "Web IA", "Content strategy"],
+    sections: [
+      {
+        title: "The Strategic Mandate",
+        description:
+          "Sell the Tribe concept with a site that persuades: establish trust, explain utility, and lead visitors to download.",
+        bullets: [
+          "Balance energetic community branding with clear conversion messaging",
+          "Structure content from problem to features to social proof to CTA",
+          "Design for persuasion, not just information",
+        ],
+      },
+      {
+        title: "Visual Design System & Brand Cohesion",
+        description:
+          "Extended the app’s visual identity to web while optimizing for a broader canvas and conversion.",
+        bullets: [
+          "Palette: warm cream base with vibrant pink, blue, yellow, orange accents",
+          "Core colors: #F5F4EF, #F5A4CF, #BECBFF, #FEF04F, #F1AF61",
+          "Typography: Mona Sans for headers, DM Sans for body for clarity and character",
+          "12-column grid for responsive, structured layouts",
+        ],
+      },
+      {
+        title: "Key Design Sections & Conversion Strategy",
+        description:
+          "Page sections were sequenced to answer objections and guide to download.",
+        bullets: [
+          "Hero: value-driven headline + grid visuals + clear Download CTA",
+          "Value Proposition: Tribe pitch with three feature pillars",
+          "Features: deeper coverage of Find Company, Build Connections, Feed",
+          "Social Proof: testimonials to build trust",
+          "FAQ: preempt concerns before conversion",
+        ],
+      },
+    ],
+    outcomes: [
+      "Cohesive marketing site aligned to the app brand and community promise",
+      "Persuasive content flow that addresses value, differentiation, and trust",
+      "Conversion-focused layouts and CTAs ready for desktop and mobile",
     ],
     behanceUrl: "https://www.behance.net",
   },
@@ -208,25 +270,25 @@ export const designCaseStudies: CaseStudy[] = [
 
 export const designMoreWork: MoreWorkItem[] = [
   {
-    title: "Fintech design system tokens",
-    tags: ["Design system", "UI", "Tokens"],
+    title: "Event Booking App iOS UI Design",
+    tags: ["iOS App", "UI/UX", "Event App", "Mobile Design"],
     image:
-      "https://cdn.prod.website-files.com/63983873166762516081f05b/63989aa3e742b829271b28a0_project-02.webp",
-    behanceUrl: "https://www.behance.net",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/557d6d204720373.66add58929dc5.png",
+    behanceUrl: "https://www.behance.net/gallery/204720373/Event-Booking-App-iOS-UI-Design",
   },
   {
-    title: "Habit tracker mobile UI kit",
-    tags: ["Mobile", "UI", "Prototype"],
+    title: "Research Directory Feature for Student Web Application",
+    tags: ["Web Design", "UI/UX", "Product Design", "User Experience"],
     image:
-      "https://cdn.prod.website-files.com/6397824bd2c756220d7e63e9/63986c1a9e600d2d0b0ce5e9_home-hero.webp",
-    behanceUrl: "https://www.behance.net",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/c7a5a9210562913.67135b4aab90d.png",
+    behanceUrl: "https://www.behance.net/gallery/210562913/Research-Directory-Feature-for-Student-Web-Application",
   },
   {
-    title: "Marketing site refresh",
-    tags: ["Web", "UX", "Brand"],
+    title: "I'm in Office - Smart Attendance & Productivity Tracker",
+    tags: ["iOS App", "Productivity", "HR Tech", "Mobile Design"],
     image:
-      "https://cdn.prod.website-files.com/63983873166762516081f05b/639839d5f858cffb5130a384_project-04.webp",
-    behanceUrl: "https://www.behance.net",
+      "https://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/d0e055239392481.6928270d288d1.png",
+    behanceUrl: "https://www.behance.net/gallery/239392481/Im-in-Office-Smart-Attendance-Productivity-Tracker",
   },
 ];
 

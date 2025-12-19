@@ -15,7 +15,7 @@ export function ManagementCard({ managementCase, index }: ManagementCardProps) {
   return (
     <article
       className={cn(
-        "sticky grid w-full max-w-4xl grid-cols-1 gap-8 overflow-hidden rounded-3xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 p-6 shadow-lg transition-all hover:shadow-xl lg:grid-cols-[1fr,1.2fr] lg:gap-12 lg:p-8",
+        "sticky grid w-full max-w-4xl mx-auto grid-cols-1 gap-8 overflow-hidden rounded-3xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 p-6 shadow-lg transition-all hover:shadow-xl lg:grid-cols-[1fr,1.2fr] lg:gap-12 lg:p-8",
       )}
       style={{ top: `${topOffset}px`, zIndex: index + 1 }}
     >

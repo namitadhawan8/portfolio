@@ -10,17 +10,17 @@ type CaseStudySectionProps = {
 };
 
 export function CaseStudySection({ caseStudy, index }: CaseStudySectionProps) {
-  const topOffset = 80 + index * 64; // staggered cascade similar to services
+  const topOffset = 80 + index * 64; // staggered cascade for md+
 
   return (
     <article
       className={cn(
-        "sticky grid w-full max-w-4xl grid-cols-1 gap-8 overflow-hidden rounded-3xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 p-6 shadow-lg transition-all hover:shadow-xl lg:grid-cols-[1fr,1.2fr] lg:gap-12 lg:p-8",
+        "grid w-full max-w-4xl mx-auto grid-cols-1 gap-6 sm:gap-8 overflow-hidden rounded-3xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 p-4 sm:p-6 lg:grid-cols-[1fr,1.2fr] lg:gap-12 lg:p-8 shadow-lg transition-all hover:shadow-xl md:sticky",
       )}
       style={{ top: `${topOffset}px`, zIndex: index + 1 }}
     >
       {/* Left Side - Image */}
-      <div className="relative h-64 overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-800 sm:h-80 lg:h-72">
+      <div className="relative h-40 overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-800 sm:h-56 md:h-72 lg:h-72">
         <Image
           src={caseStudy.heroImage}
           alt={caseStudy.title}

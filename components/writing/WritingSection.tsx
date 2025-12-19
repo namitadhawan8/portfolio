@@ -29,7 +29,7 @@ export function WritingSection({ section }: WritingSectionProps) {
               href={article.articleUrl}
               target="_blank"
               rel="noreferrer"
-              className="group relative flex flex-col overflow-hidden rounded-2xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 transition-all hover:border-zinc-300 dark:hover:border-zinc-600 hover:shadow-xl"
+              className="group relative flex flex-col overflow-hidden rounded-2xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 transition-all hover:border-zinc-400 dark:hover:border-zinc-500 hover:shadow-xl"
             >
               {/* Preview Image */}
               <div className="relative h-64 overflow-hidden bg-zinc-100 dark:bg-zinc-800 sm:h-72">

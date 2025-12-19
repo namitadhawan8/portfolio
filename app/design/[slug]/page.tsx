@@ -6,6 +6,20 @@ import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { designCaseStudies } from "@/lib/designData";
 import type { CaseStudy } from "@/lib/designData";
+import { FigmaPrototypeEmbed } from "@/components/ui/FigmaPrototypeEmbed";
+
+function PlaceholderImage({ label }: { label: string }) {
+  return (
+    <div className="relative overflow-hidden rounded-2xl border border-dashed border-zinc-300 bg-white/80 dark:border-zinc-600 dark:bg-zinc-900/70 shadow-sm">
+      <div className="aspect-[16/9] w-full bg-gradient-to-br from-zinc-100 via-white to-zinc-50 dark:from-zinc-900 dark:via-zinc-950 dark:to-zinc-800" />
+      <div className="absolute inset-0 flex items-center justify-center px-4 text-center">
+        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500 dark:text-zinc-400">
+          {label}
+        </p>
+      </div>
+    </div>
+  );
+}
 
 type CaseStudyPageProps = {
   params: Promise<{ slug: string }>;
@@ -28,6 +42,18 @@ export default async function CaseStudyPage({ params }: CaseStudyPageProps) {
   return (
     <div className="relative min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <Header />
+      {/* Back Button */}
+      <div className="bg-white dark:bg-zinc-950">
+        <div className="mx-auto max-w-4xl px-4 pt-6 pb-2 sm:px-6">
+          <Link
+            href="/design"
+            aria-label="Back to Design"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-zinc-300 text-lg font-semibold text-zinc-700 transition-all hover:border-[#B76BFC] hover:text-[#B76BFC] hover:scale-105 dark:border-zinc-600 dark:text-zinc-300 dark:hover:border-[#B76BFC] dark:hover:text-[#B76BFC]"
+          >
+            <span className="transition-transform group-hover:-translate-x-1">←</span>
+          </Link>
+        </div>
+      </div>
       <main>
         <CaseStudyDetail caseStudy={caseStudy} />
       </main>
@@ -43,11 +69,12 @@ type CaseStudyDetailProps = {
 function CaseStudyDetail({ caseStudy }: CaseStudyDetailProps) {
   return (
     <article className="bg-white dark:bg-zinc-950">
+      {/* Navigation */}
       {/* Hero Section */}
-      <section className="border-b border-zinc-200 dark:border-zinc-700">
-        <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:py-24">
-          <div className="space-y-8">
-            <div className="space-y-4">
+      <section>
+        <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 lg:py-14">
+          <div className="space-y-4">
+            <div className="space-y-3">
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-500 dark:text-zinc-400">
                 {caseStudy.year}
               </p>
@@ -59,41 +86,17 @@ function CaseStudyDetail({ caseStudy }: CaseStudyDetailProps) {
               </p>
             </div>
 
-            <div className="grid gap-6 border-t border-zinc-200 dark:border-zinc-700 pt-8 sm:grid-cols-2 lg:grid-cols-4">
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.3em] text-zinc-500 dark:text-zinc-400">
-                  Project Year
-                </p>
-                <p className="mt-2 text-lg font-semibold text-zinc-900 dark:text-zinc-100">
-                  {caseStudy.year}
-                </p>
-              </div>
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.3em] text-zinc-500 dark:text-zinc-400">
-                  Timeline
-                </p>
-                <p className="mt-2 text-lg font-semibold text-zinc-900 dark:text-zinc-100">
-                  {caseStudy.meta.duration}
-                </p>
-              </div>
-              {caseStudy.meta.client && (
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.3em] text-zinc-500 dark:text-zinc-400">
-                    Client
-                  </p>
-                  <p className="mt-2 text-lg font-semibold text-zinc-900 dark:text-zinc-100">
-                    {caseStudy.meta.client}
-                  </p>
-                </div>
+            <div className="flex flex-wrap gap-2 pt-2">
+              {["UX Design", "Product Strategy", "Research", "Information Architecture"].map(
+                (tag) => (
+                  <span
+                    key={tag}
+                    className="rounded-full border border-zinc-300 bg-white px-3 py-1 text-sm font-semibold uppercase tracking-[0.12em] text-zinc-700 shadow-sm transition-all hover:border-[#B76BFC]/50 hover:bg-[#B76BFC]/5 hover:text-[#B76BFC] dark:border-zinc-600 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:border-[#B76BFC]/50 dark:hover:bg-[#B76BFC]/10"
+                  >
+                    {tag}
+                  </span>
+                )
               )}
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.3em] text-zinc-500 dark:text-zinc-400">
-                  Team
-                </p>
-                <p className="mt-2 text-lg font-semibold text-zinc-900 dark:text-zinc-100">
-                  {caseStudy.meta.role}
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -101,8 +104,8 @@ function CaseStudyDetail({ caseStudy }: CaseStudyDetailProps) {
 
       {/* Hero Image */}
       <section className="bg-zinc-50 dark:bg-zinc-900">
-        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-          <div className="relative overflow-hidden rounded-3xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 shadow-lg">
+        <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6">
+          <div className="relative overflow-hidden rounded-2xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 shadow-md">
             <Image
               src={caseStudy.heroImage}
               alt={caseStudy.title}
@@ -125,6 +128,17 @@ function CaseStudyDetail({ caseStudy }: CaseStudyDetailProps) {
               <p className="text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
                 {caseStudy.background}
               </p>
+              {caseStudy.previewImages && caseStudy.previewImages[0] && (
+                <div className="relative overflow-hidden rounded-2xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 shadow-md">
+                  <Image
+                    src={caseStudy.previewImages[0]}
+                    alt="Design system"
+                    width={1600}
+                    height={900}
+                    className="h-auto w-full object-cover"
+                  />
+                </div>
+              )}
             </div>
           )}
 
@@ -140,6 +154,20 @@ function CaseStudyDetail({ caseStudy }: CaseStudyDetailProps) {
             </div>
           )}
 
+          {/* Competitive Analysis */}
+          {caseStudy.slug === "event-booking-app-definition-design" && (
+            <div className="relative overflow-hidden rounded-2xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 shadow-md">
+              <Image
+                src="/ux 01.png"
+                alt="Competitive Analysis"
+                width={1600}
+                height={900}
+                className="h-auto w-full object-cover"
+                unoptimized
+              />
+            </div>
+          )}
+
           {/* Target Users */}
           {caseStudy.targetUsers && (
             <div className="space-y-4">
@@ -152,29 +180,99 @@ function CaseStudyDetail({ caseStudy }: CaseStudyDetailProps) {
             </div>
           )}
 
-          {/* Sections */}
-          {caseStudy.sections.map((section, idx) => (
-            <div key={idx} className="space-y-4">
-              <h2 className="text-3xl font-black text-zinc-900 dark:text-zinc-100">
-                {section.title}
-              </h2>
-              <p className="text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
-                {section.description}
-              </p>
-              {section.bullets && (
-                <ul className="space-y-3 pl-6">
-                  {section.bullets.map((bullet, bulletIdx) => (
-                    <li
-                      key={bulletIdx}
-                      className="relative text-lg leading-relaxed text-zinc-700 dark:text-zinc-300 before:absolute before:-left-6 before:content-['→']"
-                    >
-                      {bullet}
-                    </li>
-                  ))}
-                </ul>
-              )}
+          {/* Persona and Empathy Maps */}
+          {caseStudy.slug === "event-booking-app-definition-design" && (
+            <div className="space-y-8">
+              <div className="relative overflow-hidden rounded-2xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 shadow-md">
+                <Image
+                  src="/ux 03.png"
+                  alt="Persona"
+                  width={1600}
+                  height={900}
+                  className="h-auto w-full object-cover"
+                  unoptimized
+                />
+              </div>
+              <div className="relative overflow-hidden rounded-2xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 shadow-md">
+                <Image
+                  src="/ux 04.png"
+                  alt="Empathy Maps"
+                  width={1600}
+                  height={900}
+                  className="h-auto w-full object-cover"
+                  unoptimized
+                />
+              </div>
             </div>
-          ))}
+          )}
+
+          {/* Sections */}
+          {caseStudy.sections.map((section, idx) => {
+            const isLastSection = idx === caseStudy.sections.length - 1;
+            return (
+              <div key={idx} className="space-y-4">
+                <h2 className="text-3xl font-black text-zinc-900 dark:text-zinc-100">
+                  {section.title}
+                </h2>
+                <p className="text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
+                  {section.description}
+                </p>
+                {section.bullets && (
+                  <ul className="space-y-3 pl-6">
+                    {section.bullets.map((bullet, bulletIdx) => (
+                      <li
+                        key={bulletIdx}
+                        className="relative text-lg leading-relaxed text-zinc-700 dark:text-zinc-300 before:absolute before:-left-6 before:content-['→']"
+                      >
+                        {bullet}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {caseStudy.slug === "event-booking-app-definition-design" && section.title === "The Challenge & Opportunity" && (
+                  <div className="relative overflow-hidden rounded-2xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 shadow-md">
+                    <Image
+                      src="/ux 05.png"
+                      alt="Journey Map"
+                      width={1600}
+                      height={900}
+                      className="h-auto w-full object-cover"
+                      unoptimized
+                    />
+                  </div>
+                )}
+                {caseStudy.slug === "event-booking-app-definition-design" && section.title === "Key Design Solutions" && (
+                  <div className="relative overflow-hidden rounded-2xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 shadow-md">
+                    <Image
+                      src="/ux 06.png"
+                      alt="User Flow"
+                      width={1600}
+                      height={900}
+                      className="h-auto w-full object-cover"
+                      unoptimized
+                    />
+                  </div>
+                )}
+                {caseStudy.slug === "event-co-marketing-website" && section.title === "The Strategic Mandate" ? (
+                  <div className="relative overflow-hidden rounded-2xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 shadow-md">
+                    <FigmaPrototypeEmbed url="https://www.figma.com/proto/XBAkiy6UN5MY7KmiQOd5rl/Event---Co-Website?page-id=0%3A1&node-id=2-33&p=f&viewport=551%2C594%2C0.72&t=L8zzYZAdlXJlzNu5-1&scaling=contain&content-scaling=fixed" />
+                  </div>
+                ) : (
+                  !isLastSection && caseStudy.previewImages && caseStudy.previewImages[idx + 1] && (
+                    <div className="relative overflow-hidden rounded-2xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 shadow-md">
+                      <Image
+                        src={caseStudy.previewImages[idx + 1]}
+                        alt={section.title}
+                        width={1600}
+                        height={900}
+                        className="h-auto w-full object-cover"
+                      />
+                    </div>
+                  )
+                )}
+              </div>
+            );
+          })}
 
           {/* Outcomes */}
           {caseStudy.outcomes && caseStudy.outcomes.length > 0 && (
@@ -214,33 +312,6 @@ function CaseStudyDetail({ caseStudy }: CaseStudyDetailProps) {
         </div>
       </section>
 
-      {/* Navigation */}
-      <section className="border-t border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900">
-        <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6">
-          <div className="flex items-center justify-between">
-            <Link
-              href="/design"
-              className="group inline-flex items-center gap-2 text-base font-semibold uppercase tracking-[0.2em] text-zinc-700 dark:text-zinc-300 transition hover:text-[#B76BFC] dark:hover:text-[#B76BFC]"
-            >
-              <span className="transition-transform group-hover:-translate-x-1">
-                ←
-              </span>
-              Back to Design
-            </Link>
-            <Link
-              href={caseStudy.behanceUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="group inline-flex items-center gap-2 text-base font-semibold uppercase tracking-[0.2em] text-zinc-700 dark:text-zinc-300 transition hover:text-[#B76BFC] dark:hover:text-[#B76BFC]"
-            >
-              View on Behance
-              <span className="transition-transform group-hover:translate-x-1">
-                →
-              </span>
-            </Link>
-          </div>
-        </div>
-      </section>
     </article>
   );
 }

@@ -11,6 +11,14 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "volzero.com",
       },
+      {
+        protocol: "https",
+        hostname: "mir-s3-cdn-cf.behance.net",
+      },
+      {
+        protocol: "https",
+        hostname: "miro.medium.com",
+      },
     ],
   },
 };

@@ -23,7 +23,7 @@ export function Experience() {
               alt=""
               width={50}
               height={50}
-              className="h-12 w-12 star-icon-pink dark:star-icon-purple"
+              className="h-12 w-12 star-icon-purple"
             />
           </div>
           <h2 className="text-4xl font-black uppercase tracking-[0.35em] text-zinc-900 dark:text-zinc-100 md:text-5xl">
@@ -32,7 +32,7 @@ export function Experience() {
         </div>
 
         {/* Two Column Layout */}
-        <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
+        <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 lg:items-start">
           {/* Left Column - Content */}
           <div className="space-y-12">
             {/* Paragraph 1 */}
@@ -51,7 +51,7 @@ export function Experience() {
                 {areasOfInterest.map((area, index) => (
                   <div
                     key={index}
-                    className="rounded-2xl border border-zinc-900/10 dark:border-zinc-700/50 bg-white dark:bg-zinc-900 p-6 shadow-sm transition hover:shadow-md"
+                    className="rounded-2xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 p-6 shadow-sm transition hover:shadow-md"
                   >
                     <p className="text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
                       {area}
@@ -60,31 +60,35 @@ export function Experience() {
                 ))}
               </div>
             </div>
-
-            {/* Open to Roles */}
-            <div className="space-y-4">
-              <h3 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
-                Open to Roles
-              </h3>
-              <p className="text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
-                I am actively seeking roles as a Product Manager, Associate Product Manager (APM), Product Operations, or Founder's Associate.
-              </p>
-            </div>
           </div>
 
-          {/* Right Column - Illustration */}
+          {/* Right Column - Video */}
           <div className="flex items-center justify-center lg:items-start">
-            <div className="relative h-full w-full max-w-md rounded-3xl border border-zinc-900/10 dark:border-zinc-700/50 bg-zinc-50 dark:bg-zinc-900 p-8">
-              {/* Placeholder for illustration */}
-              <div className="flex h-full min-h-[400px] items-center justify-center">
-                <p className="text-center text-sm text-zinc-500">
-                  Illustration placeholder
-                  <br />
-                  (Add your illustration here)
-                </p>
+            <div className="relative w-full max-w-lg rounded-3xl border border-zinc-300 dark:border-zinc-600 bg-zinc-50 dark:bg-zinc-900 overflow-hidden">
+              {/* Video - Square aspect ratio, fills the container */}
+              <div className="relative w-full aspect-square overflow-hidden">
+                <video
+                  src="/Scene.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="h-full w-full object-cover"
+                  aria-label="Experience illustration video"
+                >
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Open to Roles - Single line below both columns */}
+        <div className="mt-12">
+          <p className="text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
+            <span className="font-bold text-zinc-900 dark:text-zinc-100">Open to Roles:</span>{" "}
+            I am actively seeking roles as a Product Manager, Associate Product Manager (APM), Product Operations, or Founder's Associate.
+          </p>
         </div>
       </div>
     </section>

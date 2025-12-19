@@ -11,7 +11,7 @@ export function SkillsSection() {
           {skills.map((skill) => (
             <span
               key={skill}
-              className="rounded-full border border-zinc-200 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-900 px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-700 dark:text-zinc-300"
+              className="rounded-full border border-zinc-300 dark:border-zinc-600 bg-zinc-50 dark:bg-zinc-900 px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-700 dark:text-zinc-300"
             >
               {skill}
             </span>

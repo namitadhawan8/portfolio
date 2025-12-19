@@ -14,13 +14,14 @@ export function ManagementHero() {
             </p>
           </div>
 
-          <div className="flex-1 overflow-hidden rounded-3xl border border-zinc-900/10 dark:border-zinc-700/50 bg-zinc-100 dark:bg-zinc-900">
-            <div className="flex h-full min-h-[400px] items-center justify-center">
-              <p className="text-center text-sm text-zinc-500">
-                Illustration placeholder
-                <br />
-                (Add your illustration here)
-              </p>
+          <div className="flex-1 overflow-hidden rounded-3xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-black max-w-md">
+            <div className="flex h-full min-h-[400px] items-center justify-center overflow-hidden">
+              <iframe
+                src="https://lottie.host/embed/5b23cbf7-fcac-4934-a75a-5ab1145f7744/nLt9Js3Lu5.lottie"
+                className="h-full w-full"
+                style={{ border: 'none', transform: 'scale(2.4)', transformOrigin: 'center' }}
+                title="Lottie Animation"
+              />
             </div>
           </div>
         </div>

@@ -4,6 +4,8 @@ export type AboutSection = {
   content: string;
   quote?: string;
   illustration?: string;
+  image?: string;
+  images?: string[];
 };
 
 export const aboutSections: AboutSection[] = [

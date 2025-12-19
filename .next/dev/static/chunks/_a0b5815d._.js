@@ -50,6 +50,11 @@ function CustomCursor() {
                     setIsVisible(true);
                 }
             }["CustomCursor.useEffect.updateMousePosition"];
+            const handleMouseEnter = {
+                "CustomCursor.useEffect.handleMouseEnter": ()=>{
+                    setIsVisible(true);
+                }
+            }["CustomCursor.useEffect.handleMouseEnter"];
             const handleMouseLeave = {
                 "CustomCursor.useEffect.handleMouseLeave": ()=>{
                     setIsVisible(false);
@@ -82,12 +87,16 @@ function CustomCursor() {
                     animationFrameRef.current = requestAnimationFrame(animateCursor);
                 }
             }["CustomCursor.useEffect.animateCursor"];
+            // Initialize cursor as visible by default
+            setIsVisible(true);
             window.addEventListener("mousemove", updateMousePosition);
+            document.addEventListener("mouseenter", handleMouseEnter);
             document.addEventListener("mouseleave", handleMouseLeave);
             animationFrameRef.current = requestAnimationFrame(animateCursor);
             return ({
                 "CustomCursor.useEffect": ()=>{
                     window.removeEventListener("mousemove", updateMousePosition);
+                    document.removeEventListener("mouseenter", handleMouseEnter);
                     document.removeEventListener("mouseleave", handleMouseLeave);
                     if (animationFrameRef.current) {
                         cancelAnimationFrame(animationFrameRef.current);
@@ -117,17 +126,17 @@ function CustomCursor() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ui/CustomCursor.tsx",
-                        lineNumber: 86,
+                        lineNumber: 95,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/ui/CustomCursor.tsx",
-                    lineNumber: 85,
+                    lineNumber: 94,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ui/CustomCursor.tsx",
-                lineNumber: 78,
+                lineNumber: 87,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -145,17 +154,17 @@ function CustomCursor() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/ui/CustomCursor.tsx",
-                        lineNumber: 104,
+                        lineNumber: 113,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/ui/CustomCursor.tsx",
-                    lineNumber: 103,
+                    lineNumber: 112,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ui/CustomCursor.tsx",
-                lineNumber: 96,
+                lineNumber: 105,
                 columnNumber: 7
             }, this)
         ]

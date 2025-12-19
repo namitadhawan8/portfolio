@@ -91,6 +91,28 @@
     border-bottom-color: rgba(0, 0, 0, 0.1) !important;
   }
 
+  /* Ensure secondary button stays white by default and on hover - target by border-zinc-300 class */
+  html:not(.dark) a.border-zinc-300 {
+    background-color: #ffffff !important;
+    color: #111111 !important;
+  }
+
+  html:not(.dark) a.border-zinc-300:hover {
+    background-color: #ffffff !important;
+    color: #111111 !important;
+  }
+
+  /* Ensure chips/tags stay white by default - target rounded-full with border */
+  html:not(.dark) span.rounded-full.border.bg-white:not(:hover) {
+    background-color: #ffffff !important;
+    color: #3f3f46 !important;
+  }
+
+  html:not(.dark) span.rounded-full.border.bg-white:hover {
+    background-color: rgba(183, 107, 252, 0.05) !important;
+    color: #B76BFC !important;
+  }
+
   /* Don't override header text colors - let Tailwind handle it */
 
   /* Ensure primary color variable is pink in light mode */
@@ -111,17 +133,26 @@
     --color-primary: #B76BFC;
   }
 
-  /* Star icon filters - purple in all modes */
+  /* Star icon - purple SVG is already purple, no filter needed */
+  /* Remove any filters that might override the purple color */
+  .star-icon-purple,
+  .star-icon-purple img,
+  .star-icon-purple > *,
+  .star-icon-purple span,
+  .star-icon-purple span img {
+    filter: none !important;
+  }
+
+  /* Keep pink filter for backward compatibility if needed */
   .star-icon-pink {
-    filter: brightness(0) saturate(100%) invert(50%) sepia(95%) saturate(2878%) hue-rotate(250deg) brightness(100%) contrast(95%);
+    filter: brightness(0) saturate(100%) invert(74%) sepia(100%) saturate(2000%) hue-rotate(280deg) brightness(95%) contrast(95%) !important;
   }
 
-  html.dark .star-icon-pink {
-    filter: brightness(0) saturate(100%) invert(50%) sepia(95%) saturate(2878%) hue-rotate(250deg) brightness(100%) contrast(95%) !important;
-  }
-
-  html.dark .star-icon-purple {
-    filter: brightness(0) saturate(100%) invert(50%) sepia(95%) saturate(2878%) hue-rotate(250deg) brightness(100%) contrast(95%) !important;
+  .star-icon-pink img,
+  .star-icon-pink > *,
+  .star-icon-pink span,
+  .star-icon-pink span img {
+    filter: brightness(0) saturate(100%) invert(74%) sepia(100%) saturate(2000%) hue-rotate(280deg) brightness(95%) contrast(95%) !important;
   }
 
   /* CRITICAL: Force pink in light mode - but NOT on cards */
@@ -147,8 +178,46 @@
     cursor: none !important;
   }
 
-  button, a, [role="button"], input, textarea, select {
-    cursor: pointer !important;
+  /* Ensure all interactive elements also hide cursor */
+  button, a, [role="button"], input, textarea, select, label {
+    cursor: none !important;
+  }
+
+  /* Hide cursor on all pseudo-elements */
+  *::before, *::after {
+    cursor: none !important;
+  }
+
+  /* Ensure custom cursor elements are always circular and visible */
+  .custom-cursor {
+    cursor: none !important;
+  }
+
+  .custom-cursor > div > div {
+    border-radius: 50% !important;
+    will-change: transform;
+  }
+
+  /* Fix nextjs-portal positioning - hide it completely to prevent layout issues */
+  nextjs-portal {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    overflow: hidden !important;
+    pointer-events: none !important;
+    visibility: hidden !important;
+    z-index: -1 !important;
+  }
+  
+  /* Allow children of nextjs-portal to be visible and interactive */
+  nextjs-portal > * {
+    visibility: visible !important;
+    pointer-events: auto !important;
   }
 }
 
@@ -169,6 +238,26 @@
   to {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@keyframes float-badge {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes badge-entrance {
+  0% {
+    opacity: 0;
+    transform: translate(calc(-50% + var(--offset-x, 0)), calc(-50% + var(--offset-y, 0))) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
   }
 }
 
@@ -197,5 +286,22 @@
     animation: slide-up 1.5s ease-out forwards;
     animation-delay: 0.5s;
     opacity: 0;
+  }
+
+  .animate-float-badge {
+    animation: float-badge 3s ease-in-out infinite;
+    will-change: transform;
+  }
+
+  .animate-badge-entrance {
+    animation: badge-entrance 1s ease-out forwards, float-badge 3s ease-in-out infinite 1s;
+    will-change: transform, opacity;
+    transform-origin: center center;
+  }
+
+  /* More Work Carousel Card Hover Border */
+  .more-work-card:hover {
+    border-width: 3px !important;
+    border-color: #B76BFC !important;
   }
 }

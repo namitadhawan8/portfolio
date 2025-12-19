@@ -164,7 +164,7 @@ const heroMarqueeItems = [
 const stats = [
     {
         label: "Projects Shipped",
-        value: "4+"
+        value: "5+"
     },
     {
         label: "Features Launched",
@@ -1005,13 +1005,35 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "space-y-4",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                    src: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$homeData$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["servicesIntro"].badgeIcon,
-                                    alt: "",
-                                    width: 40,
-                                    height: 40,
-                                    className: "h-10 w-10 star-icon-pink dark:star-icon-purple"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/",
+                                    "aria-label": "Navigate home",
+                                    className: "inline-flex",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            src: "/nd logo light.png",
+                                            alt: "Namita Dhawan logo",
+                                            width: 60,
+                                            height: 60,
+                                            className: "h-12 w-12 object-contain dark:hidden"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/layout/Footer.tsx",
+                                            lineNumber: 19,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            src: "/nd logo dark.png",
+                                            alt: "Namita Dhawan logo",
+                                            width: 60,
+                                            height: 60,
+                                            className: "hidden h-12 w-12 object-contain dark:block"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/layout/Footer.tsx",
+                                            lineNumber: 26,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/components/layout/Footer.tsx",
                                     lineNumber: 18,
                                     columnNumber: 13
@@ -1025,12 +1047,12 @@ function Footer() {
                                         children: "NAMITA DHAWAN"
                                     }, void 0, false, {
                                         fileName: "[project]/components/layout/Footer.tsx",
-                                        lineNumber: 26,
+                                        lineNumber: 35,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Footer.tsx",
-                                    lineNumber: 25,
+                                    lineNumber: 34,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -1050,7 +1072,7 @@ function Footer() {
                                                 children: group.title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/layout/Footer.tsx",
-                                                lineNumber: 36,
+                                                lineNumber: 45,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -1065,19 +1087,19 @@ function Footer() {
                                                         children: link.label
                                                     }, link.label, false, {
                                                         fileName: "[project]/components/layout/Footer.tsx",
-                                                        lineNumber: 43,
+                                                        lineNumber: 52,
                                                         columnNumber: 23
                                                     }, this);
                                                 })
                                             }, void 0, false, {
                                                 fileName: "[project]/components/layout/Footer.tsx",
-                                                lineNumber: 39,
+                                                lineNumber: 48,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, group.title, true, {
                                         fileName: "[project]/components/layout/Footer.tsx",
-                                        lineNumber: 35,
+                                        lineNumber: 44,
                                         columnNumber: 15
                                     }, this)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1088,7 +1110,7 @@ function Footer() {
                                             children: "Connect"
                                         }, void 0, false, {
                                             fileName: "[project]/components/layout/Footer.tsx",
-                                            lineNumber: 60,
+                                            lineNumber: 69,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1101,7 +1123,7 @@ function Footer() {
                                                             children: "Get in touch"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/layout/Footer.tsx",
-                                                            lineNumber: 65,
+                                                            lineNumber: 74,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1110,13 +1132,13 @@ function Footer() {
                                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$homeData$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["callToAction"].email
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/layout/Footer.tsx",
-                                                            lineNumber: 68,
+                                                            lineNumber: 77,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/layout/Footer.tsx",
-                                                    lineNumber: 64,
+                                                    lineNumber: 73,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1126,7 +1148,7 @@ function Footer() {
                                                             children: "Social"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/layout/Footer.tsx",
-                                                            lineNumber: 76,
+                                                            lineNumber: 85,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1139,36 +1161,36 @@ function Footer() {
                                                                     children: social.name
                                                                 }, social.name, false, {
                                                                     fileName: "[project]/components/layout/Footer.tsx",
-                                                                    lineNumber: 81,
+                                                                    lineNumber: 90,
                                                                     columnNumber: 23
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/layout/Footer.tsx",
-                                                            lineNumber: 79,
+                                                            lineNumber: 88,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/layout/Footer.tsx",
-                                                    lineNumber: 75,
+                                                    lineNumber: 84,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/layout/Footer.tsx",
-                                            lineNumber: 63,
+                                            lineNumber: 72,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/layout/Footer.tsx",
-                                    lineNumber: 59,
+                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/layout/Footer.tsx",
-                            lineNumber: 32,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1186,12 +1208,12 @@ function Footer() {
                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$homeData$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["secondaryCta"].label
                     }, void 0, false, {
                         fileName: "[project]/components/layout/Footer.tsx",
-                        lineNumber: 99,
+                        lineNumber: 108,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/layout/Footer.tsx",
-                    lineNumber: 98,
+                    lineNumber: 107,
                     columnNumber: 9
                 }, this)
             ]

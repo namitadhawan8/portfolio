@@ -12,7 +12,7 @@ export default function AboutPage() {
       <main>
         <AboutHero />
         {aboutSections.map((section, index) => (
-          <AboutSection key={section.id} section={section} index={index} />
+          <AboutSection key={section.id} section={section} index={index} isLast={index === aboutSections.length - 1} />
         ))}
         <SkillsSection />
       </main>

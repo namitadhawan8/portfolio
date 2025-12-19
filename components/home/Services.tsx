@@ -8,15 +8,15 @@ import { services, servicesIntro } from "@/lib/homeData";
 export function Services() {
   return (
     <section className="bg-zinc-50 dark:bg-zinc-950">
-      <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6">
-        <div className="grid gap-16 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
+      <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
+        <div className="grid gap-10 sm:gap-14 lg:gap-16 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
           <div className="space-y-10">
             <Image
               src={servicesIntro.badgeIcon}
               alt=""
               width={50}
               height={50}
-              className="h-12 w-12 star-icon-pink dark:star-icon-purple"
+              className="h-12 w-12 star-icon-purple"
             />
             <div className="space-y-2">
               {servicesIntro.title.map((line) => (
@@ -48,11 +48,11 @@ export function Services() {
           </div>
 
           <div className="relative">
-            <div className="space-y-8">
+            <div className="space-y-6 sm:space-y-8">
               {services.map((service, index) => (
                 <div
                   key={service.title}
-                  className="sticky flex flex-col gap-8 rounded-3xl border border-[#B76BFC]/5 dark:border-[#B76BFC]/30 bg-zinc-50 dark:bg-zinc-900 p-12 shadow-lg transition-all hover:shadow-xl hover:border-[#B76BFC]/10 dark:hover:border-[#B76BFC]/60"
+                  className="flex flex-col gap-6 sm:gap-7 rounded-3xl border border-[#B76BFC]/5 dark:border-[#B76BFC]/30 bg-zinc-50 dark:bg-zinc-900 p-6 sm:p-8 md:p-10 shadow-lg transition-all hover:shadow-xl hover:border-[#B76BFC]/10 dark:hover:border-[#B76BFC]/60 md:sticky"
                   style={{
                     top: `${80 + index * 40}px`,
                     zIndex: index + 1,
@@ -64,7 +64,7 @@ export function Services() {
                       alt=""
                       width={50}
                       height={50}
-                      className="h-12 w-12 star-icon-pink dark:star-icon-purple"
+                      className="h-12 w-12 star-icon-purple"
                     />
                     <h3 className="text-xl font-semibold uppercase tracking-[0.35em] text-zinc-900 dark:text-zinc-100">
                       {service.title}

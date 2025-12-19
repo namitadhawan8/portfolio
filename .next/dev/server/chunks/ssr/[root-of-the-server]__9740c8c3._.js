@@ -136,6 +136,55 @@ function RootLayout({ children }) {
                   const root = document.documentElement;
                   const body = document.body;
                   
+                  // Remove data-cursor-element-id attributes to prevent hydration mismatches
+                  // These are added by Cursor IDE and cause hydration warnings
+                  const removeCursorAttributes = () => {
+                    const elements = document.querySelectorAll('[data-cursor-element-id]');
+                    elements.forEach(el => el.removeAttribute('data-cursor-element-id'));
+                  };
+                  
+                  // Remove immediately and set up observer to remove any added later
+                  removeCursorAttributes();
+                  
+                  // Watch for new attributes being added
+                  const observer = new MutationObserver((mutations) => {
+                    mutations.forEach((mutation) => {
+                      if (mutation.type === 'attributes' && mutation.attributeName === 'data-cursor-element-id') {
+                        mutation.target.removeAttribute('data-cursor-element-id');
+                      }
+                      if (mutation.type === 'childList') {
+                        mutation.addedNodes.forEach((node) => {
+                          if (node.nodeType === 1) { // Element node
+                            if (node.hasAttribute('data-cursor-element-id')) {
+                              node.removeAttribute('data-cursor-element-id');
+                            }
+                            const children = node.querySelectorAll('[data-cursor-element-id]');
+                            children.forEach(el => el.removeAttribute('data-cursor-element-id'));
+                          }
+                        });
+                      }
+                    });
+                  });
+                  
+                  // Start observing when DOM is ready
+                  if (document.readyState === 'loading') {
+                    document.addEventListener('DOMContentLoaded', () => {
+                      observer.observe(document.body, {
+                        attributes: true,
+                        childList: true,
+                        subtree: true,
+                        attributeFilter: ['data-cursor-element-id']
+                      });
+                    });
+                  } else {
+                    observer.observe(document.body, {
+                      attributes: true,
+                      childList: true,
+                      subtree: true,
+                      attributeFilter: ['data-cursor-element-id']
+                    });
+                  }
+                  
                   // FORCE remove dark class immediately
                   root.classList.remove('dark');
                   
@@ -189,17 +238,24 @@ function RootLayout({ children }) {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
                 className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_a71539c9$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_mono_8d43a2aa$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100 antialiased`,
                 suppressHydrationWarning: true,
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$CustomCursor$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CustomCursor"], {}, void 0, false, {
-                        fileName: "[project]/app/layout.tsx",
-                        lineNumber: 84,
-                        columnNumber: 9
-                    }, this),
-                    children
-                ]
-            }, void 0, true, {
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    suppressHydrationWarning: true,
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$CustomCursor$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CustomCursor"], {}, void 0, false, {
+                            fileName: "[project]/app/layout.tsx",
+                            lineNumber: 134,
+                            columnNumber: 11
+                        }, this),
+                        children
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/layout.tsx",
+                    lineNumber: 133,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 80,
+                lineNumber: 129,
                 columnNumber: 7
             }, this)
         ]

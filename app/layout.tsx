@@ -29,12 +29,65 @@ export default function RootLayout({
       <head>
         <meta name="color-scheme" content="light" />
         <script
+          src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.11/dist/dotlottie-wc.js"
+          type="module"
+        />
+        <script
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
                 try {
                   const root = document.documentElement;
                   const body = document.body;
+                  
+                  // Remove data-cursor-element-id attributes to prevent hydration mismatches
+                  // These are added by Cursor IDE and cause hydration warnings
+                  const removeCursorAttributes = () => {
+                    const elements = document.querySelectorAll('[data-cursor-element-id]');
+                    elements.forEach(el => el.removeAttribute('data-cursor-element-id'));
+                  };
+                  
+                  // Remove immediately and set up observer to remove any added later
+                  removeCursorAttributes();
+                  
+                  // Watch for new attributes being added
+                  const observer = new MutationObserver((mutations) => {
+                    mutations.forEach((mutation) => {
+                      if (mutation.type === 'attributes' && mutation.attributeName === 'data-cursor-element-id') {
+                        mutation.target.removeAttribute('data-cursor-element-id');
+                      }
+                      if (mutation.type === 'childList') {
+                        mutation.addedNodes.forEach((node) => {
+                          if (node.nodeType === 1) { // Element node
+                            if (node.hasAttribute('data-cursor-element-id')) {
+                              node.removeAttribute('data-cursor-element-id');
+                            }
+                            const children = node.querySelectorAll('[data-cursor-element-id]');
+                            children.forEach(el => el.removeAttribute('data-cursor-element-id'));
+                          }
+                        });
+                      }
+                    });
+                  });
+                  
+                  // Start observing when DOM is ready
+                  if (document.readyState === 'loading') {
+                    document.addEventListener('DOMContentLoaded', () => {
+                      observer.observe(document.body, {
+                        attributes: true,
+                        childList: true,
+                        subtree: true,
+                        attributeFilter: ['data-cursor-element-id']
+                      });
+                    });
+                  } else {
+                    observer.observe(document.body, {
+                      attributes: true,
+                      childList: true,
+                      subtree: true,
+                      attributeFilter: ['data-cursor-element-id']
+                    });
+                  }
                   
                   // FORCE remove dark class immediately
                   root.classList.remove('dark');
@@ -81,8 +134,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100 antialiased`}
         suppressHydrationWarning
       >
-        <CustomCursor />
-        {children}
+        <div suppressHydrationWarning>
+          <CustomCursor />
+          {children}
+        </div>
       </body>
     </html>
   );

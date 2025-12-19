@@ -52,7 +52,7 @@ export function CallToAction() {
 
   return (
     <section className="bg-white dark:bg-zinc-950">
-      <div className="border-y border-zinc-900/10 dark:border-zinc-700/50 bg-zinc-50 dark:bg-zinc-900 py-6">
+      <div className="border-y border-zinc-300 dark:border-zinc-600 bg-zinc-50 dark:bg-zinc-900 py-6">
         <Marquee
           items={contactMarqueeItems}
           separator="·"
@@ -77,7 +77,7 @@ export function CallToAction() {
                 alt=""
                 width={50}
                 height={50}
-                className="h-12 w-12 star-icon-pink dark:star-icon-purple"
+                className="h-12 w-12 star-icon-purple"
               />
             </div>
             <h2 className="text-4xl font-black uppercase tracking-[0.35em] text-zinc-900 dark:text-zinc-100 md:text-5xl">
