@@ -15,7 +15,7 @@ export function CaseStudySection({ caseStudy, index }: CaseStudySectionProps) {
   return (
     <article
       className={cn(
-        "grid w-full max-w-4xl mx-auto grid-cols-1 gap-6 sm:gap-8 overflow-hidden rounded-3xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 p-4 sm:p-6 lg:grid-cols-[1fr,1.2fr] lg:gap-12 lg:p-8 shadow-lg transition-all hover:shadow-xl md:sticky",
+        "group grid w-full max-w-4xl mx-auto grid-cols-1 gap-6 sm:gap-8 overflow-hidden rounded-3xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 p-4 sm:p-6 lg:grid-cols-[1fr,1.2fr] lg:gap-12 lg:p-8 shadow-lg transition-all hover:shadow-xl sticky",
       )}
       style={{ top: `${topOffset}px`, zIndex: index + 1 }}
     >
@@ -29,6 +29,12 @@ export function CaseStudySection({ caseStudy, index }: CaseStudySectionProps) {
           className="h-full w-full object-cover"
           priority={index === 0}
         />
+        {/* Purple View CTA on hover */}
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-0 transition-all duration-300 group-hover:opacity-100">
+          <span className="rounded-full border-2 border-[#B76BFC] bg-[#B76BFC] px-6 py-2 text-sm font-semibold uppercase tracking-[0.2em] text-white shadow-lg">
+            View
+          </span>
+        </div>
       </div>
 
       {/* Right Side - Content */}
@@ -43,7 +49,7 @@ export function CaseStudySection({ caseStudy, index }: CaseStudySectionProps) {
           href={`/design/${caseStudy.slug}`}
           className="group inline-flex w-fit items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-zinc-900 dark:text-zinc-100 transition-colors hover:text-[#B76BFC] dark:hover:text-[#B76BFC]"
         >
-          View Project
+          View Case Study
           <span className="transition-transform group-hover:translate-x-1">
             →
           </span>

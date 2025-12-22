@@ -52,7 +52,7 @@ export function Services() {
               {services.map((service, index) => (
                 <div
                   key={service.title}
-                  className="flex flex-col gap-6 sm:gap-7 rounded-3xl border border-[#B76BFC]/5 dark:border-[#B76BFC]/30 bg-zinc-50 dark:bg-zinc-900 p-6 sm:p-8 md:p-10 shadow-lg transition-all hover:shadow-xl hover:border-[#B76BFC]/10 dark:hover:border-[#B76BFC]/60 md:sticky"
+                  className="flex flex-col gap-6 sm:gap-7 rounded-3xl border border-[#B76BFC]/5 dark:border-[#B76BFC]/30 bg-zinc-50 dark:bg-zinc-900 p-6 sm:p-8 md:p-10 shadow-lg transition-all hover:shadow-xl hover:border-[#B76BFC]/10 dark:hover:border-[#B76BFC]/60 sticky"
                   style={{
                     top: `${80 + index * 40}px`,
                     zIndex: index + 1,

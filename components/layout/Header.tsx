@@ -214,7 +214,7 @@ export function Header() {
                     target={isExternal ? "_blank" : undefined}
                     rel={isExternal ? "noreferrer" : undefined}
                     className={cn(
-                      "rounded-full px-4 py-3 text-base font-semibold uppercase tracking-[0.3em] bg-white text-zinc-900 transition-colors hover:text-[#B76BFC] dark:bg-transparent dark:text-zinc-100 dark:hover:text-[#B76BFC] border border-zinc-200 dark:border-zinc-700",
+                      "px-1 py-2 text-base font-semibold uppercase tracking-[0.35em] text-zinc-900 transition-colors hover:text-[#B76BFC] dark:text-zinc-100 dark:hover:text-[#B76BFC]",
                       isActive && "text-[#B76BFC] dark:text-[#B76BFC] font-bold"
                     )}
                     onClick={closeMenu}
@@ -223,10 +223,6 @@ export function Header() {
                   </Link>
                 );
               })}
-              <div className="flex items-center justify-between pt-2">
-                <ThemeToggle />
-                {mobileCta}
-              </div>
             </div>
           </div>
         </div>

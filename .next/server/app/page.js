@@ -1,6 +1,6 @@
 var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/app/page.js")
 R.c("server/chunks/ssr/[root-of-the-server]__ac0f1968._.js")
-R.c("server/chunks/ssr/Desktop_UI UX DESIGN_pm portfolio_5183c113._.js")
+R.c("server/chunks/ssr/Desktop_UI UX DESIGN_pm portfolio_f0badd7c._.js")
 R.c("server/chunks/ssr/Desktop_UI UX DESIGN_pm portfolio_6d80d5f0._.js")
 R.c("server/chunks/ssr/Desktop_UI UX DESIGN_pm portfolio_f509b74a._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__fbd32921._.js")

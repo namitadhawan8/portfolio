@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import { servicesIntro } from "@/lib/homeData";
+import { CareerTrajectory } from "@/components/home/CareerTrajectory";
 
 export function Experience() {
   const areasOfInterest = [
@@ -47,38 +48,23 @@ export function Experience() {
               <h3 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
                 Areas of Interest
               </h3>
-              <div className="grid gap-4">
+              <ul className="space-y-4">
                 {areasOfInterest.map((area, index) => (
-                  <div
-                    key={index}
-                    className="rounded-2xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 p-6 shadow-sm transition hover:shadow-md"
-                  >
-                    <p className="text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
-                      {area}
-                    </p>
-                  </div>
+                  <li key={index} className="flex items-start gap-3 text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
+                    <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary-soft/40 ring-1 ring-primary-soft/70">
+                      <Image src="/star-purple.svg" alt="" width={16} height={16} />
+                    </span>
+                    <span>{area}</span>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
           </div>
 
           {/* Right Column - Video */}
           <div className="flex items-center justify-center lg:items-start">
-            <div className="relative w-full max-w-lg rounded-3xl border border-zinc-300 dark:border-zinc-600 bg-zinc-50 dark:bg-zinc-900 overflow-hidden">
-              {/* Video - Square aspect ratio, fills the container */}
-              <div className="relative w-full aspect-square overflow-hidden">
-                <video
-                  src="/Scene.mp4"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  className="h-full w-full object-cover"
-                  aria-label="Experience illustration video"
-                >
-                  Your browser does not support the video tag.
-                </video>
-              </div>
+            <div className="relative w-full max-w-3xl">
+              <CareerTrajectory />
             </div>
           </div>
         </div>

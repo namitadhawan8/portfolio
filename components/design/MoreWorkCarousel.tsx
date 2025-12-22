@@ -12,7 +12,7 @@ export function MoreWorkCarousel() {
   const handleScroll = (direction: "left" | "right") => {
     const container = scrollRef.current;
     if (!container) return;
-    const scrollAmount = container.clientWidth * 0.85;
+    const scrollAmount = container.clientWidth;
     container.scrollBy({
       left: direction === "left" ? -scrollAmount : scrollAmount,
       behavior: "smooth",
@@ -41,7 +41,7 @@ export function MoreWorkCarousel() {
           <div className="flex-1 overflow-hidden">
             <div
               ref={scrollRef}
-              className="flex gap-6 overflow-x-auto pb-6 pr-10 scroll-smooth [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:pr-12"
+              className="flex gap-4 sm:gap-6 overflow-x-auto pb-10 pr-2 scroll-smooth snap-x snap-mandatory [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:pb-6 sm:pr-12"
             >
               {designMoreWork.map((item) => (
                 <Link
@@ -49,7 +49,7 @@ export function MoreWorkCarousel() {
                   href={item.behanceUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="group more-work-card relative flex w-[340px] shrink-0 flex-col rounded-3xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 p-5 transition-all hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(0,0,0,0.08)] sm:w-[360px]"
+                  className="group more-work-card relative flex w-full shrink-0 snap-start flex-col rounded-3xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 p-5 transition-all hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(0,0,0,0.08)] sm:w-[360px]"
                 >
                   <div className="relative h-48 overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-800 sm:h-56">
                     <Image

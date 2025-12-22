@@ -41,12 +41,14 @@ export function Hero() {
           <div className="flex justify-center">
             <div className="relative w-full max-w-6xl mx-auto">
               <div className="relative aspect-[16/9] w-full overflow-hidden rounded-3xl border border-zinc-300 bg-white dark:border-zinc-600 dark:bg-zinc-900">
+                {/* Radial gradient placed behind the portrait/image */}
+                <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_50%_45%,#B76BFCcc_0%,#B76BFC99_38%,#B76BFC66_65%,transparent_90%)]" />
                 <Image
                   src={heroContent.backgroundImage}
                   alt={heroContent.heroImageAlt}
                   fill
                   sizes="(min-width: 1024px) 640px, 100vw"
-                  className="z-0 rounded-3xl object-cover"
+                  className="z-[1] rounded-3xl object-cover"
                   priority
                 />
 
