@@ -1,8 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import type { ManagementCase } from "@/lib/managementData";
 import { cn } from "@/lib/utils";
+import { ResponsiveImage } from "@/components/ui/ResponsiveImage";
 
 type ManagementCardProps = {
   managementCase: ManagementCase;
@@ -24,14 +24,15 @@ export function ManagementCard({ managementCase, index }: ManagementCardProps) {
         )}
       >
         {/* Left Side - Image */}
-        <div className="relative h-48 overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-800 sm:h-56 lg:h-72">
-          <Image
+        <div className="relative w-full overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-800">
+          <ResponsiveImage
             src={managementCase.heroImage}
             alt={managementCase.title}
             width={800}
             height={600}
-            className="h-full w-full object-cover"
+            className="w-full h-auto"
             priority={index === 0}
+            objectFit="contain"
           />
           {/* Centered View CTA on hover */}
           <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">

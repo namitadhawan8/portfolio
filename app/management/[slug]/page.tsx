@@ -6,6 +6,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { managementCases } from "@/lib/managementData";
 import type { ManagementCase } from "@/lib/managementData";
+import { ResponsiveImage } from "@/components/ui/ResponsiveImage";
 
 type ManagementCasePageProps = {
   params: Promise<{ slug: string }>;
@@ -106,13 +107,14 @@ function ManagementCaseDetail({ managementCase }: ManagementCaseDetailProps) {
       <section className="bg-zinc-50 dark:bg-zinc-900">
         <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6">
           <div className="relative overflow-hidden rounded-2xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 shadow-lg transition-shadow hover:shadow-xl">
-            <Image
+            <ResponsiveImage
               src={managementCase.heroImage}
               alt={managementCase.title}
               width={1600}
               height={900}
-              className="h-auto w-full object-cover"
+              className="h-auto w-full"
               priority
+              objectFit="cover"
             />
           </div>
         </div>

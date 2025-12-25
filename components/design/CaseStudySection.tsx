@@ -1,8 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import type { CaseStudy } from "@/lib/designData";
 import { cn } from "@/lib/utils";
+import { ResponsiveImage } from "@/components/ui/ResponsiveImage";
 
 type CaseStudySectionProps = {
   caseStudy: CaseStudy;
@@ -20,14 +20,15 @@ export function CaseStudySection({ caseStudy, index }: CaseStudySectionProps) {
       style={{ top: `${topOffset}px`, zIndex: index + 1 }}
     >
       {/* Left Side - Image */}
-      <div className="relative h-40 overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-800 sm:h-56 md:h-72 lg:h-72">
-        <Image
+      <div className="relative w-full overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-800">
+        <ResponsiveImage
           src={caseStudy.heroImage}
           alt={caseStudy.title}
           width={800}
           height={600}
-          className="h-full w-full object-cover"
+          className="w-full h-auto"
           priority={index === 0}
+          objectFit="contain"
         />
         {/* Purple View CTA on hover */}
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-0 transition-all duration-300 group-hover:opacity-100">

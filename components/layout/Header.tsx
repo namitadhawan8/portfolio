@@ -71,6 +71,9 @@ export function Header() {
       variant="secondary"
       className="min-w-[160px] justify-center"
       onClick={closeMenu}
+      target={secondaryCta.isExternal ? "_blank" : undefined}
+      rel={secondaryCta.isExternal ? "noreferrer" : undefined}
+      download
     >
       {secondaryCta.label}
     </ButtonLink>
@@ -111,6 +114,9 @@ export function Header() {
             href={secondaryCta.href}
             variant="secondary"
             className="min-w-[210px] justify-center"
+            target={secondaryCta.isExternal ? "_blank" : undefined}
+            rel={secondaryCta.isExternal ? "noreferrer" : undefined}
+            download
           >
             {secondaryCta.label}
           </ButtonLink>
@@ -140,19 +146,19 @@ export function Header() {
             <span className="relative flex h-4 w-6 flex-col justify-between">
               <span
                 className={cn(
-                  "h-0.5 w-full bg-zinc-900 dark:bg-zinc-100 transition-transform",
+                  "h-0.5 w-full bg-zinc-900 dark:bg-zinc-900 transition-transform",
                   isOpen && "translate-y-[7px] rotate-45",
                 )}
               />
               <span
                 className={cn(
-                  "h-0.5 w-full bg-zinc-900 dark:bg-zinc-100 transition-opacity",
+                  "h-0.5 w-full bg-zinc-900 dark:bg-zinc-900 transition-opacity",
                   isOpen && "opacity-0",
                 )}
               />
               <span
                 className={cn(
-                  "h-0.5 w-full bg-zinc-900 dark:bg-zinc-100 transition-transform",
+                  "h-0.5 w-full bg-zinc-900 dark:bg-zinc-900 transition-transform",
                   isOpen && "-translate-y-[7px] -rotate-45",
                 )}
               />
@@ -182,8 +188,8 @@ export function Header() {
                 aria-label="Close navigation menu"
               >
                 <span className="relative flex h-4 w-6 flex-col justify-between">
-                  <span className="h-0.5 w-full bg-zinc-900 dark:bg-zinc-100 rotate-45 translate-y-1" />
-                  <span className="h-0.5 w-full bg-zinc-900 dark:bg-zinc-100 -rotate-45 -translate-y-1" />
+                  <span className="h-0.5 w-full bg-zinc-900 dark:bg-zinc-900 rotate-45 translate-y-1" />
+                  <span className="h-0.5 w-full bg-zinc-900 dark:bg-zinc-900 -rotate-45 -translate-y-1" />
                 </span>
               </button>
             </div>

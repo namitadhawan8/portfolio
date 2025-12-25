@@ -188,14 +188,39 @@
     cursor: none !important;
   }
 
-  /* Ensure custom cursor elements are always circular and visible */
-  .custom-cursor {
-    cursor: none !important;
+  /* Only hide/show custom cursor on precise pointers */
+  @media (pointer: fine) {
+    * {
+      cursor: none !important;
+    }
+    button, a, [role="button"], input, textarea, select, label {
+      cursor: none !important;
+    }
+    *::before, *::after {
+      cursor: none !important;
+    }
+    .custom-cursor {
+      cursor: none !important;
+      pointer-events: none !important;
+      user-select: none !important;
+      -webkit-user-select: none !important;
+    }
+    .custom-cursor > div > div {
+      border-radius: 50% !important;
+      will-change: transform;
+      box-sizing: border-box !important;
+      display: block !important;
+    }
   }
 
-  .custom-cursor > div > div {
-    border-radius: 50% !important;
-    will-change: transform;
+  /* Hide cursor on touch devices */
+  @media (pointer: coarse) {
+    * {
+      cursor: auto !important;
+    }
+    .custom-cursor {
+      display: none !important;
+    }
   }
 
   /* Fix nextjs-portal positioning - hide it completely to prevent layout issues */

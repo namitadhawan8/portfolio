@@ -64,10 +64,10 @@ export const mobileNavigationLinks: NavLink[] = [
 export const heroContent = {
   headline: "NAMITA DHAWAN",
   subheading: "PRODUCT MANAGER AND DESIGNER",
-  heroImage: "/Hero image.png",
+  heroImage: "/resume pic new 1.png",
   heroImageAlt: "Namita Dhawan portrait",
-  backgroundImage: "/Hero image.png",
-  portraitImage: "/Hero image.png",
+  backgroundImage: "/resume pic new 1.png",
+  portraitImage: "/resume pic new 1.png",
   portraitImageAlt: "Namita Dhawan portrait",
 };
 
@@ -151,10 +151,10 @@ export const callToAction = {
   buttonHref: "/contact",
   email: "namitadhawan555@gmail.com",
   socialLinks: [
-    { name: "LinkedIn", href: "https://linkedin.com", icon: "LinkedIn" },
-    { name: "Behance", href: "https://behance.net", icon: "Behance" },
-    { name: "Dribbble", href: "https://dribbble.com", icon: "Dribbble" },
-    { name: "Medium", href: "https://medium.com", icon: "Medium" },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/namita-dhawan-8nd/", icon: "LinkedIn" },
+    { name: "Behance", href: "https://www.behance.net/namitadhawan8", icon: "Behance" },
+    { name: "Dribbble", href: "https://dribbble.com/d_namita", icon: "Dribbble" },
+    { name: "Medium", href: "https://medium.com/@namitadhawan555", icon: "Medium" },
   ],
 };
 
@@ -191,6 +191,7 @@ export const floatingBanner = {
 
 export const secondaryCta = {
   label: "DOWNLOAD RESUME",
-  href: "/resume",
+  href: "/Namita Dhawan Resume 2025.pdf",
+  isExternal: true,
 };
 

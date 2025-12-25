@@ -51,8 +51,14 @@ export function Experience() {
               <ul className="space-y-4">
                 {areasOfInterest.map((area, index) => (
                   <li key={index} className="flex items-start gap-3 text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
-                    <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary-soft/40 ring-1 ring-primary-soft/70">
-                      <Image src="/star-purple.svg" alt="" width={16} height={16} />
+                    <span className="mt-1 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-primary-soft/40 ring-1 ring-primary-soft/70">
+                      <Image 
+                        src="/star-purple.svg" 
+                        alt="" 
+                        width={16} 
+                        height={16} 
+                        className="h-4 w-4 object-contain"
+                      />
                     </span>
                     <span>{area}</span>
                   </li>

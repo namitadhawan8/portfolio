@@ -135,6 +135,9 @@ export function Footer() {
             href={secondaryCta.href}
             variant="secondary"
             className="text-xs font-semibold uppercase tracking-[0.4em]"
+            target={secondaryCta.isExternal ? "_blank" : undefined}
+            rel={secondaryCta.isExternal ? "noreferrer" : undefined}
+            download
           >
             {secondaryCta.label}
           </ButtonLink>

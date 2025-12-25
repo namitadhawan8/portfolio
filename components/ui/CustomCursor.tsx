@@ -3,15 +3,41 @@
 import { useEffect, useRef, useState } from "react";
 
 export function CustomCursor() {
+  const [isEnabled, setIsEnabled] = useState(false);
   const [innerPosition, setInnerPosition] = useState({ x: 0, y: 0 });
   const [outerPosition, setOuterPosition] = useState({ x: 0, y: 0 });
   const [isVisible, setIsVisible] = useState(false);
   const mousePositionRef = useRef({ x: 0, y: 0 });
   const animationFrameRef = useRef<number | undefined>(undefined);
   const velocityRef = useRef({ x: 0, y: 0 });
+  const isInitializedRef = useRef(false);
 
   useEffect(() => {
+    const media = window.matchMedia("(pointer: fine)");
+    const updateEnabled = () => setIsEnabled(media.matches);
+    updateEnabled();
+    media.addEventListener("change", updateEnabled);
+
+    return () => media.removeEventListener("change", updateEnabled);
+  }, []);
+
+  useEffect(() => {
+    if (!isEnabled) {
+      setIsVisible(false);
+      return;
+    }
+
     const updateMousePosition = (e: MouseEvent) => {
+      if (!isInitializedRef.current) {
+        // Initialize positions to current mouse position
+        mousePositionRef.current = { x: e.clientX, y: e.clientY };
+        setInnerPosition({ x: e.clientX, y: e.clientY });
+        setOuterPosition({ x: e.clientX, y: e.clientY });
+        isInitializedRef.current = true;
+        setIsVisible(true);
+        return;
+      }
+
       const prevX = mousePositionRef.current.x;
       const prevY = mousePositionRef.current.y;
       
@@ -26,7 +52,9 @@ export function CustomCursor() {
     };
 
     const handleMouseEnter = () => {
-      setIsVisible(true);
+      if (isEnabled) {
+        setIsVisible(true);
+      }
     };
 
     const handleMouseLeave = () => {
@@ -34,6 +62,11 @@ export function CustomCursor() {
     };
 
     const animateCursor = () => {
+      if (!isInitializedRef.current) {
+        animationFrameRef.current = requestAnimationFrame(animateCursor);
+        return;
+      }
+
       // Inner circle: moves faster and leads (60% interpolation - more responsive)
       setInnerPosition((prev) => {
         const dx = mousePositionRef.current.x - prev.x;
@@ -57,10 +90,7 @@ export function CustomCursor() {
       animationFrameRef.current = requestAnimationFrame(animateCursor);
     };
 
-    // Initialize cursor as visible by default
-    setIsVisible(true);
-
-    window.addEventListener("mousemove", updateMousePosition);
+    window.addEventListener("mousemove", updateMousePosition, { passive: true });
     document.addEventListener("mouseenter", handleMouseEnter);
     document.addEventListener("mouseleave", handleMouseLeave);
     animationFrameRef.current = requestAnimationFrame(animateCursor);
@@ -72,10 +102,11 @@ export function CustomCursor() {
       if (animationFrameRef.current) {
         cancelAnimationFrame(animationFrameRef.current);
       }
+      isInitializedRef.current = false;
     };
-  }, []);
+  }, [isEnabled]);
 
-  if (!isVisible) return null;
+  if (!isEnabled || !isVisible) return null;
 
   // Calculate scale based on velocity for playful bounce effect
   const speed = Math.sqrt(velocityRef.current.x ** 2 + velocityRef.current.y ** 2);
@@ -85,17 +116,19 @@ export function CustomCursor() {
     <>
       {/* Outer circle - follows slower */}
       <div
-        className="custom-cursor pointer-events-none fixed left-0 top-0 z-[9999] transition-transform duration-75 ease-out"
+        className="custom-cursor pointer-events-none fixed left-0 top-0 z-[9999]"
         style={{
-          transform: `translate(${outerPosition.x}px, ${outerPosition.y}px)`,
+          transform: `translate3d(${outerPosition.x}px, ${outerPosition.y}px, 0)`,
+          willChange: "transform",
         }}
         data-primary-accent
       >
         <div className="relative -translate-x-1/2 -translate-y-1/2">
           <div 
-            className="h-8 w-8 rounded-full border-2 border-[#B76BFC] dark:border-[#B76BFC] transition-transform duration-75 ease-out"
+            className="h-8 w-8 rounded-full border-2 border-[#B76BFC] dark:border-[#B76BFC]"
             style={{
               transform: `scale(${1 + (scale - 1) * 0.3})`,
+              willChange: "transform",
             }}
           ></div>
         </div>
@@ -103,17 +136,19 @@ export function CustomCursor() {
       
       {/* Inner circle - leads and moves faster */}
       <div
-        className="custom-cursor pointer-events-none fixed left-0 top-0 z-[9999] transition-transform duration-50 ease-out"
+        className="custom-cursor pointer-events-none fixed left-0 top-0 z-[9999]"
         style={{
-          transform: `translate(${innerPosition.x}px, ${innerPosition.y}px)`,
+          transform: `translate3d(${innerPosition.x}px, ${innerPosition.y}px, 0)`,
+          willChange: "transform",
         }}
         data-primary-accent
       >
         <div className="relative -translate-x-1/2 -translate-y-1/2">
           <div 
-            className="absolute left-1/2 top-1/2 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#B76BFC] dark:bg-[#B76BFC] transition-transform duration-50 ease-out"
+            className="absolute left-1/2 top-1/2 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#B76BFC] dark:bg-[#B76BFC]"
             style={{
               transform: `translate(-50%, -50%) scale(${scale})`,
+              willChange: "transform",
             }}
           ></div>
         </div>

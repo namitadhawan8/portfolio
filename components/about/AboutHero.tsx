@@ -1,4 +1,23 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import Image from "next/image";
+
 export function AboutHero() {
+  const [isDark, setIsDark] = useState(false);
+
+  useEffect(() => {
+    const checkTheme = () => {
+      const root = document.documentElement;
+      setIsDark(root.classList.contains("dark"));
+    };
+
+    checkTheme();
+    const observer = new MutationObserver(checkTheme);
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section className="bg-white dark:bg-zinc-950">
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:py-16">
@@ -14,13 +33,16 @@ export function AboutHero() {
             </p>
           </div>
 
-          <div className="flex-1 overflow-hidden rounded-3xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-black max-w-md">
-            <div className="flex h-full min-h-[400px] items-center justify-center overflow-hidden">
-              <iframe
-                src="https://lottie.host/embed/de4eba02-f98e-42c2-a8e1-e215eae33219/bePnVtjorf.lottie"
-                className="h-full w-full"
-                style={{ border: 'none', transform: 'scale(2.4)', transformOrigin: 'center' }}
-                title="Lottie Animation"
+          <div className="flex-1 overflow-hidden rounded-3xl bg-white dark:bg-[#0a0a0a] max-w-md">
+            <div className="relative flex h-full min-h-[400px] items-center justify-center overflow-hidden">
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,#B76BFC33_0%,#B76BFC1f_38%,#B76BFC0d_60%,transparent_82%)]" />
+              <Image
+                src={isDark ? "/nd logo dark.png" : "/nd logo light.png"}
+                alt="Namita Dhawan logo"
+                width={480}
+                height={480}
+                priority
+                className="relative z-[1] h-56 w-56 sm:h-64 sm:w-64 object-contain"
               />
             </div>
           </div>
