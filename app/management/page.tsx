@@ -1,8 +1,17 @@
+import type { Metadata } from "next";
 import { ManagementCard } from "@/components/management/ManagementCard";
 import { ManagementHero } from "@/components/management/ManagementHero";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { managementCases } from "@/lib/managementData";
+
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://namitadhawan.com";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: `${baseUrl}/management`,
+  },
+};
 
 export default function ManagementPage() {
   return (

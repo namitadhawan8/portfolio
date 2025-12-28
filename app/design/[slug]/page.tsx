@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -8,6 +9,8 @@ import { designCaseStudies } from "@/lib/designData";
 import type { CaseStudy } from "@/lib/designData";
 import { FigmaPrototypeEmbed } from "@/components/ui/FigmaPrototypeEmbed";
 import { ResponsiveImage } from "@/components/ui/ResponsiveImage";
+
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://namitadhawan.com";
 
 function PlaceholderImage({ label }: { label: string }) {
   return (
@@ -30,6 +33,21 @@ export async function generateStaticParams() {
   return designCaseStudies.map((caseStudy) => ({
     slug: caseStudy.slug,
   }));
+}
+
+export async function generateMetadata({ params }: CaseStudyPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const caseStudy = designCaseStudies.find((cs) => cs.slug === slug);
+
+  if (!caseStudy) {
+    return {};
+  }
+
+  return {
+    alternates: {
+      canonical: `${baseUrl}/design/${slug}`,
+    },
+  };
 }
 
 export default async function CaseStudyPage({ params }: CaseStudyPageProps) {

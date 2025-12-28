@@ -1,9 +1,18 @@
+import type { Metadata } from "next";
 import { CaseStudySection } from "@/components/design/CaseStudySection";
 import { DesignHero } from "@/components/design/DesignHero";
 import { MoreWorkCarousel } from "@/components/design/MoreWorkCarousel";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { designCaseStudies } from "@/lib/designData";
+
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://namitadhawan.com";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: `${baseUrl}/design`,
+  },
+};
 
 export default function DesignPage() {
   return (

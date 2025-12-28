@@ -80,7 +80,7 @@ export function Header() {
   );
 
   return (
-    <header className="sticky top-0 z-40 border-b border-zinc-300 bg-white dark:border-zinc-600 dark:bg-zinc-950/80">
+    <header className="sticky top-0 z-40 border-b border-zinc-300 bg-white/95 backdrop-blur-sm dark:border-zinc-600 dark:bg-zinc-950/95 dark:backdrop-blur-sm">
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 sm:px-6 py-3 sm:py-4 gap-3">
         <Link href="/" className="flex items-center flex-shrink-0">
           {isDark ? (

@@ -14,9 +14,70 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://namitadhawan.com"),
   title: "Namita DHAWAN — Product Manager and Designer Portfolio",
   description:
-    "Product manager and designer portfolio for Namita DHAWAN showcasing selected work, services, and project collaborations.",
+    "Product Designer and Product Manager based in India, building user-centred products in preventive healthcare and lifestyle sectors.",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 5,
+  },
+  keywords: [
+    "Product Designer",
+    "Product Manager",
+    "UX Strategy",
+    "Preventive Healthcare",
+    "Lifestyle Products",
+    "Design Systems",
+    "UI/UX Design",
+    "Product Management",
+    "India",
+    "User-Centred Design",
+  ],
+  authors: [{ name: "Namita DHAWAN" }],
+  creator: "Namita DHAWAN",
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    url: "https://namitadhawan.com",
+    title: "Namita DHAWAN — Product Manager and Designer Portfolio",
+    description:
+      "Product Designer and Product Manager based in India, building user-centred products in preventive healthcare and lifestyle sectors.",
+    siteName: "Namita DHAWAN Portfolio",
+    images: [
+      {
+        url: "/ND logo metadata.png",
+        width: 1200,
+        height: 630,
+        alt: "Namita DHAWAN - Product Designer and Product Manager",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Namita DHAWAN — Product Manager and Designer Portfolio",
+    description:
+      "Product Designer and Product Manager based in India, building user-centred products in preventive healthcare and lifestyle sectors.",
+    images: ["/ND logo metadata.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  other: {
+    "geo.region": "IN",
+    "geo.placename": "India",
+    "geo.position": "28.6139;77.2090",
+    "ICBM": "28.6139, 77.2090",
+  },
 };
 
 export default function RootLayout({

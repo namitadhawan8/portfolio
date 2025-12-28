@@ -1,8 +1,17 @@
+import type { Metadata } from "next";
 import { WritingHero } from "@/components/writing/WritingHero";
 import { WritingSection } from "@/components/writing/WritingSection";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { writingSections } from "@/lib/writingData";
+
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://namitadhawan.com";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: `${baseUrl}/writing-research`,
+  },
+};
 
 export default function WritingPage() {
   return (

@@ -15,3 +15,5 @@ export function getMobileImagePath(desktopPath: string): string {
   return mobileMappings[desktopPath] || desktopPath;
 }
 
+
+

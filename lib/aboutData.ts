@@ -34,7 +34,7 @@ export const aboutSections: AboutSection[] = [
     id: "current-role",
     title: "Current Role",
     content:
-      "I'm currently seeking opportunities as a Product Manager, Associate Product Manager (APM), Product Operations, or Founder's Associate. Previously, I worked as a Product Manager and UX Designer, leading cross-functional teams to deliver user-centered products.",
+      "I'm currently seeking opportunities across Product Design and Product Management, including Product Designer, Product Manager, APM, Product Operations, and Founder's Associate roles. Previously, I worked as a Product Manager and UX Designer, leading cross-functional teams to deliver user-centered products.",
     illustration: "coffee",
   },
 ];

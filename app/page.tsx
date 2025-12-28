@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { CallToAction } from "@/components/home/CallToAction";
 import { Experience } from "@/components/home/Experience";
 import { FloatingBanner } from "@/components/home/FloatingBanner";
@@ -8,6 +9,15 @@ import { Services } from "@/components/home/Services";
 import { Stats } from "@/components/home/Stats";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
+
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://namitadhawan.com";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: baseUrl,
+  },
+};
+
 export default function Home() {
   return (
     <div className="relative min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">

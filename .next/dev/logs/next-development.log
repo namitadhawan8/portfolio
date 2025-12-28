@@ -1,804 +1,130 @@
-[00:00:02.803] Server  LOG      ✓ Ready in 2s
-[00:00:06.596] Server  LOG      ○ Compiling / ...
-[00:00:12.299] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:12.414] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:12.710] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:12.710] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:13.011] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:13.011] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:19.291] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:19.819] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:19.819] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:47.416] Server  LOG      ○ Compiling /management ...
-[00:00:52.815] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:52.815] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:52.815] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:52.815] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:52.815] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:03:37.244] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:03:37.245] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:03:37.245] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:03:37.245] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:05:51.195] Server  LOG      ✓ Compiled in 2.2s
-[00:05:58.822] Server  LOG      ✓ Compiled in 203ms
-[00:19:11.435] Server  LOG      ○ Compiling /about-me ...
-[00:19:20.094] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:19:20.094] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:19:20.094] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:19:20.094] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[01:07:32.456] Server  LOG      ✓ Compiled in 806ms
-[01:07:39.726] Server  LOG      ✓ Compiled in 191ms
-[01:07:43.409] Server  LOG      ✓ Compiled in 166ms
-[01:07:47.350] Server  LOG      ✓ Compiled in 163ms
-[01:55:47.215] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[01:55:47.215] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[01:55:47.215] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[01:55:47.215] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[01:55:47.215] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[01:58:02.525] Server  LOG      ✓ Compiled in 957ms
-[02:03:27.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:03:27.977] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:03:27.977] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:09:24.432] Server  LOG      ✓ Compiled in 370ms
-[02:12:47.412] Server  LOG      ✓ Compiled in 1067ms
-[02:25:38.939] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:25:39.028] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:25:39.028] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:26:33.227] Server  LOG      ✓ Compiled in 288ms
-[02:26:44.508] Browser LOG     🔄 TOGGLE CLICKED!
-[02:26:44.508] Browser LOG     Current state - Has dark class: false
-[02:26:44.509] Browser LOG     Switching to: dark
-[02:26:44.509] Browser LOG     ✅ After toggle - Has dark class: true
-[02:26:44.509] Browser LOG     ✅ localStorage theme: dark
-[02:26:44.509] Browser LOG     ✅ data-theme attribute: dark
-[02:26:46.555] Browser LOG     🔄 TOGGLE CLICKED!
-[02:26:46.555] Browser LOG     Current state - Has dark class: true
-[02:26:46.555] Browser LOG     Switching to: light
-[02:26:46.555] Browser LOG     ✅ After toggle - Has dark class: false
-[02:26:46.555] Browser LOG     ✅ localStorage theme: light
-[02:26:46.555] Browser LOG     ✅ data-theme attribute: light
-[02:28:46.712] Browser LOG     🔄 TOGGLE CLICKED!
-[02:28:46.712] Browser LOG     Current state - Has dark class: false
-[02:28:46.712] Browser LOG     Switching to: dark
-[02:28:46.712] Browser LOG     ✅ After toggle - Has dark class: true
-[02:28:46.712] Browser LOG     ✅ localStorage theme: dark
-[02:28:46.712] Browser LOG     ✅ data-theme attribute: dark
-[02:29:30.774] Server  LOG      ✓ Compiled in 507ms
-[02:30:12.336] Browser LOG     🔄 TOGGLE CLICKED!
-[02:30:12.336] Browser LOG     Current state - Has dark class: true
-[02:30:12.336] Browser LOG     Switching to: light
-[02:30:12.336] Browser LOG     ✅ After toggle - Has dark class: false
-[02:30:12.336] Browser LOG     ✅ localStorage theme: light
-[02:30:12.336] Browser LOG     ✅ data-theme attribute: light
-[02:30:20.360] Server  LOG      ✓ Compiled in 240ms
-[02:31:10.046] Browser LOG     🔄 TOGGLE CLICKED!
-[02:31:10.047] Browser LOG     Current state - Has dark class: false
-[02:31:10.047] Browser LOG     Switching to: dark
-[02:31:10.047] Browser LOG     ✅ After toggle - Has dark class: true
-[02:31:10.047] Browser LOG     ✅ localStorage theme: dark
-[02:31:10.047] Browser LOG     ✅ data-theme attribute: dark
-[02:31:20.799] Browser LOG     🔄 TOGGLE CLICKED!
-[02:31:20.800] Browser LOG     Current state - Has dark class: true
-[02:31:20.800] Browser LOG     Switching to: light
-[02:31:20.800] Browser LOG     ✅ After toggle - Has dark class: false
-[02:31:20.800] Browser LOG     ✅ localStorage theme: light
-[02:31:20.800] Browser LOG     ✅ data-theme attribute: light
-[02:31:56.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:31:56.557] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:31:56.557] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:33:12.670] Browser LOG     🔄 TOGGLE CLICKED!
-[02:33:12.670] Browser LOG     Current state - Has dark class: false
-[02:33:12.670] Browser LOG     Switching to: dark
-[02:33:12.670] Browser LOG     ✅ After toggle - Has dark class: true
-[02:33:12.670] Browser LOG     ✅ localStorage theme: dark
-[02:33:12.670] Browser LOG     ✅ data-theme attribute: dark
-[02:34:30.811] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:34:30.811] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:34:30.811] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:34:30.811] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:34:42.801] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:34:42.801] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:34:42.801] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:34:42.801] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:52.061] Server  ERROR    ⨯ ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-
-
-
-./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-
-
-[02:36:52.193] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:52.193] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:52.809] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:52.809] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:53.938] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:53.938] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:54.221] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:54.221] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:55.387] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:55.387] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:55.387] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:55.387] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:56.053] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:56.053] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:56.053] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:56.053] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:56.836] Browser ERROR   uncaughtError: Error: ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-
-
-[02:36:57.040] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:57.040] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:57.040] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:57.040] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:57.798] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:10
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |          ^^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:36:57.798] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx:1:21
-Ecmascript file had an error
-> 1 | import { useEffect, useState } from "react";
-    |                     ^^^^^^^^
-  2 | import Image from "next/image";
-  3 |
-  4 | export function AboutHero() {
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-Import trace:
-  Server Component:
-    ./Desktop/UI UX DESIGN/pm portfolio/components/about/AboutHero.tsx
-    ./Desktop/UI UX DESIGN/pm portfolio/app/about-me/page.tsx
-[02:37:37.637] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[02:37:42.155] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:37:42.813] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:37:42.813] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:38:04.500] Browser LOG     🔄 TOGGLE CLICKED!
-[02:38:04.500] Browser LOG     Current state - Has dark class: false
-[02:38:04.500] Browser LOG     Switching to: dark
-[02:38:04.500] Browser LOG     ✅ After toggle - Has dark class: true
-[02:38:04.500] Browser LOG     ✅ localStorage theme: dark
-[02:38:04.500] Browser LOG     ✅ data-theme attribute: dark
-[02:38:05.849] Browser LOG     🔄 TOGGLE CLICKED!
-[02:38:05.849] Browser LOG     Current state - Has dark class: true
-[02:38:05.849] Browser LOG     Switching to: light
-[02:38:05.849] Browser LOG     ✅ After toggle - Has dark class: false
-[02:38:05.849] Browser LOG     ✅ localStorage theme: light
-[02:38:05.849] Browser LOG     ✅ data-theme attribute: light
-[02:39:39.339] Server  LOG      ✓ Compiled in 133ms
-[02:39:49.723] Server  LOG      ✓ Compiled in 286ms
-[02:43:53.419] Server  LOG      ✓ Compiled in 173ms
-[02:44:01.547] Server  LOG      ✓ Compiled in 110ms
-[02:44:09.493] Server  LOG      ✓ Compiled in 125ms
-[02:44:17.728] Server  LOG      ✓ Compiled in 281ms
-[02:45:49.032] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[02:45:49.032] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:45:49.032] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:45:49.032] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:45:49.033] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:48:04.500] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:48:05.729] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:48:05.729] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:48:14.020] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[02:48:14.020] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:48:14.020] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:48:14.020] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:48:14.020] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:48:21.416] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:48:21.416] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:48:21.417] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:48:21.417] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:49:55.860] Server  LOG      ✓ Compiled in 204ms
-[02:49:57.332] Server  LOG      ✓ Compiled in 173ms
-[02:53:05.302] Server  LOG      ✓ Compiled in 332ms
-[02:54:43.812] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:54:43.812] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:54:43.812] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:54:43.813] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[02:55:09.479] Server  LOG      ✓ Compiled in 71ms
-[02:55:21.143] Server  LOG      ✓ Compiled in 63ms
-[02:57:31.370] Server  LOG      ✓ Compiled in 360ms
-[02:59:27.948] Server  LOG      ✓ Compiled in 153ms
-[03:02:04.574] Server  LOG      ✓ Compiled in 138ms
-[03:03:11.164] Server  LOG      ✓ Compiled in 212ms
-[03:04:25.041] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:04:25.041] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:04:25.041] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:04:25.041] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:06:28.193] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:06:28.193] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:06:28.193] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:06:28.193] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:06:38.934] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:06:38.934] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:06:38.934] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:06:38.934] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:07:50.940] Server  LOG      ✓ Compiled in 324ms
-[03:08:57.935] Server  LOG      ✓ Compiled in 197ms
-[03:10:26.388] Server  LOG      ✓ Compiled in 370ms
-[03:11:25.525] Server  LOG      ✓ Compiled in 341ms
-[03:11:32.296] Server  LOG      ✓ Compiled in 328ms
-[03:13:25.321] Server  LOG      ✓ Compiled in 222ms
-[03:14:44.229] Server  LOG      ✓ Compiled in 291ms
-[03:16:50.728] Server  LOG      ✓ Compiled in 119ms
-[03:17:06.280] Browser LOG     🔄 TOGGLE CLICKED!
-[03:17:06.280] Browser LOG     Current state - Has dark class: false
-[03:17:06.281] Browser LOG     Switching to: dark
-[03:17:06.281] Browser LOG     ✅ After toggle - Has dark class: true
-[03:17:06.281] Browser LOG     ✅ localStorage theme: dark
-[03:17:06.281] Browser LOG     ✅ data-theme attribute: dark
-[03:17:10.121] Browser LOG     🔄 TOGGLE CLICKED!
-[03:17:10.121] Browser LOG     Current state - Has dark class: true
-[03:17:10.121] Browser LOG     Switching to: light
-[03:17:10.121] Browser LOG     ✅ After toggle - Has dark class: false
-[03:17:10.121] Browser LOG     ✅ localStorage theme: light
-[03:17:10.121] Browser LOG     ✅ data-theme attribute: light
-[03:17:17.859] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:17:17.859] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:18:25.455] Server  LOG      ✓ Compiled in 96ms
-[03:22:06.660] Server  LOG      ✓ Compiled in 161ms
-[03:22:50.514] Server  LOG      ✓ Compiled in 393ms
-[03:22:50.644] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:22:50.644] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:23:01.170] Server  LOG      ✓ Compiled in 94ms
-[03:37:25.511] Server  LOG      ✓ Compiled in 349ms
-[03:37:57.410] Server  LOG      ✓ Compiled in 150ms
-[03:39:27.406] Server  LOG      ✓ Compiled in 120ms
-[03:40:10.883] Server  LOG      ✓ Compiled in 160ms
-[03:40:52.553] Server  LOG      ✓ Compiled in 95ms
-[03:41:45.327] Server  LOG      ✓ Compiled in 110ms
-[03:42:42.318] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:42:43.818] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:42:43.819] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:44:42.369] Server  LOG      ✓ Compiled in 92ms
-[03:44:49.441] Server  LOG      ✓ Compiled in 104ms
-[03:46:16.311] Server  LOG      ✓ Compiled in 296ms
-[03:46:25.040] Server  LOG      ✓ Compiled in 69ms
-[03:46:32.947] Server  LOG      ✓ Compiled in 110ms
-[03:47:33.391] Server  LOG      ✓ Compiled in 102ms
-[03:47:41.486] Server  LOG      ✓ Compiled in 86ms
-[03:47:46.863] Server  LOG      ✓ Compiled in 89ms
-[03:48:37.567] Server  LOG      ✓ Compiled in 104ms
-[03:48:44.357] Server  LOG      ✓ Compiled in 107ms
-[03:49:23.729] Server  LOG      ✓ Compiled in 122ms
-[03:51:47.271] Server  LOG      ✓ Compiled in 105ms
-[03:51:55.642] Server  LOG      ✓ Compiled in 98ms
-[03:52:27.723] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:52:28.160] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:52:28.160] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[03:53:20.059] Server  LOG      ✓ Compiled in 116ms
-[03:53:23.919] Server  LOG      ✓ Compiled in 101ms
-[03:53:25.536] Server  LOG      ✓ Compiled in 105ms
-[03:54:57.334] Server  LOG      ✓ Compiled in 84ms
-[03:55:06.703] Server  LOG      ✓ Compiled in 225ms
-[03:56:44.911] Server  LOG      ✓ Compiled in 101ms
-[03:56:48.256] Server  LOG      ✓ Compiled in 77ms
-[03:59:15.489] Server  LOG      ✓ Compiled in 324ms
-[03:59:20.125] Server  LOG      ✓ Compiled in 256ms
-[04:00:51.521] Server  LOG      ✓ Compiled in 131ms
-[04:00:55.967] Server  LOG      ✓ Compiled in 158ms
-[04:01:57.249] Server  LOG      ✓ Compiled in 167ms
-[04:03:16.778] Server  LOG      ✓ Compiled in 49ms
-[04:06:03.914] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:06:03.914] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:07:05.518] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[04:07:05.518] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:07:05.518] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:07:05.518] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:07:05.518] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:07:21.169] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:07:21.169] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:07:21.169] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:07:21.169] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:10:26.030] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:10:26.030] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:10:26.030] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:10:26.030] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:10:29.802] Server  LOG      ✓ Compiled in 439ms
-[04:10:31.314] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:10:31.314] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:10:31.314] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:10:31.314] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:11:56.078] Server  LOG      ✓ Compiled in 156ms
-[04:12:52.474] Browser LOG     🔄 TOGGLE CLICKED!
-[04:12:52.474] Browser LOG     Current state - Has dark class: false
-[04:12:52.474] Browser LOG     Switching to: dark
-[04:12:52.474] Browser LOG     ✅ After toggle - Has dark class: true
-[04:12:52.474] Browser LOG     ✅ localStorage theme: dark
-[04:12:52.474] Browser LOG     ✅ data-theme attribute: dark
-[04:12:53.452] Browser LOG     🔄 TOGGLE CLICKED!
-[04:12:53.452] Browser LOG     Current state - Has dark class: true
-[04:12:53.452] Browser LOG     Switching to: light
-[04:12:53.452] Browser LOG     ✅ After toggle - Has dark class: false
-[04:12:53.452] Browser LOG     ✅ localStorage theme: light
-[04:12:53.452] Browser LOG     ✅ data-theme attribute: light
-[04:13:20.687] Server  LOG      ✓ Compiled in 164ms
-[04:14:09.985] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:14:09.985] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:14:09.985] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:14:09.985] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[04:17:05.404] Server  LOG      ✓ Compiled in 140ms
+[00:00:03.735] Server  LOG      ✓ Ready in 2.3s
+[00:00:04.144] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.148] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.152] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.154] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.158] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.159] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.162] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.163] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.166] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.167] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.168] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.171] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.227] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.227] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.229] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.234] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.249] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.253] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.260] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.274] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.282] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.293] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.296] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.299] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.310] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.312] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.313] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.314] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.323] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.324] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.329] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.341] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.355] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.363] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.369] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.376] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.441] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.444] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.445] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.446] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.475] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:04.475] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:04.541] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.543] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.545] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.549] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.663] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.688] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.722] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.753] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.858] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.884] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.911] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.941] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:04.987] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.003] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.016] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.032] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.034] Browser WARN    Image with src "/product design.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:05.043] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.044] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.048] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.053] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.062] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.067] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.069] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.072] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.086] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.087] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.088] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.090] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.099] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.101] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.102] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.103] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.111] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.112] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.113] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.114] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.122] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.123] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.125] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.126] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.136] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.137] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.138] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.139] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.147] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.149] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.152] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:05.153] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:06.882] Server  LOG      ○ Compiling /about-me ...
+[00:00:22.592] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /about-me. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:25.490] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:26.131] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:26.131] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:49.246] Server  LOG      ✓ Compiled in 483ms
+[00:00:50.629] Server  LOG      ✓ Compiled in 95ms
+[00:02:06.871] Server  LOG      ✓ Compiled in 195ms
+[00:05:53.423] Server  LOG      ✓ Compiled in 156ms
+[00:05:59.627] Server  LOG      ✓ Compiled in 47ms
+[00:08:28.061] Server  LOG      ✓ Compiled in 145ms
+[00:08:30.863] Server  LOG      ✓ Compiled in 215ms
+[00:09:07.134] Server  LOG      ✓ Compiled in 181ms
+[00:09:19.702] Server  LOG      ✓ Compiled in 86ms
+[00:09:44.704] Server  LOG      ✓ Compiled in 151ms
+[00:12:16.364] Server  LOG      ✓ Compiled in 60ms
+[00:12:17.793] Server  LOG      ✓ Compiled in 153ms
+[00:12:18.863] Server  LOG      ✓ Compiled in 103ms
+[00:12:20.171] Server  LOG      ✓ Compiled in 62ms
+[00:13:43.447] Server  LOG      ✓ Compiled in 172ms
+[00:13:44.501] Server  LOG      ✓ Compiled in 126ms
+[00:15:31.507] Server  LOG      ✓ Compiled in 55ms
+[00:15:32.799] Server  LOG      ✓ Compiled in 59ms
+[00:17:14.738] Server  LOG      ✓ Compiled in 47ms
+[00:17:15.780] Server  LOG      ✓ Compiled in 49ms
+[00:19:45.105] Server  LOG      ✓ Compiled in 106ms
+[00:19:46.690] Server  LOG      ✓ Compiled in 97ms
+[00:22:03.421] Server  LOG      ✓ Compiled in 66ms
+[00:22:07.240] Server  LOG      ✓ Compiled in 59ms
+[00:23:35.322] Server  LOG      ✓ Compiled in 179ms
+[00:23:42.317] Server  LOG      ✓ Compiled in 100ms
+[00:23:48.706] Server  LOG      ✓ Compiled in 93ms
+[00:25:22.809] Server  LOG      ✓ Compiled in 176ms
+[00:27:58.986] Server  LOG      ✓ Compiled in 103ms
+[00:28:06.245] Server  LOG      ✓ Compiled in 79ms
+[00:29:23.768] Server  LOG      ✓ Compiled in 135ms

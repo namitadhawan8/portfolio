@@ -4,10 +4,13 @@ import { servicesIntro } from "@/lib/homeData";
 import { CareerTrajectory } from "@/components/home/CareerTrajectory";
 
 export function Experience() {
-  const areasOfInterest = [
-    "Health, Wellness, and Lifestyle products.",
-    "Sustainable living and ethical consumption technology.",
-    "The design of rituals and habit-forming products that make people's lives better.",
+  const interestChips = [
+    "Product Designer",
+    "Product Manager",
+    "UX Strategy",
+    "Preventive Healthcare",
+    "Lifestyle Products",
+    "Design Systems",
   ];
 
   return (
@@ -43,27 +46,27 @@ export function Experience() {
               </p>
             </div>
 
-            {/* Areas of Interest */}
+            {/* Open to Roles */}
             <div className="space-y-6">
-              <h3 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
-                Areas of Interest
-              </h3>
-              <ul className="space-y-4">
-                {areasOfInterest.map((area, index) => (
-                  <li key={index} className="flex items-start gap-3 text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
-                    <span className="mt-1 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-primary-soft/40 ring-1 ring-primary-soft/70">
-                      <Image 
-                        src="/star-purple.svg" 
-                        alt="" 
-                        width={16} 
-                        height={16} 
-                        className="h-4 w-4 object-contain"
-                      />
-                    </span>
-                    <span>{area}</span>
-                  </li>
-                ))}
-              </ul>
+              <div className="space-y-2">
+                <h3 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
+                  Open to Roles
+                </h3>
+                <h4 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100">
+                  Product Design & Product Management Roles
+                </h4>
+              </div>
+              <div className="space-y-4">
+                <p className="text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
+                  I'm seeking roles where I can work at the intersection of product design, strategy, and execution.
+                </p>
+                <p className="text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
+                  I thrive in teams where I can translate ambiguous problems into clear product directions, design intuitive user-centred experiences, and collaborate closely with engineers and stakeholders.
+                </p>
+                <p className="text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
+                  I'm particularly interested in product-based companies in the preventive healthcare and lifestyle space, where thoughtful design and strong product thinking can meaningfully improve everyday well-being.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -75,12 +78,18 @@ export function Experience() {
           </div>
         </div>
 
-        {/* Open to Roles - Single line below both columns */}
+        {/* Interest Chips - Below both columns */}
         <div className="mt-12">
-          <p className="text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
-            <span className="font-bold text-zinc-900 dark:text-zinc-100">Open to Roles:</span>{" "}
-            I am actively seeking roles as a Product Manager, Associate Product Manager (APM), Product Operations, or Founder's Associate.
-          </p>
+          <div className="flex flex-wrap items-center gap-3">
+            {interestChips.map((chip, index) => (
+              <span
+                key={index}
+                className="inline-flex items-center rounded-full border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-700 dark:text-zinc-300"
+              >
+                {chip}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
     </section>

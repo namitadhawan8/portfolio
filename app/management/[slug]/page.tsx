@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -8,6 +9,8 @@ import { managementCases } from "@/lib/managementData";
 import type { ManagementCase } from "@/lib/managementData";
 import { ResponsiveImage } from "@/components/ui/ResponsiveImage";
 
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://namitadhawan.com";
+
 type ManagementCasePageProps = {
   params: Promise<{ slug: string }>;
 };
@@ -16,6 +19,21 @@ export async function generateStaticParams() {
   return managementCases.map((managementCase) => ({
     slug: managementCase.slug,
   }));
+}
+
+export async function generateMetadata({ params }: ManagementCasePageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const managementCase = managementCases.find((mc) => mc.slug === slug);
+
+  if (!managementCase) {
+    return {};
+  }
+
+  return {
+    alternates: {
+      canonical: `${baseUrl}/management/${slug}`,
+    },
+  };
 }
 
 export default async function ManagementCasePage({ params }: ManagementCasePageProps) {

@@ -33,9 +33,9 @@ export function Hero() {
             <p className="text-lg font-semibold uppercase tracking-[0.55em] text-zinc-500 dark:text-zinc-400">
               {heroContent.subheading}
             </p>
-            <h3 className="text-xl font-medium leading-relaxed text-zinc-700 dark:text-zinc-300 md:text-2xl">
+            <p className="text-xl font-medium leading-relaxed text-zinc-700 dark:text-zinc-300 md:text-2xl">
               I lead cross-functional teams from ideation to launch, focusing on design systems, measurable growth, and exceptional user outcomes.
-            </h3>
+            </p>
           </div>
 
           <div className="flex justify-center">
