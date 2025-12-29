@@ -51,7 +51,7 @@ export function CallToAction() {
   };
 
   return (
-    <section className="bg-white dark:bg-zinc-950">
+    <section id="contact" className="bg-white dark:bg-zinc-950">
       <div className="border-y border-zinc-300 dark:border-zinc-600 bg-zinc-50 dark:bg-zinc-900 py-6">
         <Marquee
           items={contactMarqueeItems}

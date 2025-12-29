@@ -33,17 +33,19 @@ export function AboutHero() {
             </p>
           </div>
 
-          <div className="flex-1 overflow-hidden rounded-3xl bg-white dark:bg-[#0a0a0a] max-w-md">
-            <div className="relative flex h-full min-h-[400px] items-center justify-center overflow-hidden">
+          <div className="flex-1 overflow-hidden rounded-3xl bg-white dark:bg-zinc-950 max-w-md">
+            <div className="relative w-full aspect-square sm:min-h-[400px] overflow-hidden bg-white dark:bg-zinc-950">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,#B76BFC33_0%,#B76BFC1f_38%,#B76BFC0d_60%,transparent_82%)]" />
-              <Image
-                src={isDark ? "/nd logo dark.png" : "/nd logo light.png"}
-                alt="Namita Dhawan logo"
-                width={480}
-                height={480}
-                priority
-                className="relative z-[1] h-56 w-56 sm:h-64 sm:w-64 object-contain"
-              />
+              <div className="absolute inset-0">
+                <Image
+                  src={isDark ? "/nd logo dark.png" : "/nd logo light.png"}
+                  alt="Namita Dhawan logo"
+                  fill
+                  priority
+                  className="object-cover sm:object-contain sm:object-bottom"
+                  sizes="(max-width: 640px) 100vw, 400px"
+                />
+              </div>
             </div>
           </div>
         </div>

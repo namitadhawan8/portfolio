@@ -40,21 +40,19 @@ export function Hero() {
 
           <div className="flex justify-center">
             <div className="relative w-full mx-auto">
-              <div className="relative aspect-[4/3] sm:aspect-[4/3] md:aspect-[16/10] lg:aspect-[18/10] w-full overflow-hidden rounded-3xl bg-white dark:bg-zinc-900">
+              <div className="relative aspect-[4/3] sm:aspect-[4/3] md:aspect-[16/10] lg:aspect-[18/10] w-full overflow-hidden rounded-3xl bg-white dark:bg-zinc-950">
                 {/* Radial gradient placed behind the portrait/image */}
                 <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_50%_50%,#B76BFCcc_0%,#B76BFC99_38%,#B76BFC66_65%,transparent_90%)]" />
-                <div className="absolute inset-0 z-[1] flex items-end justify-center">
-                  <div className="scale-[0.48] sm:scale-[0.52] md:scale-[0.54] lg:scale-[0.56] origin-bottom">
-                    <Image
-                      src={heroContent.backgroundImage}
-                      alt={heroContent.heroImageAlt}
-                      width={800}
-                      height={1000}
-                      sizes="(min-width: 1024px) 600px, (min-width: 768px) 500px, 400px"
-                      className="h-auto w-auto max-h-full rounded-3xl object-contain object-bottom origin-bottom"
-                      priority
-                    />
-                  </div>
+                <div className="absolute inset-0 z-[1]">
+                  <Image
+                    src={heroContent.backgroundImage}
+                    alt={heroContent.heroImageAlt}
+                    width={800}
+                    height={1000}
+                    sizes="(min-width: 1024px) 600px, (min-width: 768px) 500px, 400px"
+                    className="h-full w-full rounded-3xl object-cover sm:object-contain sm:object-bottom sm:scale-[0.52] md:scale-[0.54] lg:scale-[0.56] sm:origin-bottom"
+                    priority
+                  />
                 </div>
 
                 <div className="pointer-events-none absolute inset-[8%] z-10 md:inset-[8%] lg:inset-[8%]">

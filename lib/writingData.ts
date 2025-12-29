@@ -15,7 +15,7 @@ export type WritingSection = {
 export const writingSections: WritingSection[] = [
   {
     title: "Product and Design",
-    description: "Medium articles on product management and design",
+    description: "Articles on product management and design",
     articles: [
       {
         id: "product-manager-no-tech",

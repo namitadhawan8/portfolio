@@ -15,9 +15,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://namitadhawan.com"),
-  title: "Namita DHAWAN — Product Manager and Designer Portfolio",
+  title: "Namita Dhawan | Product Designer & Manager",
   description:
     "Product Designer and Product Manager based in India, building user-centred products in preventive healthcare and lifestyle sectors.",
+  icons: {
+    icon: "/favicon.png",
+  },
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -41,10 +44,10 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: "https://namitadhawan.com",
-    title: "Namita DHAWAN — Product Manager and Designer Portfolio",
+    title: "Namita Dhawan | Product Designer & Manager",
     description:
       "Product Designer and Product Manager based in India, building user-centred products in preventive healthcare and lifestyle sectors.",
-    siteName: "Namita DHAWAN Portfolio",
+    siteName: "Namita Dhawan Portfolio",
     images: [
       {
         url: "/ND logo metadata.png",
@@ -56,7 +59,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Namita DHAWAN — Product Manager and Designer Portfolio",
+    title: "Namita Dhawan | Product Designer & Manager",
     description:
       "Product Designer and Product Manager based in India, building user-centred products in preventive healthcare and lifestyle sectors.",
     images: ["/ND logo metadata.png"],
@@ -88,6 +91,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="icon" href="/favicon.png" />
         <meta name="color-scheme" content="light" />
         <script
           src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.11/dist/dotlottie-wc.js"
@@ -193,6 +197,7 @@ export default function RootLayout({
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100 antialiased`}
+        style={{ backgroundColor: 'var(--background)', color: 'var(--foreground)' }}
         suppressHydrationWarning
       >
         <div suppressHydrationWarning>

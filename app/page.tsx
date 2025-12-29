@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
+    <div className="relative min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100" style={{ backgroundColor: 'var(--background)', color: 'var(--foreground)' }}>
       <Header />
       <main>
         <Hero />

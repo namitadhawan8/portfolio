@@ -141,28 +141,20 @@ export function Header() {
             className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-zinc-300 dark:border-zinc-600"
             onClick={toggleMenu}
             aria-expanded={isOpen}
-            aria-label="Toggle navigation menu"
+            aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
           >
-            <span className="relative flex h-4 w-6 flex-col justify-between">
-              <span
-                className={cn(
-                  "h-0.5 w-full bg-zinc-900 dark:bg-zinc-900 transition-transform",
-                  isOpen && "translate-y-[7px] rotate-45",
-                )}
-              />
-              <span
-                className={cn(
-                  "h-0.5 w-full bg-zinc-900 dark:bg-zinc-900 transition-opacity",
-                  isOpen && "opacity-0",
-                )}
-              />
-              <span
-                className={cn(
-                  "h-0.5 w-full bg-zinc-900 dark:bg-zinc-900 transition-transform",
-                  isOpen && "-translate-y-[7px] -rotate-45",
-                )}
-              />
-            </span>
+            {!isOpen ? (
+              <span className="relative flex h-4 w-6 flex-col justify-between">
+                <span className="h-0.5 w-full bg-zinc-900 dark:bg-white transition-all" />
+                <span className="h-0.5 w-full bg-zinc-900 dark:bg-white transition-all" />
+                <span className="h-0.5 w-full bg-zinc-900 dark:bg-white transition-all" />
+              </span>
+            ) : (
+              <span className="relative flex h-4 w-4 items-center justify-center">
+                <span className="absolute h-0.5 w-full bg-zinc-900 dark:bg-white rotate-45 transition-all" />
+                <span className="absolute h-0.5 w-full bg-zinc-900 dark:bg-white -rotate-45 transition-all" />
+              </span>
+            )}
           </button>
         </div>
       </div>
@@ -177,21 +169,10 @@ export function Header() {
       >
         <div className="fixed inset-x-0 top-[72px] border-t border-zinc-300 bg-white dark:border-zinc-600 dark:bg-zinc-950 shadow-lg">
           <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
-            <div className="flex items-center justify-between mb-4">
+            <div className="mb-4">
               <span className="text-sm font-semibold uppercase tracking-[0.35em] text-zinc-500 dark:text-zinc-400">
                 Menu
               </span>
-              <button
-                type="button"
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-zinc-300 dark:border-zinc-600"
-                onClick={closeMenu}
-                aria-label="Close navigation menu"
-              >
-                <span className="relative flex h-4 w-6 flex-col justify-between">
-                  <span className="h-0.5 w-full bg-zinc-900 dark:bg-zinc-900 rotate-45 translate-y-1" />
-                  <span className="h-0.5 w-full bg-zinc-900 dark:bg-zinc-900 -rotate-45 -translate-y-1" />
-                </span>
-              </button>
             </div>
 
             <div className="flex flex-col gap-3">

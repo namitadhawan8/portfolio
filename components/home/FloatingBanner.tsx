@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export function FloatingBanner() {
@@ -16,9 +15,17 @@ export function FloatingBanner() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
-    <Link
-      href="/contact"
+    <button
+      onClick={handleClick}
       className="floating-banner fixed bottom-6 right-6 z-40 hidden h-40 w-40 items-center justify-center rounded-full bg-[#B76BFC] dark:bg-[#B76BFC] shadow-lg transition hover:shadow-xl sm:flex"
       aria-label="Hire Me. Connect"
       data-primary-accent
@@ -101,7 +108,7 @@ export function FloatingBanner() {
           />
         </g>
       </svg>
-    </Link>
+    </button>
   );
 }
 

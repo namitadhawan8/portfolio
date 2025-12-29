@@ -1,3 +1,5 @@
+"use client";
+
 export function DesignHero() {
   return (
     <section className="bg-white dark:bg-zinc-950">
@@ -14,12 +16,16 @@ export function DesignHero() {
             </p>
           </div>
 
-          <div className="flex-1 overflow-hidden rounded-3xl border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-black max-w-md">
-            <div className="flex h-full min-h-[400px] items-center justify-center overflow-hidden">
+          <div className="flex-1 overflow-hidden rounded-3xl bg-white dark:bg-zinc-950 max-w-md">
+            <div className="flex h-full min-h-[400px] items-center justify-center overflow-hidden bg-white dark:bg-zinc-950">
               <iframe
                 src="https://lottie.host/embed/bd0bee81-9d63-4b0a-9616-ddfd142013db/hdM3iteA2N.lottie"
-                className="h-full w-full"
-                style={{ border: 'none', transform: 'scale(2.4)', transformOrigin: 'center' }}
+                className="h-full w-full bg-white dark:bg-zinc-950"
+                style={{
+                  border: 'none',
+                  transform: 'scale(2.4)',
+                  transformOrigin: 'center',
+                }}
                 title="Lottie Animation"
               />
             </div>

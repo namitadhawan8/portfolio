@@ -1,130 +1,592 @@
-[00:00:03.735] Server  LOG      ✓ Ready in 2.3s
-[00:00:04.144] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.148] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.152] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.154] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.158] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.159] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.162] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.163] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.166] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.167] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.168] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.171] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.227] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.227] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.229] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.234] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.249] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.253] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.260] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.274] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.282] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.293] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.296] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.299] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.310] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.312] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.313] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.314] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.323] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.324] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.329] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.341] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.355] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.363] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.369] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.376] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.441] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.444] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.445] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.446] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.475] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:04.475] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:04.541] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.543] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.545] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.549] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.663] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.688] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.722] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.753] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.858] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.884] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.911] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.941] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:04.987] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.003] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.016] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.032] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.034] Browser WARN    Image with src "/product design.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:05.043] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.044] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.048] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.053] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.062] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.067] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.069] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.072] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.086] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.087] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.088] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.090] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.099] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.101] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.102] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.103] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.111] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.112] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.113] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.114] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.122] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.123] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.125] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.126] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.136] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.137] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.138] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.139] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.147] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.149] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.152] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:05.153] Server  ERROR   C:\Users\Acer\Desktop\UI UX DESIGN\pm portfolio\node_modules\.pnpm\next@16.0.7_@babel+core@7.2_3693f2253032b2a8664d8812647ccbdf\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:06.882] Server  LOG      ○ Compiling /about-me ...
-[00:00:22.592] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /about-me. Please move it to viewport export instead.
+[00:00:05.225] Server  LOG      ✓ Ready in 4.6s
+[00:00:45.854] Server  LOG      ○ Compiling / ...
+[00:00:46.599] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:25.490] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:26.131] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:26.131] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:00:49.246] Server  LOG      ✓ Compiled in 483ms
-[00:00:50.629] Server  LOG      ✓ Compiled in 95ms
-[00:02:06.871] Server  LOG      ✓ Compiled in 195ms
-[00:05:53.423] Server  LOG      ✓ Compiled in 156ms
-[00:05:59.627] Server  LOG      ✓ Compiled in 47ms
-[00:08:28.061] Server  LOG      ✓ Compiled in 145ms
-[00:08:30.863] Server  LOG      ✓ Compiled in 215ms
-[00:09:07.134] Server  LOG      ✓ Compiled in 181ms
-[00:09:19.702] Server  LOG      ✓ Compiled in 86ms
-[00:09:44.704] Server  LOG      ✓ Compiled in 151ms
-[00:12:16.364] Server  LOG      ✓ Compiled in 60ms
-[00:12:17.793] Server  LOG      ✓ Compiled in 153ms
-[00:12:18.863] Server  LOG      ✓ Compiled in 103ms
-[00:12:20.171] Server  LOG      ✓ Compiled in 62ms
-[00:13:43.447] Server  LOG      ✓ Compiled in 172ms
-[00:13:44.501] Server  LOG      ✓ Compiled in 126ms
-[00:15:31.507] Server  LOG      ✓ Compiled in 55ms
-[00:15:32.799] Server  LOG      ✓ Compiled in 59ms
-[00:17:14.738] Server  LOG      ✓ Compiled in 47ms
-[00:17:15.780] Server  LOG      ✓ Compiled in 49ms
-[00:19:45.105] Server  LOG      ✓ Compiled in 106ms
-[00:19:46.690] Server  LOG      ✓ Compiled in 97ms
-[00:22:03.421] Server  LOG      ✓ Compiled in 66ms
-[00:22:07.240] Server  LOG      ✓ Compiled in 59ms
-[00:23:35.322] Server  LOG      ✓ Compiled in 179ms
-[00:23:42.317] Server  LOG      ✓ Compiled in 100ms
-[00:23:48.706] Server  LOG      ✓ Compiled in 93ms
-[00:25:22.809] Server  LOG      ✓ Compiled in 176ms
-[00:27:58.986] Server  LOG      ✓ Compiled in 103ms
-[00:28:06.245] Server  LOG      ✓ Compiled in 79ms
-[00:29:23.768] Server  LOG      ✓ Compiled in 135ms
+[00:00:47.128] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:47.308] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:00:47.308] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:02:06.977] Server  LOG      ✓ Compiled in 220ms
+[00:02:15.448] Server  LOG      ✓ Compiled in 201ms
+[00:02:15.584] Browser ERROR   ./Desktop/UI UX DESIGN/pm portfolio/components/home/FloatingBanner.tsx:111:7
+Parsing ecmascript source code failed
+  109 |         </g>
+  110 |       </svg>
+> 111 |     </Link>
+      |       ^^^^
+  112 |   );
+  113 | }
+  114 |
+
+Expected corresponding JSX closing tag for <button>
+
+Import trace:
+  Server Component:
+    ./Desktop/UI UX DESIGN/pm portfolio/components/home/FloatingBanner.tsx
+    ./Desktop/UI UX DESIGN/pm portfolio/app/page.tsx
+[00:02:17.331] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:06.289] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:07.318] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:07.855] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:07.855] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:12.894] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:13.925] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:14.328] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:14.328] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:21.002] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:21.109] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:21.478] Browser LOG     🔄 TOGGLE CLICKED!
+[00:06:21.479] Browser LOG     Current state - Has dark class: false
+[00:06:21.479] Browser LOG     Switching to: dark
+[00:06:21.479] Browser LOG     ✅ After toggle - Has dark class: true
+[00:06:21.479] Browser LOG     ✅ localStorage theme: dark
+[00:06:21.479] Browser LOG     ✅ data-theme attribute: dark
+[00:06:22.358] Browser LOG     🔄 TOGGLE CLICKED!
+[00:06:22.358] Browser LOG     Current state - Has dark class: true
+[00:06:22.358] Browser LOG     Switching to: light
+[00:06:22.358] Browser LOG     ✅ After toggle - Has dark class: false
+[00:06:22.358] Browser LOG     ✅ localStorage theme: light
+[00:06:22.358] Browser LOG     ✅ data-theme attribute: light
+[00:06:22.977] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:23.079] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:24.724] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /about-me. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:24.933] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:06:24.933] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:24.933] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:24.933] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:24.933] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:06:30.499] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /about-me. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:30.993] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:31.129] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /about-me. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:31.269] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:32.265] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /about-me. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:32.762] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:32.785] Browser LOG     🔄 TOGGLE CLICKED!
+[00:06:32.785] Browser LOG     Current state - Has dark class: false
+[00:06:32.785] Browser LOG     Switching to: dark
+[00:06:32.785] Browser LOG     ✅ After toggle - Has dark class: true
+[00:06:32.785] Browser LOG     ✅ localStorage theme: dark
+[00:06:32.785] Browser LOG     ✅ data-theme attribute: dark
+[00:06:32.884] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /about-me. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:33.020] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:41.268] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:41.599] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:06:41.599] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:06:41.599] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:06:41.599] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:13:30.843] Server  LOG      ✓ Compiled in 137ms
+[00:13:36.365] Server  LOG      ✓ Compiled in 151ms
+[00:19:22.752] Server  LOG      ✓ Compiled in 731ms
+[00:20:18.806] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /about-me. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:20:19.146] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:20:19.146] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:20:19.146] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:20:19.146] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:20:33.323] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:20:33.748] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:20:33.748] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:20:33.748] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:20:33.748] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:20:38.894] Server  LOG      ○ Compiling /design ...
+[00:20:43.996] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:20:44.105] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:20:45.383] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:20:45.383] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:20:45.383] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:20:45.383] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:20:59.874] Browser LOG     🔄 TOGGLE CLICKED!
+[00:20:59.874] Browser LOG     Current state - Has dark class: true
+[00:20:59.874] Browser LOG     Switching to: light
+[00:20:59.874] Browser LOG     ✅ After toggle - Has dark class: false
+[00:20:59.874] Browser LOG     ✅ localStorage theme: light
+[00:20:59.874] Browser LOG     ✅ data-theme attribute: light
+[00:21:00.811] Browser LOG     🔄 TOGGLE CLICKED!
+[00:21:00.811] Browser LOG     Current state - Has dark class: false
+[00:21:00.811] Browser LOG     Switching to: dark
+[00:21:00.811] Browser LOG     ✅ After toggle - Has dark class: true
+[00:21:00.811] Browser LOG     ✅ localStorage theme: dark
+[00:21:00.811] Browser LOG     ✅ data-theme attribute: dark
+[00:21:12.528] Server  LOG      ○ Compiling /management ...
+[00:21:13.427] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:21:13.797] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:21:15.064] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:21:15.064] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:21:15.064] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:21:15.064] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:23:19.647] Server  LOG      ✓ Compiled in 880ms
+[00:23:26.206] Server  LOG      ✓ Compiled in 1956ms
+[00:23:42.356] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:23:46.525] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:23:46.525] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:23:54.034] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:23:54.391] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:23:54.392] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:23:54.392] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:23:54.392] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:23:54.392] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:25:37.319] Server  LOG      ✓ Compiled in 258ms
+[00:25:56.459] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:25:58.857] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:25:58.857] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:26:48.784] Server  LOG      ✓ Compiled in 355ms
+[00:27:23.087] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:27:23.349] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:27:23.349] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:27:23.349] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:27:23.349] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:27:23.349] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:27:40.607] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:27:40.785] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:27:40.785] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:27:40.785] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:27:40.785] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
+[00:28:05.230] Browser LOG     🔄 TOGGLE CLICKED!
+[00:28:05.231] Browser LOG     Current state - Has dark class: false
+[00:28:05.231] Browser LOG     Switching to: dark
+[00:28:05.231] Browser LOG     ✅ After toggle - Has dark class: true
+[00:28:05.231] Browser LOG     ✅ localStorage theme: dark
+[00:28:05.231] Browser LOG     ✅ data-theme attribute: dark
+[00:30:07.918] Server  LOG      ✓ Compiled in 7.3s
+[00:30:11.465] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:11.478] Server  LOG      ✓ Compiled in 1549ms
+[00:30:11.555] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:22.726] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:26.908] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:32.222] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:34.439] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:34.518] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:34.572] Server  LOG      ✓ Compiled in 2.6s
+[00:30:34.781] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:37.599] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:39.640] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:31:03.503] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:31:04.893] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:31:04.893] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:31:04.893] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:31:04.893] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:31:04.893] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:31:24.813] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:31:25.030] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:31:25.030] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:31:25.030] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:31:25.030] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:31:34.301] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:31:34.612] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:31:34.612] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:31:34.612] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:31:34.612] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:32:23.331] Server  LOG      ✓ Compiled in 757ms
+[00:32:41.804] Server  LOG      ✓ Compiled in 313ms
+[00:33:19.570] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:33:19.892] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:33:19.892] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:33:19.892] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:33:19.892] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:33:24.776] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:33:25.060] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:33:25.060] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:33:25.060] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:33:25.060] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:33:38.339] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:33:38.607] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:33:38.607] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:33:38.607] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:33:38.607] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:34:30.223] Browser LOG     🔄 TOGGLE CLICKED!
+[00:34:30.224] Browser LOG     Current state - Has dark class: true
+[00:34:30.224] Browser LOG     Switching to: light
+[00:34:30.224] Browser LOG     ✅ After toggle - Has dark class: false
+[00:34:30.224] Browser LOG     ✅ localStorage theme: light
+[00:34:30.224] Browser LOG     ✅ data-theme attribute: light
+[00:34:31.046] Browser LOG     🔄 TOGGLE CLICKED!
+[00:34:31.046] Browser LOG     Current state - Has dark class: false
+[00:34:31.046] Browser LOG     Switching to: dark
+[00:34:31.046] Browser LOG     ✅ After toggle - Has dark class: true
+[00:34:31.046] Browser LOG     ✅ localStorage theme: dark
+[00:34:31.046] Browser LOG     ✅ data-theme attribute: dark
+[00:35:36.832] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:35:37.795] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:35:37.795] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:35:37.795] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:35:37.795] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:38:38.050] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:38:39.481] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:38:39.488] Server  LOG      ✓ Compiled in 206ms
+[00:38:40.811] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:38:41.503] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:38:41.623] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:38:56.236] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:38:56.390] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:38:56.390] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:38:56.390] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:38:56.390] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:41:21.861] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:41:22.995] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:41:22.995] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:41:22.995] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:41:22.995] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:44:21.349] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:44:24.675] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:44:40.986] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:44:41.351] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:48:02.009] Server  LOG      ✓ Compiled in 1308ms
+[00:48:05.186] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:48:05.560] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:48:22.030] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:48:22.187] Server  LOG      ✓ Compiled in 1846ms
+[00:48:26.207] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:51:38.387] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:52:03.419] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:52:03.426] Server  LOG      ✓ Compiled in 156ms
+[00:52:04.023] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:52:30.410] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:52:30.567] Server  LOG      ✓ Compiled in 3.4s
+[00:52:33.953] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:54:07.460] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:54:07.698] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:54:07.698] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:54:07.698] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:54:07.698] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:55:13.332] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:55:13.483] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:55:35.641] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:55:35.652] Server  LOG      ✓ Compiled in 216ms
+[00:55:35.704] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:56:36.525] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:56:39.490] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:56:41.560] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:56:41.800] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:56:48.568] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:56:48.765] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:56:49.624] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:56:49.988] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:56:49.988] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:56:49.988] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:56:49.988] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:56:52.535] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:56:52.798] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:56:52.798] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:56:52.798] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:56:52.798] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:56:55.408] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:56:55.611] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:56:55.611] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:56:55.611] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:56:55.611] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:57:27.618] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:57:27.969] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:57:27.969] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:57:27.969] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:57:27.969] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:58:06.125] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:58:06.191] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:58:06.345] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. allowTransparency allowtransparency
+[00:58:27.617] Server  LOG      ✓ Compiled in 182ms
+[00:58:28.028] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:58:32.652] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:58:34.156] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. allowTransparency allowtransparency
+[00:58:47.668] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:58:48.115] Server  LOG      ✓ Compiled in 1475ms
+[00:58:50.796] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:01:06.940] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:01:06.948] Server  LOG      ✓ Compiled in 96ms
+[01:01:07.406] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:01:22.924] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:01:23.145] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:01:37.583] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:01:37.592] Server  LOG      ✓ Compiled in 200ms
+[01:01:37.648] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:03:32.015] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:03:32.030] Server  LOG      ✓ Compiled in 469ms
+[01:03:32.906] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:03:50.876] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:03:51.059] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:04:08.029] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:04:08.037] Server  LOG      ✓ Compiled in 521ms
+[01:04:08.185] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:04:51.795] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:04:52.320] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:04:52.532] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:04:52.616] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:04:52.776] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:04:52.880] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:05:03.479] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:05:03.920] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:05:04.017] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:05:04.131] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:05:04.416] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:05:04.598] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:06:06.036] Server  LOG      ✓ Compiled in 2.5s
+[01:06:06.181] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:06:09.198] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:06:18.788] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:06:18.794] Server  LOG      ✓ Compiled in 106ms
+[01:06:19.616] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:06:38.128] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:06:38.439] Server  LOG      ✓ Compiled in 1287ms
+[01:06:39.399] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:07:12.916] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:07:13.674] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:07:13.674] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:07:13.674] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:07:13.674] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:09:08.761] Server  LOG      ✓ Compiled in 724ms
+[01:09:11.704] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:09:11.823] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:09:17.175] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:09:17.368] Server  LOG      ✓ Compiled in 1430ms
+[01:09:18.218] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:09:22.155] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:09:22.510] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:09:22.804] Server  LOG      ✓ Compiled in 1081ms
+[01:11:04.857] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:11:05.025] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:11:06.193] Server  LOG      ✓ Compiled in 6.2s
+[01:11:13.896] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:11:14.130] Server  LOG      ✓ Compiled in 557ms
+[01:11:14.592] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:11:21.716] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:11:21.903] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:11:22.268] Server  LOG      ✓ Compiled in 701ms
+[01:11:56.482] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:11:57.383] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:11:57.383] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:11:57.383] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:11:57.383] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:12:04.232] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:12:07.811] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:12:07.811] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:12:07.811] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:12:07.811] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:12:22.002] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:12:22.012] Server  LOG      ✓ Compiled in 103ms
+[01:12:22.655] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:12:34.963] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:12:34.970] Server  LOG      ✓ Compiled in 108ms
+[01:12:35.014] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:12:47.347] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:12:47.406] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:13:03.274] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:13:03.534] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:13:03.534] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:13:03.534] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:13:03.534] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:13:08.053] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:13:08.297] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:13:08.298] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:13:08.298] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:13:08.298] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:28:04.134] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:28:14.310] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:28:14.688] Server  LOG      ✓ Compiled in 8.8s
+[01:28:19.953] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:28:23.284] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:28:23.453] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:28:23.774] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:28:23.915] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:28:24.288] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:40:59.035] Server  LOG      ✓ Compiled in 668ms
+[01:41:00.588] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:00.698] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:00.983] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:01.000] Server  LOG      ✓ Compiled in 0ms
+[01:41:01.356] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:02.399] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:02.416] Server  LOG      ✓ Compiled in 312ms
+[01:41:03.290] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:03.386] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:41:03.386] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:41:03.386] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:41:03.386] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:41:39.864] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:40.086] Server  LOG      ✓ Compiled in 626ms
+[01:41:40.860] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:42.310] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:42.436] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:42.694] Server  LOG      ✓ Compiled in 348ms
+[01:41:46.034] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /design. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:46.809] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:43:44.685] Server  LOG      ✓ Compiled in 424ms
+[01:43:58.889] Server  LOG      ✓ Compiled in 266ms
+[01:44:10.997] Server  LOG      ✓ Compiled in 241ms
+[01:49:00.750] Server  LOG      ✓ Compiled in 432ms
+[01:49:02.387] Server  LOG      ✓ Compiled in 191ms
+[01:49:05.536] Server  LOG      ✓ Compiled in 186ms
+[01:50:30.419] Server  LOG      ✓ Compiled in 212ms
+[01:50:32.658] Server  LOG      ✓ Compiled in 238ms
+[01:50:35.617] Server  LOG      ✓ Compiled in 168ms
+[01:51:20.043] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /management. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:51:20.278] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:51:20.278] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:51:20.278] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:51:20.278] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:51:31.061] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:51:31.248] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:51:31.248] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:51:31.248] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:51:31.248] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[01:58:00.785] Server  LOG      ✓ Compiled in 489ms
+[01:58:02.844] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:58:03.000] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /writing-research. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
