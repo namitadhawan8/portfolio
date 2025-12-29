@@ -26,7 +26,7 @@ export function FloatingBanner() {
   return (
     <button
       onClick={handleClick}
-      className="floating-banner fixed bottom-6 right-6 z-40 hidden h-40 w-40 items-center justify-center rounded-full bg-[#B76BFC] dark:bg-[#B76BFC] shadow-lg transition hover:shadow-xl sm:flex"
+      className="floating-banner fixed bottom-6 right-6 z-40 flex h-24 w-24 sm:h-32 sm:w-32 md:h-40 md:w-40 items-center justify-center rounded-full bg-[#B76BFC] dark:bg-[#B76BFC] shadow-lg transition hover:shadow-xl"
       aria-label="Hire Me. Connect"
       data-primary-accent
     >

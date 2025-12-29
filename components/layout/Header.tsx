@@ -138,21 +138,21 @@ export function Header() {
           {mobileCta}
           <button
             type="button"
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-zinc-300 dark:border-zinc-600"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-zinc-300 bg-white text-zinc-900 transition-colors hover:border-[#B76BFC] hover:text-[#B76BFC] dark:border-zinc-600 dark:bg-zinc-950 dark:text-white"
             onClick={toggleMenu}
             aria-expanded={isOpen}
             aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
           >
             {!isOpen ? (
               <span className="relative flex h-4 w-6 flex-col justify-between">
-                <span className="h-0.5 w-full bg-zinc-900 dark:bg-white transition-all" />
-                <span className="h-0.5 w-full bg-zinc-900 dark:bg-white transition-all" />
-                <span className="h-0.5 w-full bg-zinc-900 dark:bg-white transition-all" />
+                <span className="h-0.5 w-full bg-current transition-all" />
+                <span className="h-0.5 w-full bg-current transition-all" />
+                <span className="h-0.5 w-full bg-current transition-all" />
               </span>
             ) : (
               <span className="relative flex h-4 w-4 items-center justify-center">
-                <span className="absolute h-0.5 w-full bg-zinc-900 dark:bg-white rotate-45 transition-all" />
-                <span className="absolute h-0.5 w-full bg-zinc-900 dark:bg-white -rotate-45 transition-all" />
+                <span className="absolute h-0.5 w-full bg-current rotate-45 transition-all" />
+                <span className="absolute h-0.5 w-full bg-current -rotate-45 transition-all" />
               </span>
             )}
           </button>

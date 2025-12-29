@@ -15,6 +15,7 @@ export function CallToAction() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
@@ -27,6 +28,7 @@ export function CallToAction() {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus("idle");
+    setErrorMessage(null);
 
     try {
       const response = await fetch("/api/contact", {
@@ -37,14 +39,18 @@ export function CallToAction() {
         body: JSON.stringify(formData),
       });
 
+      const data = await response.json();
+
       if (response.ok) {
         setSubmitStatus("success");
         setFormData({ name: "", email: "", contactNumber: "", message: "" });
       } else {
         setSubmitStatus("error");
+        setErrorMessage(data.error || "Something went wrong. Please try again later.");
       }
     } catch (error) {
       setSubmitStatus("error");
+      setErrorMessage("Failed to send message. Please check your internet connection.");
     } finally {
       setIsSubmitting(false);
     }
@@ -218,10 +224,14 @@ export function CallToAction() {
 
               {submitStatus === "error" && (
                 <div className="rounded-lg bg-red-50 p-4 text-sm text-red-800">
-                  Something went wrong. Please try again or email me directly at{" "}
-                  <a href={`mailto:${callToAction.email}`} className="underline">
-                    {callToAction.email}
-                  </a>
+                  {errorMessage || (
+                    <>
+                      Something went wrong. Please try again or email me directly at{" "}
+                      <a href={`mailto:${callToAction.email}`} className="underline">
+                        {callToAction.email}
+                      </a>
+                    </>
+                  )}
                 </div>
               )}
 

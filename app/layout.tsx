@@ -19,7 +19,11 @@ export const metadata: Metadata = {
   description:
     "Product Designer and Product Manager based in India, building user-centred products in preventive healthcare and lifestyle sectors.",
   icons: {
-    icon: "/favicon.png",
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+      { url: "/favicon.png?v=2", type: "image/png" }, // Cache busting
+    ],
+    apple: "/favicon.png",
   },
   viewport: {
     width: "device-width",
@@ -91,7 +95,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.png?v=2" />
+        <link rel="apple-touch-icon" href="/favicon.png?v=2" />
         <meta name="color-scheme" content="light" />
         <script
           src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.11/dist/dotlottie-wc.js"
