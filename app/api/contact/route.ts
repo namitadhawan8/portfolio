@@ -17,6 +17,8 @@ export async function POST(request: NextRequest) {
     const recipientEmail = process.env.CONTACT_EMAIL || "namitadhawan555@gmail.com";
     const emailSubject = `New Contact Form Submission from ${name}`;
 
+    console.log("Attempting to send email. Resend configured:", !!process.env.RESEND_API_KEY);
+
     // Format the email body
     const emailBody = `
 New contact form submission:
@@ -53,6 +55,9 @@ This email was sent from your portfolio contact form.
             { message: "Email sent successfully" },
             { status: 200 }
           );
+        } else {
+          const errorData = await resendResponse.json();
+          console.error("Resend API error:", errorData);
         }
       } catch (resendError) {
         console.error("Resend error:", resendError);

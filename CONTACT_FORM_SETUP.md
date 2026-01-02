@@ -10,11 +10,11 @@ The contact form is now set up and ready to use! To receive email notifications 
 
 ```
 CONTACT_EMAIL=namitadhawan555@gmail.com
-RESEND_API_KEY=re_your_api_key_here
+RESEND_API_KEY=re_8GTCEoHN_CQUp5idCEt5yhAdKJahXtyaG
 RESEND_FROM_EMAIL=onboarding@resend.dev
 ```
 
-4. Replace `re_your_api_key_here` with your actual Resend API key
+4. Replace `re_8GTCEoHN_CQUp5idCEt5yhAdKJahXtyaG` with your actual Resend API key
 5. The `RESEND_FROM_EMAIL` should be a domain you've verified in Resend (or use their default)
 
 ## Option 2: Using Nodemailer (Alternative)

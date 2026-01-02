@@ -19,16 +19,8 @@ export const metadata: Metadata = {
   description:
     "Product Designer and Product Manager based in India, building user-centred products in preventive healthcare and lifestyle sectors.",
   icons: {
-    icon: [
-      { url: "/favicon.png", type: "image/png" },
-      { url: "/favicon.png?v=2", type: "image/png" }, // Cache busting
-    ],
-    apple: "/favicon.png",
-  },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 5,
+    icon: "/favicon.png?v=4",
+    apple: "/favicon.png?v=4",
   },
   keywords: [
     "Product Designer",
@@ -87,6 +79,12 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -95,9 +93,19 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.png?v=2" />
-        <link rel="apple-touch-icon" href="/favicon.png?v=2" />
         <meta name="color-scheme" content="light" />
+        {/* Google Analytics 4 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SXVSV40J4V" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-SXVSV40J4V');
+            `,
+          }}
+        />
         <script
           src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.11/dist/dotlottie-wc.js"
           type="module"

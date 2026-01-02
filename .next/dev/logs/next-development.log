@@ -1,35 +1,5 @@
-[00:00:02.213] Server  LOG      ✓ Ready in 1715ms
-[00:00:05.856] Server  LOG      ○ Compiling / ...
-[00:00:07.210] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:07.966] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.190] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
-[00:00:08.190] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
-[00:00:40.693] Server  LOG      ✓ Compiled in 140ms
-[00:00:50.169] Server  LOG      ✓ Compiled in 104ms
-[00:00:54.336] Server  LOG      ✓ Compiled in 71ms
-[00:01:49.004] Server  LOG      ✓ Compiled in 118ms
-[00:02:35.445] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:36.447] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:37.049] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:02:37.049] Browser LOG     🔍 ThemeToggle mounted - isDark: false savedTheme: light
-[00:02:42.497] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:43.176] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:43.446] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
-[00:02:43.446] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
-[00:02:53.299] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:53.453] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:56.807] Browser LOG     🔄 TOGGLE CLICKED!
-[00:02:56.807] Browser LOG     Current state - Has dark class: true
-[00:02:56.807] Browser LOG     Switching to: light
-[00:02:56.807] Browser LOG     ✅ After toggle - Has dark class: false
-[00:02:56.807] Browser LOG     ✅ localStorage theme: light
-[00:02:56.807] Browser LOG     ✅ data-theme attribute: light
-[00:02:58.271] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:58.377] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:00:00.852] Server  LOG      ✓ Ready in 610ms
+[00:00:07.018] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:07.216] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:00:07.216] Browser LOG     🔍 ThemeToggle mounted - isDark: true savedTheme: dark
+[00:00:29.958] Server  LOG     Attempting to send email. Resend configured: true
